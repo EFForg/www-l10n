@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd">
+ <file original="xliff-core-1.2-strict.xsd" source-language="en" target-language="th" datatype="plaintext" date="2015-07-16T02:07:29Z">
+  <header>
+   <phase-group>
+    <phase tool-id="tmgmt" phase-name="extraction" process-name="extraction" job-id="34"/>
+   </phase-group>
+   <tool tool-id="tmgmt" tool-name="Drupal Translation Management Tools"/>
+  </header>
+  <body>
+   <group id="599">
+    <note>HTTPS Everywhere Development</note>
+    <trans-unit id="599][body][0][value" resname="599][body][0][value">
+     <source xml:lang="en"><bpt id="tjiid599-1">&lt;h3&gt;</bpt><![CDATA[Pointers for developers]]><ept id="tjiid599-1">&lt;/h3&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-3">&lt;ul&gt;</bpt><bpt id="tjiid599-4">&lt;li&gt;</bpt><bpt id="tjiid599-5">&lt;b&gt;</bpt><![CDATA[License:]]><ept id="tjiid599-5">&lt;/b&gt;</ept><![CDATA[ GPL version 3+ (although most of the code is GPL-2 compatible)]]><ept id="tjiid599-4">&lt;/li&gt;</ept><bpt id="tjiid599-8">&lt;li&gt;</bpt><bpt id="tjiid599-9">&lt;b&gt;</bpt><![CDATA[Source code:]]><ept id="tjiid599-9">&lt;/b&gt;</ept><![CDATA[ Available via Git with ]]><bpt id="tjiid599-11">&lt;i&gt;</bpt><![CDATA[git clone https://github.com/EFForg/https-everywhere.git]]><ept id="tjiid599-11">&lt;/i&gt;</ept><![CDATA[. You can fork and open pull requests using Github at ]]><bpt id="tjiid599-13">&lt;a href="https://github.com/EFForg/https-everywhere"&gt;</bpt><![CDATA[https://github.com/EFForg/https-everywhere]]><ept id="tjiid599-13">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid599-8">&lt;/li&gt;</ept><bpt id="tjiid599-16">&lt;li&gt;</bpt><bpt id="tjiid599-17">&lt;b&gt;</bpt><![CDATA[Translations:]]><ept id="tjiid599-17">&lt;/b&gt;</ept><![CDATA[ If you would like to help translate HTTPS Everywhere into another language, you can do that ]]><bpt id="tjiid599-19">&lt;a href="https://www.transifex.com/signup/?join_project=torproject"&gt;</bpt><![CDATA[through Transifex]]><ept id="tjiid599-19">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid599-16">&lt;/li&gt;</ept><bpt id="tjiid599-22">&lt;li&gt;</bpt><bpt id="tjiid599-23">&lt;b&gt;</bpt><![CDATA[Bug tracker:]]><ept id="tjiid599-23">&lt;/b&gt;</ept><![CDATA[ Use the ]]><bpt id="tjiid599-25">&lt;a href="https://github.com/EFForg/https-everywhere/issues/"&gt;</bpt><![CDATA[GitHub issue tracker]]><ept id="tjiid599-25">&lt;/a&gt;</ept><![CDATA[  or the ]]><bpt id="tjiid599-27">&lt;a href="https://trac.torproject.org/projects/tor/report/19"&gt;</bpt><![CDATA[Tor Project issue tracker]]><ept id="tjiid599-27">&lt;/a&gt;</ept><![CDATA[. For the Tor Project issue tracker, you can make an account or use the anonymous one — "cypherpunks"/"writecode". You won't see replies unless you put an email address in the CC field. Bugs that are caused by rulesets should be tagged "httpse-ruleset-bug", and can be viewed ]]><bpt id="tjiid599-29">&lt;a href="https://trac.torproject.org/projects/tor/report/48"&gt;</bpt><![CDATA[in this report]]><ept id="tjiid599-29">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid599-22">&lt;/li&gt;</ept><bpt id="tjiid599-32">&lt;li&gt;</bpt><bpt id="tjiid599-33">&lt;b&gt;</bpt><![CDATA[Mailing lists:]]><ept id="tjiid599-33">&lt;/b&gt;</ept><![CDATA[ The ]]><bpt id="tjiid599-35">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere"&gt;</bpt><![CDATA[https-everywhere]]><ept id="tjiid599-35">&lt;/a&gt;</ept><![CDATA[ list (]]><bpt id="tjiid599-37">&lt;a href="https://lists.eff.org/pipermail/https-everywhere/"&gt;</bpt><![CDATA[archives]]><ept id="tjiid599-37">&lt;/a&gt;</ept><![CDATA[) is for discussing the project as a whole; the ]]><bpt id="tjiid599-39">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere-rules"&gt;</bpt><![CDATA[https-everywhere-rules]]><ept id="tjiid599-39">&lt;/a&gt;</ept><![CDATA[ mailing list (]]><bpt id="tjiid599-41">&lt;a href="https://lists.eff.org/pipermail/https-everywhere-rules"&gt;</bpt><![CDATA[archives]]><ept id="tjiid599-41">&lt;/a&gt;</ept><![CDATA[) is for discussing the ]]><bpt id="tjiid599-43">&lt;a href="/https-everywhere/rulesets"&gt;</bpt><![CDATA[rulesets]]><ept id="tjiid599-43">&lt;/a&gt;</ept><![CDATA[ and their contents, including patches and git pull requests.]]><ept id="tjiid599-32">&lt;/li&gt;</ept><bpt id="tjiid599-46">&lt;li&gt;</bpt><bpt id="tjiid599-47">&lt;b&gt;</bpt><![CDATA[IRC:]]><ept id="tjiid599-47">&lt;/b&gt;</ept><![CDATA[ #https-everywhere on irc.oftc.net. If you ask a question, be sure to stay in the channel — someone may reply a few hours or a few days later.]]><ept id="tjiid599-46">&lt;/li&gt;</ept><ept id="tjiid599-3">&lt;/ul&gt;</ept><bpt id="tjiid599-51">&lt;p&gt;</bpt><ept id="tjiid599-51">&lt;/p&gt;</ept><bpt id="tjiid599-53">&lt;a name="git"&gt;</bpt><ept id="tjiid599-53">&lt;/a&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-55">&lt;h2&gt;</bpt><![CDATA[Testing and contributing changes to the source code]]><ept id="tjiid599-55">&lt;/h2&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-57">&lt;p&gt;</bpt><![CDATA[HTTPS Everywhere consists of a large number of rules for switching sites from HTTP to HTTPS. You can read more about how to write these rules ]]><bpt id="tjiid599-58">&lt;a href="/https-everywhere/rulesets"&gt;</bpt><![CDATA[here]]><ept id="tjiid599-58">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid599-57">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-61">&lt;p&gt;</bpt><![CDATA[If you want to create new rules to submit to us, we expect them to be in the ]]><bpt id="tjiid599-62">&lt;tt&gt;</bpt><![CDATA[src/chrome/content/rules]]><ept id="tjiid599-62">&lt;/tt&gt;</ept><![CDATA[ directory. That directory also contains a useful script, make-trivial-rule, to create a simple rule for a specified domain. There is also a script called trivial-validate.py, to check all the pending rules for several common errors and oversights. For example, if you wanted to make a rule for the example.com domain, you could run]]><ept id="tjiid599-61">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-65">&lt;p&gt;</bpt><bpt id="tjiid599-66">&lt;code&gt;</bpt><![CDATA[  bash ./make-trivial-rule example.com]]><ept id="tjiid599-66">&lt;/code&gt;</ept><ept id="tjiid599-65">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-69">&lt;p&gt;</bpt><![CDATA[inside the rules directory. This would create Example.com.xml, which you could then take a look at and edit based on your knowledge of any specific URLs at example.com that do or don't work in HTTPS.]]><ept id="tjiid599-69">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-71">&lt;p&gt;</bpt><![CDATA[Before submitting your change, you should test it in Firefox and/or Chrome, as applicable. You can build the latest version of the extension and run it in a standalone Firefox profile using:]]><ept id="tjiid599-71">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-73">&lt;p&gt;</bpt><bpt id="tjiid599-74">&lt;code&gt;</bpt><![CDATA[    bash ./test.sh --justrun]]><ept id="tjiid599-74">&lt;/code&gt;</ept><ept id="tjiid599-73">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-77">&lt;p&gt;</bpt><![CDATA[Similarly, to build and run in a standalone Chromium profile, run:]]><ept id="tjiid599-77">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-79">&lt;p&gt;</bpt><bpt id="tjiid599-80">&lt;code&gt;</bpt><![CDATA[    bash ./run-chromium.sh]]><ept id="tjiid599-80">&lt;/code&gt;</ept><ept id="tjiid599-79">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-83">&lt;p&gt;</bpt><![CDATA[You should thoroughly test your changes on the target site: Navigate to as wide a variety of pages as you can find. Try to comment or log in if applicable. Make sure everything still works properly.]]><ept id="tjiid599-83">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-85">&lt;p&gt;</bpt><![CDATA[After running your manual tests, run the automated tests and the fetch tests:]]><ept id="tjiid599-85">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-87">&lt;p&gt;</bpt><bpt id="tjiid599-88">&lt;code&gt;</bpt><![CDATA[    bash ./test.sh]]><ept id="tjiid599-88">&lt;/code&gt;</ept><ept id="tjiid599-87">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-91">&lt;p&gt;</bpt><bpt id="tjiid599-92">&lt;code&gt;</bpt><![CDATA[    bash ./fetch-test.sh]]><ept id="tjiid599-92">&lt;/code&gt;</ept><ept id="tjiid599-91">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-95">&lt;p&gt;</bpt><![CDATA[This will catch some of the most common types of errors, but is not a guaranteed of correctness.]]><ept id="tjiid599-95">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-97">&lt;p&gt;</bpt><![CDATA[Once you've tested your changes, you can submit them for review via any of the following:]]><ept id="tjiid599-97">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-99">&lt;ul&gt;</bpt><bpt id="tjiid599-100">&lt;li&gt;</bpt><![CDATA[Open a pull request at ]]><bpt id="tjiid599-101">&lt;a href="https://github.com/EFForg/https-everywhere"&gt;</bpt><![CDATA[https://github.com/EFForg/https-everywhere]]><ept id="tjiid599-101">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid599-100">&lt;/li&gt;</ept><bpt id="tjiid599-104">&lt;li&gt;</bpt><![CDATA[Email ]]><bpt id="tjiid599-105">&lt;tt&gt;</bpt><![CDATA[https-everywhere-rules@eff.org]]><ept id="tjiid599-105">&lt;/tt&gt;</ept><![CDATA[ to tell us about your changes. You can use the following command to create a patch file:
+
+]]><bpt id="tjiid599-107">&lt;pre type="_moz"&gt;</bpt><![CDATA[
+git format-patch]]><ept id="tjiid599-107">&lt;/pre&gt;</ept><![CDATA[
+]]><ept id="tjiid599-104">&lt;/li&gt;</ept><ept id="tjiid599-99">&lt;/ul&gt;</ept><bpt id="tjiid599-111">&lt;p&gt;</bpt><ept id="tjiid599-111">&lt;/p&gt;</ept><bpt id="tjiid599-113">&lt;a name="git"&gt;</bpt><ept id="tjiid599-113">&lt;/a&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-115">&lt;h2&gt;</bpt><![CDATA[A quick HOWTO on working with Git]]><ept id="tjiid599-115">&lt;/h2&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-117">&lt;p&gt;</bpt><![CDATA[You may want to also look at the ]]><bpt id="tjiid599-118">&lt;a href="http://gitref.org/"&gt;</bpt><![CDATA[Git Reference]]><ept id="tjiid599-118">&lt;/a&gt;</ept><![CDATA[, ]]><bpt id="tjiid599-120">&lt;a href="http://help.github.com/"&gt;</bpt><![CDATA[GitHub Help Site]]><ept id="tjiid599-120">&lt;/a&gt;</ept><![CDATA[ and the ]]><bpt id="tjiid599-122">&lt;a href="https://gitweb.torproject.org/githax.git/blob_plain/HEAD:/doc/Howto.txt"&gt;</bpt><![CDATA[Tor Project's Git documentation]]><ept id="tjiid599-122">&lt;/a&gt;</ept><![CDATA[ to fill in the gaps here, but the below should be enough to get the basics of the workflow down.]]><ept id="tjiid599-117">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-125">&lt;p&gt;</bpt><![CDATA[First, tell git your name:]]><ept id="tjiid599-125">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-127">&lt;p&gt;</bpt><bpt id="tjiid599-128">&lt;code&gt;</bpt><![CDATA[  git config --global user.name "Your Name"   git config --global user.email "you@example.com"]]><ept id="tjiid599-128">&lt;/code&gt;</ept><ept id="tjiid599-127">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-131">&lt;p&gt;</bpt><![CDATA[Then, get a copy of the 'origin' repository:]]><ept id="tjiid599-131">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-133">&lt;p&gt;</bpt><bpt id="tjiid599-134">&lt;code&gt;</bpt><![CDATA[  git clone https://github.com/EFForg/https-everywhere.git]]><ept id="tjiid599-134">&lt;/code&gt;</ept><ept id="tjiid599-133">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-137">&lt;p&gt;</bpt><bpt id="tjiid599-138">&lt;code&gt;</bpt><![CDATA[  cd https-everywhere]]><ept id="tjiid599-138">&lt;/code&gt;</ept><ept id="tjiid599-137">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-141">&lt;p&gt;</bpt><![CDATA[Alternatively, if you already have a Github account, you can create a "fork" of the repository on Github at ]]><bpt id="tjiid599-142">&lt;a href="https://github.com/EFForg/https-everywhere"&gt;</bpt><![CDATA[https://github.com/EFForg/https-everywhere]]><ept id="tjiid599-142">&lt;/a&gt;</ept><![CDATA[. See ]]><bpt id="tjiid599-144">&lt;a href="https://help.github.com/articles/fork-a-repo"&gt;</bpt><![CDATA[this page]]><ept id="tjiid599-144">&lt;/a&gt;</ept><![CDATA[ for a tutorial.]]><ept id="tjiid599-141">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-147">&lt;p&gt;</bpt><![CDATA[Once you have a local copy of the repository, create a new branch for your changes and check it out:]]><ept id="tjiid599-147">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-149">&lt;p&gt;</bpt><bpt id="tjiid599-150">&lt;code&gt;</bpt><![CDATA[  git checkout -b my-new-rules master]]><ept id="tjiid599-150">&lt;/code&gt;</ept><ept id="tjiid599-149">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-153">&lt;p&gt;</bpt><![CDATA[When you want to send us your work, you'll need to add any new files to the index with git add:]]><ept id="tjiid599-153">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-155">&lt;p&gt;</bpt><bpt id="tjiid599-156">&lt;code&gt;</bpt><![CDATA[  git add ./src/chrome/content/rules/MyRule1.xml]]><ept id="tjiid599-156">&lt;/code&gt;</ept><ept id="tjiid599-155">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-159">&lt;p&gt;</bpt><bpt id="tjiid599-160">&lt;code&gt;</bpt><![CDATA[  git add ./src/chrome/content/rules/MyRule2.xml]]><ept id="tjiid599-160">&lt;/code&gt;</ept><ept id="tjiid599-159">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-163">&lt;p&gt;</bpt><![CDATA[You can now commit your changes to the local branch. To make things easier, you should commit each xml file individually:]]><ept id="tjiid599-163">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-165">&lt;p&gt;</bpt><bpt id="tjiid599-166">&lt;code&gt;</bpt><![CDATA[  git commit ./src/chrome/content/rules/MyRule1.xml]]><ept id="tjiid599-166">&lt;/code&gt;</ept><ept id="tjiid599-165">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-169">&lt;p&gt;</bpt><bpt id="tjiid599-170">&lt;code&gt;</bpt><![CDATA[  git commit ./src/chrome/content/rules/MyRule2.xml]]><ept id="tjiid599-170">&lt;/code&gt;</ept><ept id="tjiid599-169">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-173">&lt;p&gt;</bpt><![CDATA[Now, you need a place to publish your changes. You can create a free github account here: ]]><bpt id="tjiid599-174">&lt;a href="https://github.com/signup/free" title="https://github.com/signup/free"&gt;</bpt><![CDATA[https://github.com/signup/free]]><ept id="tjiid599-174">&lt;/a&gt;</ept><![CDATA[. ]]><bpt id="tjiid599-176">&lt;a href="http://help.github.com/" title="http://help.github.com/"&gt;</bpt><![CDATA[http://help.github.com/]]><ept id="tjiid599-176">&lt;/a&gt;</ept><![CDATA[ describes the account creation process and some other github-specific things.]]><ept id="tjiid599-173">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-179">&lt;p&gt;</bpt><![CDATA[Once you have created your account and added your remote in your local checkout, you want to push your branch to your github remote:]]><ept id="tjiid599-179">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-181">&lt;p&gt;</bpt><bpt id="tjiid599-182">&lt;code&gt;</bpt><![CDATA[  git push github my-new-rules:my-new-rules]]><ept id="tjiid599-182">&lt;/code&gt;</ept><ept id="tjiid599-181">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-185">&lt;p&gt;</bpt><![CDATA[Periodically, you should re-fetch the master repository:]]><ept id="tjiid599-185">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid599-187">&lt;p&gt;</bpt><bpt id="tjiid599-188">&lt;code&gt;</bpt><![CDATA[  git pull master]]><ept id="tjiid599-188">&lt;/code&gt;</ept><ept id="tjiid599-187">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Body</note>
+    </trans-unit>
+    <trans-unit id="599][title_field][0][value" resname="599][title_field][0][value">
+     <source xml:lang="en"><![CDATA[HTTPS Everywhere Development]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="600">
+    <note>HTTPS Everywhere FAQ</note>
+    <trans-unit id="600][body][0][value" resname="600][body][0][value">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><![CDATA[This page answers frequently-asked questions about EFF's ]]><bpt id="tjiid600-2">&lt;a href="/https-everywhere"&gt;</bpt><![CDATA[HTTPS Everywhere]]><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ project. If your question isn't answered below, you can try the resources ]]><bpt id="tjiid600-4">&lt;a href="/https-everywhere/development"&gt;</bpt><![CDATA[listed here]]><ept id="tjiid600-4">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Body</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][0][question" resname="600][field_questions][0][question">
+     <source xml:lang="en"><![CDATA[What if HTTPS Everywhere breaks some site that I use?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][0][answer" resname="600][field_questions][0][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><ept id="tjiid600-1">&lt;/p&gt;</ept><bpt id="tjiid600-3">&lt;a name="bugs"&gt;</bpt><ept id="tjiid600-3">&lt;/a&gt;</ept><bpt id="tjiid600-5">&lt;p&gt;</bpt><![CDATA[This is occasionally possible because of inconsistent support for HTTPS on sites (e.g., when a site seems to support HTTPS access but makes a few, unpredictable, parts of the site unavailable in HTTPS). If you ]]><bpt id="tjiid600-6">&lt;a href="https://github.com/EFForg/https-everywhere/issues"&gt;</bpt><![CDATA[report the problem to us]]><ept id="tjiid600-6">&lt;/a&gt;</ept><![CDATA[, we can try to fix it. In the meantime, you can disable the rule affecting that particular site in your own copy of HTTPS Everywhere by clicking on the HTTPS Everywhere toolbar button and unchecking the rule for that site.]]><ept id="tjiid600-5">&lt;/p&gt;</ept><bpt id="tjiid600-9">&lt;p&gt;</bpt><![CDATA[You can also report the problem to the site, since they have the power to fix it!]]><ept id="tjiid600-9">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][1][question" resname="600][field_questions][1][question">
+     <source xml:lang="en"><![CDATA[Why is HTTPS Everywhere preventing me from joining this hotel/school/other wireless network?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][1][answer" resname="600][field_questions][1][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><ept id="tjiid600-1">&lt;/p&gt;</ept><bpt id="tjiid600-3">&lt;a name="captiveportal"&gt;</bpt><ept id="tjiid600-3">&lt;/a&gt;</ept><bpt id="tjiid600-5">&lt;p&gt;</bpt><![CDATA[Some wireless networks hijack your HTTP connections when you first join them, in order to demand authentication or simply to try to make you agree to terms of use. HTTPS pages are protected against this type of hijacking, which is as it should be. If you go to a website that isn't protected by HTTPS Everywhere (currently, nytimes.com is one such site) that will allow your connection to be captured and redirected to the authentication or terms of use page.]]><ept id="tjiid600-5">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][2][question" resname="600][field_questions][2][question">
+     <source xml:lang="en"><![CDATA[Will there be a version of HTTPS Everywhere for IE, Safari, or some other browser?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][2][answer" resname="600][field_questions][2][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a name="platform"&gt;</bpt><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ As of early 2012, the Safari extension API does not offer a way to perform secure rewriting of http requests to https. But if you happen to know a way to perform secure request rewriting in these browsers, feel free to let us know at ]]><bpt id="tjiid600-4">&lt;tt&gt;</bpt><![CDATA[https-everywhere at EFF.org]]><ept id="tjiid600-4">&lt;/tt&gt;</ept><![CDATA[ (but note that modifying ]]><bpt id="tjiid600-6">&lt;tt&gt;</bpt><![CDATA[document.location]]><ept id="tjiid600-6">&lt;/tt&gt;</ept><![CDATA[ or ]]><bpt id="tjiid600-8">&lt;tt&gt;</bpt><![CDATA[window.location]]><ept id="tjiid600-8">&lt;/tt&gt;</ept><![CDATA[ in JavaScript is not secure).]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][3][question" resname="600][field_questions][3][question">
+     <source xml:lang="en"><![CDATA[Why use a whitelist of sites that support HTTPS? Why can't you try to use HTTPS for every last site, and only fall back to HTTP if it isn't available?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][3][answer" resname="600][field_questions][3][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a name="automatic-https"&gt;</bpt><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ There are several problems with the idea of trying to automatically detect HTTPS on every site. There is no guarantee that sites are going to give the same response via HTTPS that they give via HTTP. As of 2015, Forbes is a good example of this problem: compare these ]]><bpt id="tjiid600-4">&lt;a href="http://forbes.com"&gt;</bpt><![CDATA[HTTP]]><ept id="tjiid600-4">&lt;/a&gt;</ept><![CDATA[ and ]]><bpt id="tjiid600-6">&lt;a href="https://forbes.com"&gt;</bpt><![CDATA[HTTPS]]><ept id="tjiid600-6">&lt;/a&gt;</ept><![CDATA[ responses. Also, it's not possible to test for HTTPS in real time without introducing security vulnerabilities (What should the extension do if the HTTPS connection attempt fails? Falling back to insecure HTTP isn't safe). And in some cases, HTTPS Everywhere has to perform quite complicated transformations on URIs — for example until recently the Wikipedia rule had to turn an address like ]]><bpt id="tjiid600-8">&lt;tt&gt;</bpt><![CDATA[http://en.wikipedia.org/wiki/World_Wide_Web]]><ept id="tjiid600-8">&lt;/tt&gt;</ept><![CDATA[ into one like ]]><bpt id="tjiid600-10">&lt;tt&gt;</bpt><![CDATA[https://secure.wikimedia.org/wikipedia/en/wiki/World_Wide_Web]]><ept id="tjiid600-10">&lt;/tt&gt;</ept><![CDATA[ because HTTPS was not available on Wikipedia's usual domains.]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][4][question" resname="600][field_questions][4][question">
+     <source xml:lang="en"><![CDATA[How do I get rid of/move the HTTPS Everywhere button in the toolbar?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][4][answer" resname="600][field_questions][4][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a name="toolbar"&gt;</bpt><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ The HTTPS Everywhere button is useful because it allows you to see, and disable, a ruleset if it happens to be causing problems with a site. But if you'd rather disable it, go to View-&gt;Toolbars-&gt;Customize, and drag the button out of the toolbar into the Addons bar at the bottom of the page. Then you can hide the Addons bar. (In theory you should be able to drag it into the tray of available icons too, but that may trigger ]]><bpt id="tjiid600-4">&lt;a href="https://trac.torproject.org/projects/tor/ticket/6276"&gt;</bpt><![CDATA[this bug]]><ept id="tjiid600-4">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][5][question" resname="600][field_questions][5][question">
+     <source xml:lang="en"><![CDATA[When does HTTPS Everywhere protect me? When does it not protect me?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][5][answer" resname="600][field_questions][5][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;a name="where"&gt;</bpt><ept id="tjiid600-1">&lt;/a&gt;</ept><![CDATA[
+
+HTTPS Everywhere protects you only when you are using ]]><bpt id="tjiid600-3">&lt;em&gt;</bpt><![CDATA[encrypted portions of supported web sites]]><ept id="tjiid600-3">&lt;/em&gt;</ept><![CDATA[. On a supported site, it will automatically activate HTTPS encryption for all known supported parts of the site (for some sites, this might be only a portion of the entire site). For example, if your web mail provider does not support HTTPS at all, HTTPS Everywhere can't make your access to your web mail secure. Similarly, if a site allows HTTPS for text but not images, someone might be able to see which images your browser loads and guess what you're accessing.
+
+HTTPS Everywhere depends entirely on the security features of the individual web sites that you use; it ]]><bpt id="tjiid600-5">&lt;em&gt;</bpt><![CDATA[activates]]><ept id="tjiid600-5">&lt;/em&gt;</ept><![CDATA[ those security features, but it can't ]]><bpt id="tjiid600-7">&lt;em&gt;</bpt><![CDATA[create]]><ept id="tjiid600-7">&lt;/em&gt;</ept><![CDATA[ them if they don't already exist. If you use a site not supported by HTTPS Everywhere or a site that provides some information in an insecure way, HTTPS Everywhere can't provide additional protection for your use of that site. Please remember to check that a particular site's security is working to the level you expect before sending or receiving confidential information, including passwords.
+
+One way to determine what level of protection you're getting when using a particular site is to use a packet-sniffing tool like ]]><bpt id="tjiid600-9">&lt;a href="http://www.wireshark.org/"&gt;</bpt><![CDATA[Wireshark]]><ept id="tjiid600-9">&lt;/a&gt;</ept><![CDATA[ to record your own communications with the site. The resulting view of your communications is about the same as what an eavesdropper on your wifi network or at your ISP would see. This way, you can determine whether some or all of your communications would be protected; however, it may be quite time-consuming to make sense of the Wireshark output with enough care to get a definitive answer.
+
+You can also turn on the "Block all HTTP requests" feature for added protection. Instead of loading insecure pages or images, HTTPS Everywhere will block them outright.]]></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][6][question" resname="600][field_questions][6][question">
+     <source xml:lang="en"><![CDATA[What does HTTPS Everywhere protect me against?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][6][answer" resname="600][field_questions][6][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><ept id="tjiid600-1">&lt;/p&gt;</ept><bpt id="tjiid600-3">&lt;a name="threats"&gt;</bpt><ept id="tjiid600-3">&lt;/a&gt;</ept><bpt id="tjiid600-5">&lt;p&gt;</bpt><![CDATA[On supported parts of supported sites, HTTPS Everywhere enables the sites' HTTPS protection which can protect you against eavesdropping and tampering with the contents of the site or with the information you send to the site. Ideally, this provides some protection against an attacker learning the content of the information flowing in each direction — for instance, the text of e-mail messages you send or receive through a webmail site, the products you browse or purchase on an e-commerce site, or the particular articles you read on a reference site.]]><ept id="tjiid600-5">&lt;/p&gt;</ept><bpt id="tjiid600-7">&lt;p&gt;</bpt><![CDATA[However, HTTPS Everywhere ]]><bpt id="tjiid600-8">&lt;strong&gt;</bpt><![CDATA[does not conceal the identities of the sites you access]]><ept id="tjiid600-8">&lt;/strong&gt;</ept><![CDATA[, the amount of time you spend using them, or the amount of information you upload or download from a particular site. For example, if you access http://www.eff.org/issues/nsa-spying and HTTPS Everywhere rewrites it to https://www.eff.org/issues/nsa-spying, an eavesdropper can still trivially recognize that you are accessing www.eff.org (but might not know which issue you are reading about). In general, the entire hostname part of the URL remains exposed to the eavesdropper because this must be sent repeatedly in unencrypted form while setting up the connection. Another way of saying this is that HTTPS was never designed to conceal the identity of the sites that you visit.]]><ept id="tjiid600-7">&lt;/p&gt;</ept><bpt id="tjiid600-11">&lt;p&gt;</bpt><![CDATA[Researchers have also shown that it may be possible for someone to figure out more about what you're doing on a site merely through careful observation of the amount of data you upload and download, or the timing patterns of your use of the site. A simple example is that if the site only has one page of a certain total size, anyone downloading exactly that much data from the site is probably accessing that page.]]><ept id="tjiid600-11">&lt;/p&gt;</ept><bpt id="tjiid600-13">&lt;p&gt;</bpt><![CDATA[If you want to protect yourself against monitoring of the sites you visit, consider using HTTPS Everywhere together with software like ]]><bpt id="tjiid600-14">&lt;a href="https://www.torproject.org/"&gt;</bpt><![CDATA[Tor]]><ept id="tjiid600-14">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid600-13">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][7][question" resname="600][field_questions][7][question">
+     <source xml:lang="en"><![CDATA[How do I get support for an additional site in HTTPS Everywhere?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][7][answer" resname="600][field_questions][7][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a name="sites"&gt;</bpt><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ You can learn ]]><bpt id="tjiid600-4">&lt;a href="https://www.eff.org/https-everywhere/rulesets"&gt;</bpt><![CDATA[how to write rules]]><ept id="tjiid600-4">&lt;/a&gt;</ept><![CDATA[ that teach HTTPS Everywhere to support new sites. You can install these rules in your own browser or send them to us for possible inclusion in the official version.]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][8][question" resname="600][field_questions][8][question">
+     <source xml:lang="en"><![CDATA[What if the site doesn't support HTTPS, or only supports it for some activities, like entering credit card information?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][8][answer" resname="600][field_questions][8][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a href="https://letsencrypt.org/"&gt;</bpt><![CDATA[https://letsencrypt.org/]]><ept id="tjiid600-2">&lt;/a&gt;</ept><ept id="tjiid600-1">&lt;/p&gt;</ept><bpt id="tjiid600-5">&lt;a name="partial"&gt;</bpt><ept id="tjiid600-5">&lt;/a&gt;</ept><bpt id="tjiid600-7">&lt;a name="amo"&gt;</bpt><ept id="tjiid600-7">&lt;/a&gt;</ept><bpt id="tjiid600-9">&lt;p&gt;</bpt><![CDATA[You could try to contact the site and point out that using HTTPS for all site features is an increasingly common practice nowadays and protects users (and sites) against a variety of Internet attacks. For instance, it defends against the ability of other people on a wifi network to spy on your use of the site or even take over your account. You can also point out that credit card numbers aren't the only information you consider private or sensitive.]]><ept id="tjiid600-9">&lt;/p&gt;</ept><bpt id="tjiid600-11">&lt;p&gt;</bpt><![CDATA[Sites like Google, Twitter, and Facebook now support HTTPS for non-financial information — for general privacy and security reasons.]]><ept id="tjiid600-11">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][9][question" resname="600][field_questions][9][question">
+     <source xml:lang="en"><![CDATA[Isn't it more expensive or slower for a site to support HTTPS compared to regular HTTP?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][9][answer" resname="600][field_questions][9][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><ept id="tjiid600-1">&lt;/p&gt;</ept><bpt id="tjiid600-3">&lt;a name="expensive"&gt;</bpt><ept id="tjiid600-3">&lt;/a&gt;</ept><bpt id="tjiid600-5">&lt;p&gt;</bpt><![CDATA[It can be, but some sites have been pleasantly surprised to see how practical it can be. Also, experts at Google are currently implementing several enhancements to the TLS protocol that make HTTPS dramatically faster; if these enhancements are added to the standard soon, the speed gap between the two should almost disappear. See ]]><bpt id="tjiid600-6">&lt;a href="http://www.imperialviolet.org/2010/06/25/overclocking-ssl.html"&gt;</bpt><![CDATA[Adam Langley's description of the HTTPS deployment situation]]><ept id="tjiid600-6">&lt;/a&gt;</ept><![CDATA[ for more details on these issues. Notably, Langley states: "In order to [enable HTTPS by default for Gmail] we had to deploy no additional machines and no special hardware. On our production frontend machines, SSL/TLS accounts for less than 1% of the CPU load, less than 10KB of memory per connection and less than 2% of network overhead."]]><ept id="tjiid600-5">&lt;/p&gt;</ept><bpt id="tjiid600-9">&lt;p&gt;</bpt><![CDATA[It used to be expensive to purchase a certificate for HTTPS usage, but they can now be obtained for free from ]]><bpt id="tjiid600-10">&lt;a href="http://www.startssl.com/"&gt;</bpt><![CDATA[StartSSL]]><ept id="tjiid600-10">&lt;/a&gt;</ept><![CDATA[ or ]]><bpt id="tjiid600-12">&lt;a href="https://buy.wosign.com/free/"&gt;</bpt><![CDATA[WoSign]]><ept id="tjiid600-12">&lt;/a&gt;</ept><![CDATA[, and soon free certificate will be available from Let's Encrypt as well.]]><ept id="tjiid600-9">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][10][question" resname="600][field_questions][10][question">
+     <source xml:lang="en"><![CDATA[Why should I use HTTPS Everywhere instead of just typing https:// at the beginning of site names?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][10][answer" resname="600][field_questions][10][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a name="why"&gt;</bpt><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ Even if you normally type https://, HTTPS Everywhere might protect you if you occasionally forget. Also, it can rewrite other people's links that you follow. For instance, if you click on a link to ]]><bpt id="tjiid600-4">&lt;a href="http://en.wikipedia.org/wiki/EFF_Pioneer_Award"&gt;</bpt><![CDATA[http://en.wikipedia.org/wiki/EFF_Pioneer_Award]]><ept id="tjiid600-4">&lt;/a&gt;</ept><![CDATA[, HTTPS Everywhere will automatically rewrite the link to ]]><bpt id="tjiid600-6">&lt;a href="https://secure.wikimedia.org/wikipedia/en/wiki/EFF_Pioneer_Award"&gt;</bpt><![CDATA[https://secure.wikimedia.org/wikipedia/en/wiki/EFF_Pioneer_Award]]><ept id="tjiid600-6">&lt;/a&gt;</ept><![CDATA[. Thus, you might get some protection even if you wouldn't have noticed that the target site is available in HTTPS.]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][11][question" resname="600][field_questions][11][question">
+     <source xml:lang="en"><![CDATA[Why does HTTPS Everywhere include rules for sites like PayPal that already require HTTPS on all their pages?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][11][answer" resname="600][field_questions][11][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a name="sslstrip"&gt;</bpt><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ HTTPS Everywhere, like the ]]><bpt id="tjiid600-4">&lt;a href="http://www.w3.org/Security/wiki/Strict_Transport_Security"&gt;</bpt><![CDATA[HSTS protocol]]><ept id="tjiid600-4">&lt;/a&gt;</ept><![CDATA[, tries to address an attack called ]]><bpt id="tjiid600-6">&lt;a href="http://www.thoughtcrime.org/software/sslstrip/"&gt;</bpt><![CDATA[SSL stripping]]><ept id="tjiid600-6">&lt;/a&gt;</ept><![CDATA[. Users are only protected against the SSL stripping attack if their browsers don't even ]]><bpt id="tjiid600-8">&lt;em&gt;</bpt><![CDATA[try]]><ept id="tjiid600-8">&lt;/em&gt;</ept><![CDATA[ to connect to the HTTP version of the site — even if the site would have redirected them to the HTTPS version. With HTTPS Everywhere, the browser won't even attempt the insecure HTTP connection, even if that's what you ask it to do. (Note that HTTPS Everywhere currently does not include a comprehensive list of such sites, which are mainly financial institutions.)]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][12][question" resname="600][field_questions][12][question">
+     <source xml:lang="en"><![CDATA[What do the different colors for rulesets in the toolbar menu mean?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][12][answer" resname="600][field_questions][12][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><ept id="tjiid600-1">&lt;/p&gt;</ept><bpt id="tjiid600-3">&lt;a name="colors"&gt;</bpt><ept id="tjiid600-3">&lt;/a&gt;</ept><bpt id="tjiid600-5">&lt;p&gt;</bpt><![CDATA[The colors are:]]><ept id="tjiid600-5">&lt;/p&gt;</ept><bpt id="tjiid600-7">&lt;p&gt;</bpt><![CDATA[Dark Green: ruleset was active in loading the resources in the current page.]]><ept id="tjiid600-7">&lt;/p&gt;</ept><bpt id="tjiid600-9">&lt;p&gt;</bpt><![CDATA[Light Green: ruleset was ready to prevent HTTP loads in the current page, but everything that the ruleset would have covered was loaded over HTTPS anyway (in the code, light green is called a "moot rule").]]><ept id="tjiid600-9">&lt;/p&gt;</ept><bpt id="tjiid600-11">&lt;p&gt;</bpt><![CDATA[Dark Brown or Clockwise Red Arrow: broken rule -- the ruleset is active but the server is redirecting at least some URLs back from HTTPS to HTTP.]]><ept id="tjiid600-11">&lt;/p&gt;</ept><bpt id="tjiid600-13">&lt;p&gt;</bpt><![CDATA[Gray: the ruleset is disabled.]]><ept id="tjiid600-13">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][13][question" resname="600][field_questions][13][question">
+     <source xml:lang="en"><![CDATA[I'm having a problem installing the browser extension.]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][13][answer" resname="600][field_questions][13][answer">
+     <source xml:lang="en"><bpt id="tjiid600-1">&lt;p&gt;</bpt><bpt id="tjiid600-2">&lt;a name="problems-installing"&gt;</bpt><ept id="tjiid600-2">&lt;/a&gt;</ept><![CDATA[ Some people report that installing HTTPS Everywhere gives them the error: "The addon could not be downloaded because of a connection failure on www.eff.org." This may be caused by Avast anti-virus, which blocks installation of browser extensions. You may be able to ]]><bpt id="tjiid600-4">&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/"&gt;</bpt><![CDATA[install from addons.mozilla.org instead]]><ept id="tjiid600-4">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid600-1">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][14][question" resname="600][field_questions][14][question">
+     <source xml:lang="en"><![CDATA[How do I add my own site to HTTPS Everywhere?]]></source>
+     <target xml:lang="th"/>
+     <note>Question</note>
+    </trans-unit>
+    <trans-unit id="600][field_questions][14][answer" resname="600][field_questions][14][answer">
+     <source xml:lang="en"><![CDATA[We're excited that you want your site in HTTPS Everywhere! However, remember that not everyone who visits your site has our extension installed. If you run a web site, you can make it default to HTTPS for everyone, not just HTTPS Everywhere users. And it's less work! The steps you should take, in order, are:
+
+]]><bpt id="tjiid600-1">&lt;ol&gt;</bpt><bpt id="tjiid600-2">&lt;li&gt;</bpt><![CDATA[Set up a ]]><bpt id="tjiid600-3">&lt;a href="https://www.sslshopper.com/apache-redirect-http-to-https.html"&gt;</bpt><![CDATA[redirect]]><ept id="tjiid600-3">&lt;/a&gt;</ept><![CDATA[ from HTTP to HTTPS on your site.]]><ept id="tjiid600-2">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid600-6">&lt;li&gt;</bpt><bpt id="tjiid600-7">&lt;a href="https://raymii.org/s/tutorials/HTTP_Strict_Transport_Security_for_Apache_NGINX_and_Lighttpd.html"&gt;</bpt><![CDATA[Add the Strict-Transport-Security (HSTS) header on your site]]><ept id="tjiid600-7">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid600-6">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid600-10">&lt;li&gt;</bpt><bpt id="tjiid600-11">&lt;a href="https://hstspreload.appspot.com/"&gt;</bpt><![CDATA[Add your site to the HSTS Preload list]]><ept id="tjiid600-11">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid600-10">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid600-1">&lt;/ol&gt;</ept><![CDATA[
+
+These steps will give your site much better protection that adding it to HTTPS Everywhere. Generally speaking, once you are done, there is no need to add your site to HTTPS Everywhere. However, if you would still like to, please follow the ]]><bpt id="tjiid600-15">&lt;a href="https://eff.org/https-everywhere/rulesets"&gt;</bpt><![CDATA[instructions on writing rulesets]]><ept id="tjiid600-15">&lt;/a&gt;</ept><![CDATA[, and indicate that you are the author of the web site when you submit your pull request.]]></source>
+     <target xml:lang="th"/>
+     <note>Answer</note>
+    </trans-unit>
+    <trans-unit id="600][title_field][0][value" resname="600][title_field][0][value">
+     <source xml:lang="en"><![CDATA[HTTPS Everywhere FAQ]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="601">
+    <note>HTTPS Everywhere</note>
+    <trans-unit id="601][body][0][value" resname="601][body][0][value">
+     <source xml:lang="en"><bpt id="tjiid601-1">&lt;p&gt;</bpt><![CDATA[HTTPS Everywhere is produced as a collaboration between ]]><bpt id="tjiid601-2">&lt;a href="https://www.torproject.org"&gt;</bpt><![CDATA[The Tor Project]]><ept id="tjiid601-2">&lt;/a&gt;</ept><![CDATA[ and the ]]><bpt id="tjiid601-4">&lt;a href="https://eff.org/"&gt;</bpt><![CDATA[Electronic Frontier Foundation]]><ept id="tjiid601-4">&lt;/a&gt;</ept><![CDATA[. Many sites on the web offer some limited support for encryption over ]]><bpt id="tjiid601-6">&lt;a href="https://en.wikipedia.org/wiki/HTTP_Secure"&gt;</bpt><![CDATA[HTTPS]]><ept id="tjiid601-6">&lt;/a&gt;</ept><![CDATA[, but make it difficult to use. For instance, they may default to unencrypted HTTP, or fill encrypted pages with links that go back to the unencrypted site. The HTTPS Everywhere extension fixes these problems by using ]]><bpt id="tjiid601-8">&lt;a href="https://www.xkcd.com/208"&gt;</bpt><![CDATA[clever technology]]><ept id="tjiid601-8">&lt;/a&gt;</ept><![CDATA[ to rewrite requests to these sites to HTTPS. Information about how to access the project's Git repository and get involved in development is ]]><bpt id="tjiid601-10">&lt;a href="/https-everywhere/development"&gt;</bpt><![CDATA[here]]><ept id="tjiid601-10">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid601-1">&lt;/p&gt;</ept><bpt id="tjiid601-13">&lt;p&gt;</bpt><bpt id="tjiid601-14">&lt;strong&gt;</bpt><![CDATA[Webmasters and prospective contributors:]]><ept id="tjiid601-14">&lt;/strong&gt;</ept><![CDATA[ Check the ]]><bpt id="tjiid601-16">&lt;a href="https://www.eff.org/https-everywhere/atlas"&gt;</bpt><![CDATA[HTTPS Everywhere Atlas]]><ept id="tjiid601-16">&lt;/a&gt;</ept><![CDATA[ to quickly see how existing HTTPS Everywhere rules affect sites you care about! HTTPS Everywhere is governed by EFF's ]]><bpt id="tjiid601-18">&lt;a href="https://www.eff.org/code/privacy"&gt;</bpt><![CDATA[Privacy Policy for Software]]><ept id="tjiid601-18">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid601-13">&lt;/p&gt;</ept><bpt id="tjiid601-21">&lt;p&gt;</bpt><bpt id="tjiid601-22">&lt;a name="problems-installing"&gt;</bpt><ept id="tjiid601-22">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid601-24">&lt;strong&gt;</bpt><![CDATA[Problems Installing: ]]><ept id="tjiid601-24">&lt;/strong&gt;</ept><![CDATA[Some people report that installing HTTPS Everywhere gives them the error: "The addon could not be downloaded because of a connection failure on ]]><bpt id="tjiid601-26">&lt;span class="moz-txt-link-abbreviated"&gt;</bpt><![CDATA[www.eff.org]]><ept id="tjiid601-26">&lt;/span&gt;</ept><![CDATA[." ]]><bpt id="tjiid601-28">&lt;a href="https://kittens.eff.org/https-everywhere/faq#problems-installing"&gt;</bpt><![CDATA[See this FAQ entry for help]]><ept id="tjiid601-28">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid601-21">&lt;/p&gt;</ept><bpt id="tjiid601-31">&lt;p&gt;</bpt><bpt id="tjiid601-32">&lt;a href="#" id="https-everywhere-more"&gt;</bpt><![CDATA[Read More About HTTPS Everywhere »]]><ept id="tjiid601-32">&lt;/a&gt;</ept><ept id="tjiid601-31">&lt;/p&gt;</ept><bpt id="tjiid601-35">&lt;div id="https-everywhere-hidden"&gt;</bpt><bpt id="tjiid601-36">&lt;h2&gt;</bpt><![CDATA[Questions and Caveats]]><ept id="tjiid601-36">&lt;/h2&gt;</ept><bpt id="tjiid601-38">&lt;p&gt;</bpt><![CDATA[Sadly, many sites still include a lot of content from third party domains that is not available over HTTPS. As always, if the browser's lock icon ]]><bpt id="tjiid601-39">&lt;a href="https://www.eff.org/https-everywhere/faq#mixed-content"&gt;</bpt><![CDATA[is broken or carries an exclamation mark]]><ept id="tjiid601-39">&lt;/a&gt;</ept><![CDATA[, you may remain vulnerable to some adversaries that use active attacks or traffic analysis. However, the effort that would be required to eavesdrop on your browsing should still be usefully increased. ]]><bpt id="tjiid601-41">&lt;strong&gt;</bpt><![CDATA[Update: in recent versions of Firefox, Mozilla has removed the broken padlock indicator. Now, the only difference between a secure and insecure HTTPS deployment is the blue or green tint on the left of the address bar for secure deployments]]><ept id="tjiid601-41">&lt;/strong&gt;</ept><![CDATA[ Answers to common questions may be on the ]]><bpt id="tjiid601-43">&lt;a href="/https-everywhere/faq/"&gt;</bpt><![CDATA[frequently asked questions]]><ept id="tjiid601-43">&lt;/a&gt;</ept><![CDATA[ page. ]]><bpt id="tjiid601-45">&lt;strong&gt;</bpt><![CDATA[HTTPS Everywhere can protect you only when you're using sites that support HTTPS and for which HTTPS Everywhere include a ]]><bpt id="tjiid601-46">&lt;a href="/https-everywhere/rulesets"&gt;</bpt><![CDATA[ruleset]]><ept id="tjiid601-46">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid601-45">&lt;/strong&gt;</ept><![CDATA[ If sites you use don't support HTTPS, ask the site operators to add it; only the site operator is able to enable HTTPS. There is more information and instruction on how server operators can do that in the EFF article ]]><bpt id="tjiid601-49">&lt;a href="/pages/how-deploy-https-correctly"&gt;</bpt><![CDATA[How to Deploy HTTPS Correctly]]><ept id="tjiid601-49">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid601-38">&lt;/p&gt;</ept><bpt id="tjiid601-52">&lt;h2&gt;</bpt><![CDATA[Development And Writing your own Rulesets]]><ept id="tjiid601-52">&lt;/h2&gt;</ept><bpt id="tjiid601-54">&lt;p&gt;</bpt><bpt id="tjiid601-55">&lt;strong&gt;</bpt><![CDATA[Webmasters and prospective contributors:]]><ept id="tjiid601-55">&lt;/strong&gt;</ept><![CDATA[ Check the ]]><bpt id="tjiid601-57">&lt;a href="https://www.eff.org/https-everywhere/atlas"&gt;</bpt><![CDATA[HTTPS Everywhere Atlas]]><ept id="tjiid601-57">&lt;/a&gt;</ept><![CDATA[ to quickly see how existing HTTPS Everywhere rules affect sites you care about! You can help us test forthcoming site support and new features by installing the ]]><bpt id="tjiid601-59">&lt;a href="/files/https-everywhere-devel.xpi"&gt;</bpt><![CDATA[development branch]]><ept id="tjiid601-59">&lt;/a&gt;</ept><![CDATA[ of the extension. HTTPS Everywhere uses small ruleset files to define which domains are redirected to https, and how. If you'd like to write your own ruleset, you can find out how to do that ]]><bpt id="tjiid601-61">&lt;a href="/https-everywhere/rulesets"&gt;</bpt><![CDATA[here]]><ept id="tjiid601-61">&lt;/a&gt;</ept><![CDATA[. Information about how to access the project's Git repository and get involved in development is ]]><bpt id="tjiid601-63">&lt;a href="/https-everywhere/development"&gt;</bpt><![CDATA[here]]><ept id="tjiid601-63">&lt;/a&gt;</ept><![CDATA[. Send feedback on this project to the ]]><bpt id="tjiid601-65">&lt;tt&gt;</bpt><![CDATA[https-everywhere AT eff.org]]><ept id="tjiid601-65">&lt;/tt&gt;</ept><![CDATA[ mailing list. Note that this is a public and publicly-archived mailing list. You can also ]]><bpt id="tjiid601-67">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere"&gt;</bpt><![CDATA[subscribe]]><ept id="tjiid601-67">&lt;/a&gt;</ept><![CDATA[. Send new rewrite rules or fixes to existing rewrite rules to the ]]><bpt id="tjiid601-69">&lt;tt&gt;</bpt><![CDATA[https-everywhere-rules AT eff.org]]><ept id="tjiid601-69">&lt;/tt&gt;</ept><![CDATA[ mailing list. Note that this is a public and publicly-archived mailing list. You can also ]]><bpt id="tjiid601-71">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere-rules"&gt;</bpt><![CDATA[subscribe]]><ept id="tjiid601-71">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid601-54">&lt;/p&gt;</ept><ept id="tjiid601-35">&lt;/div&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Body</note>
+    </trans-unit>
+    <trans-unit id="601][title_field][0][value" resname="601][title_field][0][value">
+     <source xml:lang="en"><![CDATA[HTTPS Everywhere]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="602">
+    <note>HTTPS Everywhere Rulesets</note>
+    <trans-unit id="602][body][0][value" resname="602][body][0][value">
+     <source xml:lang="en"><bpt id="tjiid602-1">&lt;p&gt;</bpt><![CDATA[This page describes how to write rulesets for ]]><bpt id="tjiid602-2">&lt;a href="https://eff.org/https-everywhere"&gt;</bpt><![CDATA[HTTPS Everywhere]]><ept id="tjiid602-2">&lt;/a&gt;</ept><![CDATA[, a browser extension that switches sites over from HTTP to HTTPS automatically. HTTPS Everywhere comes with ]]><bpt id="tjiid602-4">&lt;a href="http://www.eff.org/https-everywhere/atlas/"&gt;</bpt><![CDATA[thousands]]><ept id="tjiid602-4">&lt;/a&gt;</ept><![CDATA[ of rulesets that tell HTTPS Everywhere which sites it should switch to HTTPS and how. If there is a site that offers HTTPS and is not handled by the extension, this guide will explain how to add that site.]]><ept id="tjiid602-1">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-7">&lt;h4&gt;</bpt><bpt id="tjiid602-8">&lt;a href="#rulesets" name="rulesets"&gt;</bpt><![CDATA[Rulesets]]><ept id="tjiid602-8">&lt;/a&gt;</ept><ept id="tjiid602-7">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-11">&lt;p&gt;</bpt><![CDATA[A ]]><bpt id="tjiid602-12">&lt;tt&gt;</bpt><![CDATA[ruleset]]><ept id="tjiid602-12">&lt;/tt&gt;</ept><![CDATA[ is an ]]><bpt id="tjiid602-14">&lt;a href="http://www.xml.com/pub/a/98/10/guide0.html?page=2"&gt;</bpt><![CDATA[XML]]><ept id="tjiid602-14">&lt;/a&gt;</ept><![CDATA[ file describing behavior for a site or group of sites. A ruleset contains one or more ]]><bpt id="tjiid602-16">&lt;tt&gt;</bpt><![CDATA[rules]]><ept id="tjiid602-16">&lt;/tt&gt;</ept><![CDATA[. For example, here is ]]><bpt id="tjiid602-18">&lt;a href="https://github.com/efforg/https-everywhere/blob/master/src/chrome/content/rules/RabbitMQ.xml"&gt;</bpt><bpt id="tjiid602-19">&lt;tt&gt;</bpt><![CDATA[RabbitMQ.xml]]><ept id="tjiid602-19">&lt;/tt&gt;</ept><ept id="tjiid602-18">&lt;/a&gt;</ept><![CDATA[, from the plugin distribution:]]><ept id="tjiid602-11">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-23">&lt;pre&gt;</bpt><![CDATA[
+&lt;ruleset name="RabbitMQ"&gt;
+        &lt;target host="rabbitmq.com" /&gt;
+        &lt;target host="www.rabbitmq.com" /&gt;
+
+        &lt;rule from="^http:"
+                to="https:" /&gt;
+&lt;/ruleset&gt;
+]]><ept id="tjiid602-23">&lt;/pre&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-25">&lt;p&gt;</bpt><![CDATA[The ]]><bpt id="tjiid602-26">&lt;tt&gt;</bpt><![CDATA[target]]><ept id="tjiid602-26">&lt;/tt&gt;</ept><![CDATA[ tag specifies which web sites the ruleset applies to. The ]]><bpt id="tjiid602-28">&lt;tt&gt;</bpt><![CDATA[rule]]><ept id="tjiid602-28">&lt;/tt&gt;</ept><![CDATA[ tag specifies how URLs on those web sites should be rewritten. This rule says that any URLs on ]]><bpt id="tjiid602-30">&lt;tt&gt;</bpt><![CDATA[rabbitmq.com]]><ept id="tjiid602-30">&lt;/tt&gt;</ept><![CDATA[ and ]]><bpt id="tjiid602-32">&lt;tt&gt;</bpt><![CDATA[www.rabbitmq.com]]><ept id="tjiid602-32">&lt;/tt&gt;</ept><![CDATA[ should be modified by replacing "http:" with "https:".]]><ept id="tjiid602-25">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-35">&lt;p&gt;</bpt><![CDATA[When the browser loads a URL, HTTPS Everywhere takes the host name (e.g. ]]><bpt id="tjiid602-36">&lt;tt&gt;</bpt><![CDATA[www.rabbitmq.com]]><ept id="tjiid602-36">&lt;/tt&gt;</ept><![CDATA[) and searches its ruleset database for rulesets that match that host name.]]><ept id="tjiid602-35">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-39">&lt;p&gt;</bpt><![CDATA[HTTPS Everywhere then tries each rule in those rulesets against the full URL. If the ]]><bpt id="tjiid602-40">&lt;a href="http://www.regular-expressions.info/quickstart.html"&gt;</bpt><![CDATA[Regular Expression]]><ept id="tjiid602-40">&lt;/a&gt;</ept><![CDATA[, or regexp, in one of those rules matches, HTTPS Everywhere ]]><bpt id="tjiid602-42">&lt;a href="#rules-and-regular-expressions"&gt;</bpt><![CDATA[rewrites the URL]]><ept id="tjiid602-42">&lt;/a&gt;</ept><![CDATA[ according the the ]]><bpt id="tjiid602-44">&lt;tt&gt;</bpt><![CDATA[to]]><ept id="tjiid602-44">&lt;/tt&gt;</ept><![CDATA[ attribute of the rule.]]><ept id="tjiid602-39">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-47">&lt;h4&gt;</bpt><bpt id="tjiid602-48">&lt;a href="#wildcard-targets" name="wildcard-targets"&gt;</bpt><![CDATA[Wildcard Targets]]><ept id="tjiid602-48">&lt;/a&gt;</ept><ept id="tjiid602-47">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-51">&lt;p&gt;</bpt><![CDATA[To cover all of a domain's subdomains, you may want to specify a wildcard target like ]]><bpt id="tjiid602-52">&lt;tt&gt;</bpt><![CDATA[*.twitter.com]]><ept id="tjiid602-52">&lt;/tt&gt;</ept><![CDATA[. Specifying this type of left-side wildcard matches any host name with ]]><bpt id="tjiid602-54">&lt;tt&gt;</bpt><![CDATA[.twitter.com]]><ept id="tjiid602-54">&lt;/tt&gt;</ept><![CDATA[ as a suffix, e.g. ]]><bpt id="tjiid602-56">&lt;tt&gt;</bpt><![CDATA[www.twitter.com]]><ept id="tjiid602-56">&lt;/tt&gt;</ept><![CDATA[ or ]]><bpt id="tjiid602-58">&lt;tt&gt;</bpt><![CDATA[urls.api.twitter.com]]><ept id="tjiid602-58">&lt;/tt&gt;</ept><![CDATA[. You can also specify a right-side wildcard like ]]><bpt id="tjiid602-60">&lt;tt&gt;</bpt><![CDATA[www.google.*]]><ept id="tjiid602-60">&lt;/tt&gt;</ept><![CDATA[. Right-side wildcards, unlike left-side wildcards, apply only one level deep. So if you want to cover all countries you'll generally need to specify ]]><bpt id="tjiid602-62">&lt;tt&gt;</bpt><![CDATA[www.google.*]]><ept id="tjiid602-62">&lt;/tt&gt;</ept><![CDATA[, ]]><bpt id="tjiid602-64">&lt;tt&gt;</bpt><![CDATA[www.google.co.*]]><ept id="tjiid602-64">&lt;/tt&gt;</ept><![CDATA[, and ]]><bpt id="tjiid602-66">&lt;tt&gt;</bpt><![CDATA[www.google.com.*]]><ept id="tjiid602-66">&lt;/tt&gt;</ept><![CDATA[ to cover domains like ]]><bpt id="tjiid602-68">&lt;tt&gt;</bpt><![CDATA[www.google.co.uk]]><ept id="tjiid602-68">&lt;/tt&gt;</ept><![CDATA[ or ]]><bpt id="tjiid602-70">&lt;tt&gt;</bpt><![CDATA[www.google.com.au]]><ept id="tjiid602-70">&lt;/tt&gt;</ept><![CDATA[. You should use wildcard targets only when you have rules that apply to the entire wildcard space. If your rules only apply to specific hosts, you should list each host as a separate target.]]><ept id="tjiid602-51">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-73">&lt;h4&gt;</bpt><bpt id="tjiid602-74">&lt;a href="#rules-and-regular-expressions" name="rules-and-regular-expressions"&gt;</bpt><![CDATA[Rules and Regular Expressions]]><ept id="tjiid602-74">&lt;/a&gt;</ept><ept id="tjiid602-73">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-77">&lt;p&gt;</bpt><![CDATA[The ]]><bpt id="tjiid602-78">&lt;tt&gt;</bpt><![CDATA[rule]]><ept id="tjiid602-78">&lt;/tt&gt;</ept><![CDATA[ tags do the actual rewriting work. The ]]><bpt id="tjiid602-80">&lt;tt&gt;</bpt><![CDATA[from]]><ept id="tjiid602-80">&lt;/tt&gt;</ept><![CDATA[ attribute of each rule is a ]]><bpt id="tjiid602-82">&lt;a href="http://www.regular-expressions.info/quickstart.html"&gt;</bpt><![CDATA[regular expression]]><ept id="tjiid602-82">&lt;/a&gt;</ept><![CDATA[ matched against a full URL. You can use rules to rewrite URLs in simple or complicated ways. Here's a simplified (and now obsolete) example for Wikipedia:]]><ept id="tjiid602-77">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-85">&lt;pre&gt;</bpt><![CDATA[
+&lt;ruleset name="Wikipedia"&gt;
+  &lt;target host="*.wikipedia.org" /&gt;
+
+  &lt;rule from="^http://(\w{2})\.wikipedia\.org/wiki/"
+          to="https://secure.wikimedia.org/wikipedia/$1/wiki/"/&gt;
+&lt;/ruleset&gt;
+]]><ept id="tjiid602-85">&lt;/pre&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-87">&lt;p&gt;</bpt><![CDATA[The ]]><bpt id="tjiid602-88">&lt;tt&gt;</bpt><![CDATA[to]]><ept id="tjiid602-88">&lt;/tt&gt;</ept><![CDATA[ attribute replaces the text matched by the ]]><bpt id="tjiid602-90">&lt;tt&gt;</bpt><![CDATA[from]]><ept id="tjiid602-90">&lt;/tt&gt;</ept><![CDATA[ attribute. It can contain placeholders like ]]><bpt id="tjiid602-92">&lt;tt&gt;</bpt><![CDATA[$1]]><ept id="tjiid602-92">&lt;/tt&gt;</ept><![CDATA[ that are replaced with the text matched inside the parentheses.]]><ept id="tjiid602-87">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-95">&lt;p&gt;</bpt><![CDATA[This rule rewrites a URL like ]]><bpt id="tjiid602-96">&lt;tt&gt;</bpt><![CDATA[http://fr.wikipedia.org/wiki/Chose]]><ept id="tjiid602-96">&lt;/tt&gt;</ept><![CDATA[ to ]]><bpt id="tjiid602-98">&lt;tt&gt;</bpt><![CDATA[https://secure.wikimedia.org/wikipedia/fr/wiki/Chose]]><ept id="tjiid602-98">&lt;/tt&gt;</ept><![CDATA[. Notice, again, that the target is allowed to contain (just one) * as a wildcard meaning "any".]]><ept id="tjiid602-95">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-101">&lt;p&gt;</bpt><![CDATA[Rules are applied in the order they are listed within each ruleset. Order between rulesets is unspecified. Only the first rule or exception matching a given URL is applied.]]><ept id="tjiid602-101">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-103">&lt;p&gt;</bpt><![CDATA[Rules are evaluated using ]]><bpt id="tjiid602-104">&lt;a href="http://www.regular-expressions.info/javascript.html"&gt;</bpt><![CDATA[Javascript regular expressions]]><ept id="tjiid602-104">&lt;/a&gt;</ept><![CDATA[, which are similar but not identical to ]]><bpt id="tjiid602-106">&lt;a href="http://www.regular-expressions.info/pcre.html"&gt;</bpt><![CDATA[Perl-style regular expressions.]]><ept id="tjiid602-106">&lt;/a&gt;</ept><![CDATA[ Note that if your rules include ampersands (&amp;), they need to be appropriately XML-encoded: replace each occurence of ]]><bpt id="tjiid602-108">&lt;strong&gt;</bpt><![CDATA[&amp;]]><ept id="tjiid602-108">&lt;/strong&gt;</ept><![CDATA[ with ]]><bpt id="tjiid602-110">&lt;strong&gt;</bpt><![CDATA[&amp;#x26;]]><ept id="tjiid602-110">&lt;/strong&gt;</ept><![CDATA[.]]><ept id="tjiid602-103">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-113">&lt;h4&gt;</bpt><bpt id="tjiid602-114">&lt;a href="#exclusions" name="exclusions"&gt;</bpt><![CDATA[Exclusions]]><ept id="tjiid602-114">&lt;/a&gt;</ept><ept id="tjiid602-113">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-117">&lt;p&gt;</bpt><![CDATA[An exclusion specifies a pattern, using a regular expression, for URLs where the rule should ]]><bpt id="tjiid602-118">&lt;strong&gt;</bpt><![CDATA[not]]><ept id="tjiid602-118">&lt;/strong&gt;</ept><![CDATA[ be applied. The Stack Exchange rule contains an exclusion for the OpenID login path, which breaks logins if it is rewritten:]]><ept id="tjiid602-117">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-121">&lt;pre&gt;</bpt><![CDATA[
+&lt;exclusion pattern="^http://(?:\w+\.)?stack(?:exchange|overflow)\.com/users/authenticate/" /&gt;
+]]><ept id="tjiid602-121">&lt;/pre&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-123">&lt;p&gt;</bpt><![CDATA[Exclusions are always evaluated before rules in a given ruleset. Matching any exclusion means that a URL won't match any rules within the same ruleset. However, if other rulesets match the same target hosts, the rules in those rulesets will still be tried.]]><ept id="tjiid602-123">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-125">&lt;h4&gt;</bpt><bpt id="tjiid602-126">&lt;a href="#style" name="style"&gt;</bpt><![CDATA[Style Guide]]><ept id="tjiid602-126">&lt;/a&gt;</ept><ept id="tjiid602-125">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-129">&lt;p&gt;</bpt><![CDATA[There are many different ways you can write a ruleset, or regular expression within the ruleset. It's easier for everyone to understand the rulesets if they follow similar practices. You should read and follow the ]]><bpt id="tjiid602-130">&lt;a href="https://github.com/EFForg/https-everywhere/blob/master/ruleset-style.md"&gt;</bpt><![CDATA[Ruleset style guide]]><ept id="tjiid602-130">&lt;/a&gt;</ept><![CDATA[. Some of the guidelines in that document are intended to make ]]><bpt id="tjiid602-132">&lt;a href="https://github.com/EFForg/https-everywhere/blob/master/ruleset-testing.md"&gt;</bpt><![CDATA[Ruleset testing]]><ept id="tjiid602-132">&lt;/a&gt;</ept><![CDATA[ less cumbersome.]]><ept id="tjiid602-129">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-135">&lt;h4&gt;</bpt><bpt id="tjiid602-136">&lt;a href="#secure-cookies" name="secure-cookies"&gt;</bpt><![CDATA[Secure Cookies]]><ept id="tjiid602-136">&lt;/a&gt;</ept><ept id="tjiid602-135">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-139">&lt;p&gt;</bpt><![CDATA[Many HTTPS websites fail to correctly set the ]]><bpt id="tjiid602-140">&lt;a href="https://secure.wikimedia.org/wikipedia/en/wiki/HTTP_cookie#Secure_and_HttpOnly"&gt;</bpt><![CDATA[secure flag]]><ept id="tjiid602-140">&lt;/a&gt;</ept><![CDATA[ on authentication and/or tracking cookies. HTTPS Everywhere provides a facility for turning this flag on. For instance:]]><ept id="tjiid602-139">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-143">&lt;pre&gt;</bpt><![CDATA[
+&lt;securecookie host="^market\.android\.com$" name=".+" /&gt;]]><ept id="tjiid602-143">&lt;/pre&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-145">&lt;p&gt;</bpt><![CDATA[The "host" parameter is a regexp specifying which domains should have their cookies secured; the "name" parameter is a regexp specifying which cookies should be secured. For a cookie to be secured, it must be sent by a target host for that ruleset. It must also be sent over HTTPS and match the name regexp. For cookies set by Javascript in a web page, the Firefox extension can't tell which host set the cookie and instead uses the domain attribute of the cookie to check against target hosts. A cookie whose domain attribute starts with a "." (the default, if not specified by Javascript) will be matched as if it was sent from a host name made by stripping the leading dot.]]><ept id="tjiid602-145">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-147">&lt;h4&gt;</bpt><bpt id="tjiid602-148">&lt;a href="#testing" name="testing"&gt;</bpt><![CDATA[Testing]]><ept id="tjiid602-148">&lt;/a&gt;</ept><ept id="tjiid602-147">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-151">&lt;p&gt;</bpt><![CDATA[We use an ]]><bpt id="tjiid602-152">&lt;a href="https://github.com/hiviah/https-everywhere-checker"&gt;</bpt><![CDATA[automated checker]]><ept id="tjiid602-152">&lt;/a&gt;</ept><![CDATA[ to run some basic tests on all rulesets. This is described in more detail in our ]]><bpt id="tjiid602-154">&lt;a href="https://github.com/EFForg/https-everywhere/blob/master/ruleset-testing.md"&gt;</bpt><![CDATA[Ruleset Testing]]><ept id="tjiid602-154">&lt;/a&gt;</ept><![CDATA[ document, but in short there are two parts: Your ruleset must have enough test URLs to cover all the various types of URL covered by your rules. And each of those test URLs must load, both before rewriting and after rewriting. Every target host tag generates an implicit test URL unless it contains a wildcard. You can add additional test URLs manually using the ]]><bpt id="tjiid602-156">&lt;tt&gt;</bpt><![CDATA[&lt;test url="..."/&gt;]]><ept id="tjiid602-156">&lt;/tt&gt;</ept><![CDATA[ tag. The test URLs you add this way should be real pages loaded from the site, or real images, CSS, and Javascript if you have rules that specifically affect those resources.]]><ept id="tjiid602-151">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-159">&lt;p&gt;</bpt><![CDATA[You should also manually test your ruleset by placing it in the ]]><bpt id="tjiid602-160">&lt;tt&gt;</bpt><![CDATA[HTTPSEverywhereUserRules/]]><ept id="tjiid602-160">&lt;/tt&gt;</ept><![CDATA[ subdirectory in ]]><bpt id="tjiid602-162">&lt;a href="http://kb.mozillazine.org/Profile_folder_-_Firefox"&gt;</bpt><![CDATA[your Firefox profile directory]]><ept id="tjiid602-162">&lt;/a&gt;</ept><![CDATA[, and then restarting Firefox. While using the rule, check for messages in the Firefox Error Console to see if there are any issues with the way the site supports HTTPS.]]><ept id="tjiid602-159">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-165">&lt;p&gt;</bpt><![CDATA[If you've tested your rule and are sure it would be of use to the world at large, submit it as a ]]><bpt id="tjiid602-166">&lt;a href="https://help.github.com/articles/using-pull-requests/"&gt;</bpt><![CDATA[pull request]]><ept id="tjiid602-166">&lt;/a&gt;</ept><![CDATA[ on our ]]><bpt id="tjiid602-168">&lt;a href="https://github.com/EFForg/https-everywhere/"&gt;</bpt><![CDATA[GitHub repository]]><ept id="tjiid602-168">&lt;/a&gt;</ept><![CDATA[ or send it to the rulesets mailing list at ]]><bpt id="tjiid602-170">&lt;tt&gt;</bpt><![CDATA[https-everywhere-rules AT eff.org]]><ept id="tjiid602-170">&lt;/tt&gt;</ept><![CDATA[. Please be aware that this is a public and publicly-archived mailing list.]]><ept id="tjiid602-165">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-173">&lt;h4&gt;</bpt><bpt id="tjiid602-174">&lt;a href="#make-trivial" name="make-trivial"&gt;</bpt><![CDATA[make-trivial-rule]]><ept id="tjiid602-174">&lt;/a&gt;</ept><ept id="tjiid602-173">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-177">&lt;p&gt;</bpt><![CDATA[As an alternative to writing rules by hand, there are scripts you can run from a Unix command line to automate the process of creating a simple rule for a specified domain. These scripts are not included with HTTPS Everywhere releases but are available in our development repository and are described in ]]><bpt id="tjiid602-178">&lt;a href="https://www.eff.org/https-everywhere/development"&gt;</bpt><![CDATA[our development documentation]]><ept id="tjiid602-178">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid602-177">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-181">&lt;h4&gt;</bpt><bpt id="tjiid602-182">&lt;a href="#default-off" name="default-off"&gt;</bpt><![CDATA[Disabling a ruleset by default]]><ept id="tjiid602-182">&lt;/a&gt;</ept><ept id="tjiid602-181">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-185">&lt;p&gt;</bpt><![CDATA[Sometimes rulesets are useful or interesting, but cause problems that make them unsuitable for being enabled by default in everyone's browsers. Typically when a ruleset has problems we will disable it by default until someone has time to fix it. You can do this by adding a ]]><bpt id="tjiid602-186">&lt;tt&gt;</bpt><![CDATA[default_off]]><ept id="tjiid602-186">&lt;/tt&gt;</ept><![CDATA[ attribute to the ruleset element, with a value explaining why the rule is off.]]><ept id="tjiid602-185">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-189">&lt;pre&gt;</bpt><![CDATA[
+&lt;ruleset name="Amazon (buggy)" default_off="breaks site"&gt;
+   &lt;target host="www.amazon.*" /&gt;
+   &lt;target host="amazon.*" /&gt;
+&lt;/ruleset&gt;
+]]><ept id="tjiid602-189">&lt;/pre&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid602-191">&lt;p&gt;</bpt><![CDATA[You can add more details, like a link to a bug report, in the comments for the file.]]><ept id="tjiid602-191">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-193">&lt;h4&gt;</bpt><bpt id="tjiid602-194">&lt;a href="#mixed-content" name="mixed-content"&gt;</bpt><![CDATA[Mixed Content Blocking (MCB)]]><ept id="tjiid602-194">&lt;/a&gt;</ept><ept id="tjiid602-193">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-197">&lt;p&gt;</bpt><![CDATA[Some rulesets may trigger active mixed content (i.e. scripts loaded over HTTP instead of HTTPS). This type of mixed content is blocked in both ]]><bpt id="tjiid602-198">&lt;a href="https://trac.torproject.org/projects/tor/ticket/6975"&gt;</bpt><![CDATA[Chrome]]><ept id="tjiid602-198">&lt;/a&gt;</ept><![CDATA[ and Firefox, before HTTPS Everywhere has a chance to rewrite the URLs to an HTTPS version. This generally breaks the site. However, the Tor Browser doesn't block mixed content, in order to allow HTTPS Everywhere to try and rewrite the URLs to an HTTPS version.]]><ept id="tjiid602-197">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-201">&lt;p&gt;</bpt><![CDATA[To enable a rule only on platforms that allow mixed content (currently only the Tor Browser), you can add a ]]><bpt id="tjiid602-202">&lt;tt&gt;</bpt><![CDATA[platform="mixedcontent"]]><ept id="tjiid602-202">&lt;/tt&gt;</ept><![CDATA[ attribute to the ruleset element.]]><ept id="tjiid602-201">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-205">&lt;h4&gt;</bpt><bpt id="tjiid602-206">&lt;a href="#downgrades" name="downgrades"&gt;</bpt><![CDATA[HTTPS-&gt;HTTP downgrade rules]]><ept id="tjiid602-206">&lt;/a&gt;</ept><ept id="tjiid602-205">&lt;/h4&gt;</ept><![CDATA[
+]]><bpt id="tjiid602-209">&lt;p&gt;</bpt><![CDATA[By default, HTTPS Everywhere will refuse to allow rules that would downgrade a URL from HTTPS to HTTP. Occasionally, this is necessary because the extension rewrites a page to HTTPS, and that page contains relative links to resources which do not exist on the HTTPS part of the site. This is very rare, especially because these resources will typically be blocked by ]]><bpt id="tjiid602-210">&lt;a href="#mixed-content"&gt;</bpt><![CDATA[Mixed Content Blocking]]><ept id="tjiid602-210">&lt;/a&gt;</ept><![CDATA[. If it necessary, you can add a ]]><bpt id="tjiid602-212">&lt;tt&gt;</bpt><![CDATA[downgrade="1"]]><ept id="tjiid602-212">&lt;/tt&gt;</ept><![CDATA[ attribute to the rule to make it easier to audit the ruleset library for such rules.]]><ept id="tjiid602-209">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Body</note>
+    </trans-unit>
+    <trans-unit id="602][title_field][0][value" resname="602][title_field][0][value">
+     <source xml:lang="en"><![CDATA[HTTPS Everywhere Rulesets]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="603">
+    <note>How to Deploy HTTPS Correctly</note>
+    <trans-unit id="603][body][0][value" resname="603][body][0][value">
+     <source xml:lang="en"><bpt id="tjiid603-1">&lt;p class="eff-light-blue eff-grey"&gt;</bpt><![CDATA[By ]]><bpt id="tjiid603-2">&lt;a href="http://noncombatant.org"&gt;</bpt><![CDATA[Chris Palmer]]><ept id="tjiid603-2">&lt;/a&gt;</ept><![CDATA[ and ]]><bpt id="tjiid603-4">&lt;a href="/about/staff/yan-zhu"&gt;</bpt><![CDATA[Yan Zhu]]><ept id="tjiid603-4">&lt;/a&gt;</ept><ept id="tjiid603-1">&lt;/p&gt;</ept><bpt id="tjiid603-7">&lt;p&gt;</bpt><bpt id="tjiid603-8">&lt;em&gt;</bpt><![CDATA[Originally published on 15 Nov 2010. Revised on 12 Dec 2013.]]><ept id="tjiid603-8">&lt;/em&gt;</ept><ept id="tjiid603-7">&lt;/p&gt;</ept><bpt id="tjiid603-11">&lt;p&gt;</bpt><![CDATA[Internet technologists have always known that HTTP is insecure, causing many risks to users. Because HTTP traffic is unencrypted, any data sent over HTTP can be read and modified by anyone who has access to the network. As revealed by the Snowden NSA surveillance documents, HTTP traffic can also be collected and searched by government agencies without notice to users or webmasters. Given these risks, EFF believes that every website should support HTTPS on all pages as soon as possible.]]><ept id="tjiid603-11">&lt;/p&gt;</ept><bpt id="tjiid603-13">&lt;p&gt;</bpt><![CDATA[While HTTPS has long existed as the bare minimum for web security, some websites have been slow to adopt it. In part, this is because correctly and completely serving an application over HTTPS takes some care.]]><ept id="tjiid603-13">&lt;/p&gt;</ept><bpt id="tjiid603-15">&lt;p&gt;</bpt><![CDATA[This article is designed to encourage and assist website operators in implementing and improving HTTPS support. Although no precaution will defend against all threats, supporting HTTPS will protect users from a wide range of common attacks.]]><ept id="tjiid603-15">&lt;/p&gt;</ept><bpt id="tjiid603-17">&lt;h2&gt;</bpt><![CDATA[Background]]><ept id="tjiid603-17">&lt;/h2&gt;</ept><bpt id="tjiid603-19">&lt;p&gt;</bpt><![CDATA[HTTPS provides three security guarantees:]]><ept id="tjiid603-19">&lt;/p&gt;</ept><bpt id="tjiid603-21">&lt;ol&gt;</bpt><bpt id="tjiid603-22">&lt;li&gt;</bpt><bpt id="tjiid603-23">&lt;strong&gt;</bpt><![CDATA[Server authentication]]><ept id="tjiid603-23">&lt;/strong&gt;</ept><![CDATA[ allows users to have some confidence that they are talking to the true application server. Without this guarantee, there can be no guarantee of confidentiality or integrity.]]><ept id="tjiid603-22">&lt;/li&gt;</ept><bpt id="tjiid603-26">&lt;li&gt;</bpt><bpt id="tjiid603-27">&lt;strong&gt;</bpt><![CDATA[Data confidentiality]]><ept id="tjiid603-27">&lt;/strong&gt;</ept><![CDATA[ means that eavesdroppers cannot understand the content of the communications between the user's browser and the web server, because the data is encrypted.]]><ept id="tjiid603-26">&lt;/li&gt;</ept><bpt id="tjiid603-30">&lt;li&gt;</bpt><bpt id="tjiid603-31">&lt;strong&gt;</bpt><![CDATA[Data integrity]]><ept id="tjiid603-31">&lt;/strong&gt;</ept><![CDATA[ means that a network attacker cannot damage or alter the content of the communications between the user's browser and the web server, because they are validated with a cryptographic ]]><bpt id="tjiid603-33">&lt;em&gt;</bpt><bpt id="tjiid603-34">&lt;a href="https://secure.wikimedia.org/wikipedia/en/wiki/Message_authentication_code"&gt;</bpt><![CDATA[message authentication code]]><ept id="tjiid603-34">&lt;/a&gt;</ept><ept id="tjiid603-33">&lt;/em&gt;</ept><![CDATA[.]]><ept id="tjiid603-30">&lt;/li&gt;</ept><ept id="tjiid603-21">&lt;/ol&gt;</ept><bpt id="tjiid603-39">&lt;p&gt;</bpt><bpt id="tjiid603-40">&lt;strong&gt;</bpt><![CDATA[HTTP provides no security guarantees]]><ept id="tjiid603-40">&lt;/strong&gt;</ept><![CDATA[, and applications that use it ]]><bpt id="tjiid603-42">&lt;strong&gt;</bpt><![CDATA[cannot possibly provide users any security]]><ept id="tjiid603-42">&lt;/strong&gt;</ept><![CDATA[. When using a web application hosted via HTTP, people have no way of knowing whether they are talking to the true application server, nor can they be sure attackers have not read or modified communications between the user's computer and the server.]]><ept id="tjiid603-39">&lt;/p&gt;</ept><bpt id="tjiid603-45">&lt;h2&gt;</bpt><![CDATA[Modes of Attack and Defense]]><ept id="tjiid603-45">&lt;/h2&gt;</ept><bpt id="tjiid603-47">&lt;p&gt;</bpt><![CDATA[However users connect to the Internet, there are a variety of people who can attack them--whether spying on them, impersonating them, tampering with their communications, or all three of these. The wifi network operator can do this; any ISP in the path between client and server can do it; anyone who can reconfigure the wifi router or another router can do it; and often, anyone else using the same network can do it, too.]]><ept id="tjiid603-47">&lt;/p&gt;</ept><bpt id="tjiid603-49">&lt;p&gt;</bpt><bpt id="tjiid603-50">&lt;a href="http://codebutler.com/firesheep-a-day-later/"&gt;</bpt><![CDATA[Firesheep]]><ept id="tjiid603-50">&lt;/a&gt;</ept><![CDATA[ is an example of a ]]><bpt id="tjiid603-52">&lt;em&gt;</bpt><![CDATA[passive network attack]]><ept id="tjiid603-52">&lt;/em&gt;</ept><![CDATA[: it eavesdrops on the contents of network communications between browser and server, but does not re-route or modify them. Government surveillance programs such as ]]><bpt id="tjiid603-54">&lt;a href="http://www.theguardian.com/world/2013/jul/31/nsa-top-secret-program-online-data"&gt;</bpt><![CDATA[XKeyscore]]><ept id="tjiid603-54">&lt;/a&gt;</ept><![CDATA[ also use passive attacks on HTTP traffic to collect massive amounts of online communication data.]]><ept id="tjiid603-49">&lt;/p&gt;</ept><bpt id="tjiid603-57">&lt;p&gt;</bpt><![CDATA[By contrast, other freely-available tools perform ]]><bpt id="tjiid603-58">&lt;em&gt;</bpt><![CDATA[active network attacks]]><ept id="tjiid603-58">&lt;/em&gt;</ept><![CDATA[, in which the attacker does modify the contents of and/or re-route communications. These tools range from serious, such as ]]><bpt id="tjiid603-60">&lt;a href="http://www.thoughtcrime.org/software/sslstrip/"&gt;</bpt><![CDATA[sslstrip]]><ept id="tjiid603-60">&lt;/a&gt;</ept><![CDATA[, to silly, like ]]><bpt id="tjiid603-62">&lt;a href="http://www.ex-parrot.com/pete/upside-down-ternet.html"&gt;</bpt><![CDATA[the Upside-Down-Ternet]]><ept id="tjiid603-62">&lt;/a&gt;</ept><![CDATA[. Although Upside-Down-Ternet is a funny prank, it is technically identical to potentially more damaging attacks such as an attack that injects malicious code or incorrect information into web pages; at the same time, it shows that such attacks are easy enough to be jokes. Free wifi hotspots have been known to inject advertisements dynamically into web pages that users read--indicating that active network attacks are a viable business model. Tools like ]]><bpt id="tjiid603-64">&lt;a href="http://www.oxid.it/cain.html"&gt;</bpt><![CDATA[Cain and Abel]]><ept id="tjiid603-64">&lt;/a&gt;</ept><![CDATA[ enable a range of attacks, including re-routing local network traffic through the attacker's system. (Also see ]]><bpt id="tjiid603-66">&lt;a href="http://arpspoof.sourceforge.net/"&gt;</bpt><![CDATA[Arpspoof]]><ept id="tjiid603-66">&lt;/a&gt;</ept><![CDATA[ and ]]><bpt id="tjiid603-68">&lt;a href="http://www.monkey.org/%7Edugsong/dsniff/"&gt;</bpt><![CDATA[dsniff]]><ept id="tjiid603-68">&lt;/a&gt;</ept><![CDATA[.)]]><ept id="tjiid603-57">&lt;/p&gt;</ept><bpt id="tjiid603-71">&lt;p&gt;</bpt><![CDATA[Only a mechanism that provides (at least) authentication, confidentiality, and integrity can defend against a range of attacks. HTTPS is currently our best option for web applications.]]><ept id="tjiid603-71">&lt;/p&gt;</ept><bpt id="tjiid603-73">&lt;p&gt;</bpt><![CDATA[However, there are some potential pitfalls that site operators must avoid in order to deploy HTTPS securely.]]><ept id="tjiid603-73">&lt;/p&gt;</ept><bpt id="tjiid603-75">&lt;h2&gt;</bpt><![CDATA[Mixed Content]]><ept id="tjiid603-75">&lt;/h2&gt;</ept><bpt id="tjiid603-77">&lt;p&gt;</bpt><![CDATA[When hosting an application over HTTPS, there can be no ]]><bpt id="tjiid603-78">&lt;em&gt;</bpt><![CDATA[mixed content]]><ept id="tjiid603-78">&lt;/em&gt;</ept><![CDATA[; that is, all content in the page must be fetched via HTTPS. It is common to see partial HTTPS support on sites, in which the main pages are fetched via HTTPS but some or all of the media elements, stylesheets, and JavaScript in the page are fetched via HTTP.]]><ept id="tjiid603-77">&lt;/p&gt;</ept><bpt id="tjiid603-81">&lt;p&gt;</bpt><![CDATA[This is unsafe because although the main page load is protected against active and passive network attack, none of the other resources are. If a page loads some JavaScript or CSS code via HTTP, an attacker can provide a false, malicious code file and take over the page's DOM once it loads. Then, the user would be back to a situation of having no security. This is why all mainstream browsers warn users about pages that load mixed content. Nor is it safe to reference images via HTTP: What if the attacker swapped the Save Message and Delete Message icons in a webmail app?]]><ept id="tjiid603-81">&lt;/p&gt;</ept><bpt id="tjiid603-83">&lt;p&gt;</bpt><bpt id="tjiid603-84">&lt;strong&gt;</bpt><![CDATA[You must serve the entire application domain over HTTPS.]]><ept id="tjiid603-84">&lt;/strong&gt;</ept><![CDATA[ Redirect HTTP requests with HTTP 301 or 302 responses to the equivalent HTTPS resource.]]><ept id="tjiid603-83">&lt;/p&gt;</ept><bpt id="tjiid603-87">&lt;p&gt;</bpt><![CDATA[Some site operators provide only the login page over HTTPS, on the theory that only the user's password is sensitive. These sites' users are ]]><bpt id="tjiid603-88">&lt;a&gt;</bpt><![CDATA[vulnerable to passive and active attacks]]><ept id="tjiid603-88">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid603-87">&lt;/p&gt;</ept><bpt id="tjiid603-91">&lt;p&gt;</bpt><![CDATA[Unfortunately, many sites today load content from external sites and CDN's that do not support HTTPS. If it's not possible to serve these resources from your own host or another one that supports HTTPS, you should urge these other sites to start supporting HTTPS immediately.]]><ept id="tjiid603-91">&lt;/p&gt;</ept><bpt id="tjiid603-93">&lt;h2&gt;</bpt><![CDATA[Security and Cookies]]><ept id="tjiid603-93">&lt;/h2&gt;</ept><bpt id="tjiid603-95">&lt;p&gt;</bpt><![CDATA[As Chris Palmer described in a ]]><bpt id="tjiid603-96">&lt;a href="https://www.isecpartners.com/media/12009/web-session-management.pdf"&gt;</bpt><![CDATA[paper on secure session management for web applications]]><ept id="tjiid603-96">&lt;/a&gt;</ept><![CDATA[, site operators must scope sensitive cookies (such as cookies used for user authentication) to the secure origin. If a cookie is broadly scoped (with the Domain attribute in the Set-Cookie: header), it may "leak" to other hosts or applications in the same domain--potentially less-secure hosts or applications.]]><ept id="tjiid603-95">&lt;/p&gt;</ept><bpt id="tjiid603-99">&lt;p&gt;</bpt><![CDATA[Similarly, the application must set the Secure attribute on the cookie when setting it. This attribute instructs the browser to send the cookie only over secure (HTTPS) transport, never insecure (HTTP).]]><ept id="tjiid603-99">&lt;/p&gt;</ept><bpt id="tjiid603-101">&lt;h2&gt;</bpt><![CDATA[Use HTTP Strict Transport Security]]><ept id="tjiid603-101">&lt;/h2&gt;</ept><bpt id="tjiid603-103">&lt;p&gt;</bpt><bpt id="tjiid603-104">&lt;a href="https://en.wikipedia.org/wiki/Strict_Transport_Security"&gt;</bpt><![CDATA[HTTP Strict Transport Security]]><ept id="tjiid603-104">&lt;/a&gt;</ept><![CDATA[ (HSTS) is an HTTP protocol extension that enables site operators to instruct browsers to expect the site to use HTTPS.]]><ept id="tjiid603-103">&lt;/p&gt;</ept><bpt id="tjiid603-107">&lt;p&gt;</bpt><![CDATA[Although not all browsers yet support HSTS, EFF urges those that don't--we're looking especially at you, Apple and Microsoft--to follow the lead Google, Opera, and Mozilla have set by adopting this useful security mechanism. Indeed, ultimately we expect HTTPS (and possibly newer protocols such as ]]><bpt id="tjiid603-108">&lt;a href="https://en.wikipedia.org/wiki/SPDY"&gt;</bpt><![CDATA[SPDY]]><ept id="tjiid603-108">&lt;/a&gt;</ept><![CDATA[ and ]]><bpt id="tjiid603-110">&lt;a href="https://en.wikipedia.org/wiki/QUIC"&gt;</bpt><![CDATA[QUIC]]><ept id="tjiid603-110">&lt;/a&gt;</ept><![CDATA[) to replace HTTP entirely, the way SSH replaced Telnet and rsh.]]><ept id="tjiid603-107">&lt;/p&gt;</ept><bpt id="tjiid603-113">&lt;p&gt;</bpt><![CDATA[As an extra precaution, your site should support HSTS preloading, which prevents interception of an HTTP request if the browser hasn't yet received a valid HSTS header from the server. HSTS preloading is implemented via an opt-in list of domains that is included in Chromium, Google Chrome, and Firefox. See ]]><bpt id="tjiid603-114">&lt;a href="http://www.chromium.org/sts"&gt;</bpt><![CDATA[Chromium's page]]><ept id="tjiid603-114">&lt;/a&gt;</ept><![CDATA[ for instructions on getting your site added to this list. Note that you must also send an HSTS header with a max-age greater value than 18 weeks for Firefox to include your site in their HSTS preload list.]]><ept id="tjiid603-113">&lt;/p&gt;</ept><bpt id="tjiid603-117">&lt;p&gt;</bpt><![CDATA[We recently enabled HSTS and HSTS preloading for eff.org. It took less than an hour to set up, and we found a way to do it without forcibly redirecting users to HTTPS, so we can state an unequivocal preference for HTTPS access while still making the site available in HTTP. It worked like a charm and a significant fraction of our users are now automatically accessing our site in HTTPS, perhaps without even knowing it.]]><ept id="tjiid603-117">&lt;/p&gt;</ept><bpt id="tjiid603-119">&lt;h2&gt;</bpt><![CDATA[Choose Strong Protocols and Cipher Suites]]><ept id="tjiid603-119">&lt;/h2&gt;</ept><bpt id="tjiid603-121">&lt;p&gt;</bpt><![CDATA[Here is a brief list of recommendations for choosing secure protocols and cipher suites in an SSL deployment:]]><ept id="tjiid603-121">&lt;/p&gt;</ept><bpt id="tjiid603-123">&lt;ul&gt;</bpt><bpt id="tjiid603-124">&lt;li&gt;</bpt><![CDATA[Disable support for SSLv2, SSLv3, and TLS 1.0.]]><ept id="tjiid603-124">&lt;/li&gt;</ept><bpt id="tjiid603-126">&lt;li&gt;</bpt><![CDATA[Support TLS 1.1 and 1.2.]]><ept id="tjiid603-126">&lt;/li&gt;</ept><bpt id="tjiid603-128">&lt;li&gt;</bpt><![CDATA[Disable NULL, aNULL, and eNULL ciphersuites, which do not offer both encryption and authentication.]]><ept id="tjiid603-128">&lt;/li&gt;</ept><bpt id="tjiid603-130">&lt;li&gt;</bpt><![CDATA[Use private keys that are at least as secure as a 2048-bit RSA key.]]><ept id="tjiid603-130">&lt;/li&gt;</ept><bpt id="tjiid603-132">&lt;li&gt;</bpt><![CDATA[Prefer ciphersuites that include ]]><bpt id="tjiid603-133">&lt;b&gt;</bpt><![CDATA[ephemeral Diffie-Hellman key exchange]]><ept id="tjiid603-133">&lt;/b&gt;</ept><![CDATA[. These offer the important property of ]]><bpt id="tjiid603-135">&lt;a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection"&gt;</bpt><![CDATA[Perfect Forward Secrecy]]><ept id="tjiid603-135">&lt;/a&gt;</ept><![CDATA[, which prevents decryption of past web traffic if your SSL private key is compromised in the future.]]><ept id="tjiid603-132">&lt;/li&gt;</ept><bpt id="tjiid603-138">&lt;li&gt;</bpt><![CDATA[Disable ciphersuites with keys sizes smaller than 128 bits for encryption.]]><ept id="tjiid603-138">&lt;/li&gt;</ept><bpt id="tjiid603-140">&lt;li&gt;</bpt><![CDATA[Disable ciphersuites that use MD5 for hashing. SHA-1 is also discouraged but may be required for compatibility with TLS 1.0 and SSLv3.]]><ept id="tjiid603-140">&lt;/li&gt;</ept><bpt id="tjiid603-142">&lt;li&gt;</bpt><![CDATA[Disable ciphersuites that use RC4 for encryption. AES-CBC is preferable to RC4 but vulnerable to the ]]><bpt id="tjiid603-143">&lt;a href="https://www.imperialviolet.org/2011/09/23/chromeandbeast.html"&gt;</bpt><![CDATA[BEAST]]><ept id="tjiid603-143">&lt;/a&gt;</ept><![CDATA[ attack. Thus, AES-GCM is often recommended.]]><ept id="tjiid603-142">&lt;/li&gt;</ept><bpt id="tjiid603-146">&lt;li&gt;</bpt><![CDATA[Disable TLS compression in order to prevent the ]]><bpt id="tjiid603-147">&lt;a href="https://en.wikipedia.org/wiki/CRIME_%28security_exploit%29"&gt;</bpt><![CDATA[CRIME attack]]><ept id="tjiid603-147">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid603-146">&lt;/li&gt;</ept><bpt id="tjiid603-150">&lt;li&gt;</bpt><![CDATA[Only support secure TLS renegotiations compliant with ]]><bpt id="tjiid603-151">&lt;a href="http://www.ietf.org/rfc/rfc5746.txt"&gt;</bpt><![CDATA[RFC 5746]]><ept id="tjiid603-151">&lt;/a&gt;</ept><![CDATA[, or disable TLS renegotiations entirely.]]><ept id="tjiid603-150">&lt;/li&gt;</ept><ept id="tjiid603-123">&lt;/ul&gt;</ept><bpt id="tjiid603-155">&lt;p&gt;</bpt><![CDATA[A useful tool for testing for well-known weaknesses in an existing HTTPS deployment is Qualys's ]]><bpt id="tjiid603-156">&lt;a href="https://www.ssllabs.com/ssltest/"&gt;</bpt><![CDATA[SSL Server Test]]><ept id="tjiid603-156">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid603-155">&lt;/p&gt;</ept><bpt id="tjiid603-159">&lt;h2&gt;</bpt><![CDATA[Performance Concerns]]><ept id="tjiid603-159">&lt;/h2&gt;</ept><bpt id="tjiid603-161">&lt;p&gt;</bpt><![CDATA[Many site operators report that they can't move to HTTPS for performance reasons. However, most people who say this have not actually measured any performance loss, may not have measured performance at all, and have not profiled and optimized their site's behavior. Usually, sites have latency far higher and/or throughput far lower than necessary even when hosting over HTTP--indicating HTTPS is not the problem.]]><ept id="tjiid603-161">&lt;/p&gt;</ept><bpt id="tjiid603-163">&lt;p&gt;</bpt><![CDATA[The crux of the performance problem is usually at the content layer, and also often at the database layer. Web applications are fundamentally I/O-bound, after all. Consider ]]><bpt id="tjiid603-164">&lt;a href="http://gmailblog.blogspot.com/2008/05/need-for-speed-path-to-faster-loading.html"&gt;</bpt><![CDATA[this wisdom from the Gmail developers]]><ept id="tjiid603-164">&lt;/a&gt;</ept><![CDATA[:]]><ept id="tjiid603-163">&lt;/p&gt;</ept><bpt id="tjiid603-167">&lt;blockquote&gt;</bpt><bpt id="tjiid603-168">&lt;p&gt;</bpt><![CDATA[First, we listed every transaction between the web browser and Google's servers, starting with the moment the "Sign in" button is pressed. To do this, we used a lot of different web development tools, like ]]><bpt id="tjiid603-169">&lt;a href="http://httpwatch.com/"&gt;</bpt><![CDATA[Httpwatch]]><ept id="tjiid603-169">&lt;/a&gt;</ept><![CDATA[, ]]><bpt id="tjiid603-171">&lt;a href="http://www.wireshark.org/"&gt;</bpt><![CDATA[WireShark]]><ept id="tjiid603-171">&lt;/a&gt;</ept><![CDATA[, and ]]><bpt id="tjiid603-173">&lt;a href="http://www.fiddlertool.com/fiddler/"&gt;</bpt><![CDATA[Fiddler]]><ept id="tjiid603-173">&lt;/a&gt;</ept><![CDATA[, plus our own performance measuring systems. [...]]]><ept id="tjiid603-168">&lt;/p&gt;</ept><bpt id="tjiid603-176">&lt;p&gt;</bpt><![CDATA[We spent hours poring over these traces to see exactly what was happening between the browser and Gmail during the sign-in sequence, and we found that there were between fourteen and twenty-four HTTP requests required to load an inbox and display it. To put these numbers in perspective, a popular network news site's home page required about a 180 requests to fully load when I checked it yesterday. But when we examined our requests, we realized that we could do better. We decided to attack the problem from several directions at once: reduce the number of overall requests, make more of the requests cacheable by the browser, and reduce the overhead of each request.]]><ept id="tjiid603-176">&lt;/p&gt;</ept><bpt id="tjiid603-178">&lt;p&gt;</bpt><![CDATA[We made good progress on every front. We reduced the weight of each request itself by eliminating or narrowing the scope of some of our cookies. We made sure that all our images were cacheable by the browser, and we consolidated small icon images into single meta-images, a technique known as spriting. We combined several requests into a single combined request and response. The result is that it now takes as few as four requests from the click of the "Sign in" button to the display of your inbox.]]><ept id="tjiid603-178">&lt;/p&gt;</ept><ept id="tjiid603-167">&lt;/blockquote&gt;</ept><bpt id="tjiid603-181">&lt;p&gt;</bpt><![CDATA[Google's ]]><bpt id="tjiid603-182">&lt;a href="http://www.imperialviolet.org/2010/06/25/overclocking-ssl.html"&gt;</bpt><![CDATA[Adam Langley provides additional detail]]><ept id="tjiid603-182">&lt;/a&gt;</ept><![CDATA[:]]><ept id="tjiid603-181">&lt;/p&gt;</ept><bpt id="tjiid603-185">&lt;blockquote&gt;</bpt><![CDATA[In order to do this we had to deploy ]]><bpt id="tjiid603-186">&lt;em&gt;</bpt><![CDATA[no additional machines]]><ept id="tjiid603-186">&lt;/em&gt;</ept><![CDATA[ and ]]><bpt id="tjiid603-188">&lt;em&gt;</bpt><![CDATA[no special hardware]]><ept id="tjiid603-188">&lt;/em&gt;</ept><![CDATA[. On our production frontend machines, SSL/TLS accounts for less than 1% of the CPU load, less than 10KB of memory per connection and less than 2% of network overhead. Many people believe that SSL takes a lot of CPU time and we hope the above numbers (public for the first time) will help to dispel that. [emphasis in original]]]><ept id="tjiid603-185">&lt;/blockquote&gt;</ept><bpt id="tjiid603-191">&lt;p&gt;</bpt><![CDATA[Is it any wonder Gmail performs well, even when using HTTPS exclusively? Site operators can realize incremental improvement by gradually tuning their web applications. Chris gave a presentation to this effect at ]]><bpt id="tjiid603-192">&lt;a href="http://assets.en.oreilly.com/1/event/22/High%20Performance,%20Low%20Cost,%20and%20Strong%20Security_%20Pick%20Any%20Three%20Presentation.pdf"&gt;</bpt><![CDATA[Web 2.0 Expo 2009]]><ept id="tjiid603-192">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid603-191">&lt;/p&gt;</ept><bpt id="tjiid603-195">&lt;h2&gt;</bpt><![CDATA[Conclusion]]><ept id="tjiid603-195">&lt;/h2&gt;</ept><bpt id="tjiid603-197">&lt;p&gt;</bpt><![CDATA[HTTPS provides the baseline of safety for web application users, and there is no performance- or cost-based reason to stick with HTTP. Web application providers ]]><bpt id="tjiid603-198">&lt;a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1421553"&gt;</bpt><![CDATA[undermine their business models]]><ept id="tjiid603-198">&lt;/a&gt;</ept><![CDATA[ when, by continuing to use HTTP, they enable a wide range of attackers anywhere on the internet to compromise users' information.]]><ept id="tjiid603-197">&lt;/p&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Body</note>
+    </trans-unit>
+    <trans-unit id="603][title_field][0][value" resname="603][title_field][0][value">
+     <source xml:lang="en"><![CDATA[How to Deploy HTTPS Correctly]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="604">
+    <note>Secure Messaging Scorecard</note>
+    <trans-unit id="604][body][0][value" resname="604][body][0][value">
+     <source xml:lang="en"><bpt id="tjiid604-1">&lt;a name="about"&gt;</bpt><ept id="tjiid604-1">&lt;/a&gt;</ept><![CDATA[
+]]><bpt id="tjiid604-3">&lt;div class="section"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-4">&lt;h2&gt;</bpt><![CDATA[About]]><ept id="tjiid604-4">&lt;/h2&gt;</ept><![CDATA[
+
+For years, privacy and security experts worldwide have called on the general public to adopt strong, open-source cryptography to protect our communications. The Snowden revelations have confirmed our worst fears: governments are spying on our digital lives, grabbing up communications transmitted in the clear.
+
+Given widespread government surveillance, why don’t people routinely use tools to encrypt their communications? Wouldn’t we all communicate a little more freely without the shadow of surveillance?
+
+It boils down to two things: security and usability. Most of the tools that are easy for the general public to use don’t rely on security best practices--including end-to-end encryption and open source code. Messaging tools that are really secure often aren’t easy to use; everyday users may have trouble installing the technology, verifying its authenticity, setting up an account, or may accidentally use it in ways that expose their communications.
+
+EFF, in collaboration with Julia Angwin at ProPublica and Joseph Bonneau at the Princeton Center for Information Technology Policy, are joining forces to launch a campaign for secure and usable crypto. We are championing technologies that are strongly secure and also simple to use.
+
+The Secure Messaging Scorecard examines dozens of messaging technologies and rates each of them on a range of security best practices. Our campaign is focused on communication technologies -- including chat clients, text messaging apps, email applications, and video calling technologies. These are the tools everyday users need to communicate with friends, family members, and colleagues, and we need secure solutions for them.
+
+We chose technologies that have a large user base--and thus a great deal of sensitive user communications--in addition to smaller companies that are pioneering advanced security practices. We’re hoping our scorecard will serve as a race-to-the-top, spurring innovation around strong crypto for digital communications.
+
+]]><ept id="tjiid604-3">&lt;/div&gt;</ept><![CDATA[
+]]><bpt id="tjiid604-7">&lt;a name="methodology"&gt;</bpt><ept id="tjiid604-7">&lt;/a&gt;</ept><![CDATA[
+]]><bpt id="tjiid604-9">&lt;div class="section"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-10">&lt;h2&gt;</bpt><![CDATA[Methodology]]><ept id="tjiid604-10">&lt;/h2&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-12">&lt;p dir="ltr"&gt;</bpt><![CDATA[Here are the criteria we looked at in assessing the security of various communication tools.]]><ept id="tjiid604-12">&lt;/p&gt;</ept><![CDATA[
+
+
+]]><bpt id="tjiid604-14">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-15">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid604-15">&lt;/a&gt;</ept><bpt id="tjiid604-17">&lt;strong&gt;</bpt><![CDATA[1. Is your communication encrypted in transit?]]><ept id="tjiid604-17">&lt;/strong&gt;</ept><![CDATA[
+This criterion requires that all user communications are encrypted along all the links in the communication path. Note that we are not requiring encryption of data that is transmitted on a company network, though that is ideal. We do not require that metadata (such as user names or addresses) is encrypted.]]><ept id="tjiid604-14">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-20">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid604-20">&lt;/a&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-22">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-23">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid604-23">&lt;/a&gt;</ept><bpt id="tjiid604-25">&lt;a name="e2e"&gt;</bpt><ept id="tjiid604-25">&lt;/a&gt;</ept><bpt id="tjiid604-27">&lt;strong&gt;</bpt><![CDATA[2.]]><ept id="tjiid604-27">&lt;/strong&gt;</ept><![CDATA[ ]]><bpt id="tjiid604-29">&lt;strong&gt;</bpt><![CDATA[Is your communication encrypted with a key the provider doesn't have access to?]]><ept id="tjiid604-29">&lt;/strong&gt;</ept><![CDATA[
+This criterion requires that all user communications are end-to-end encrypted. This means the keys necessary to decrypt messages must be generated and stored at the endpoints (i.e. by users, not by servers). The keys should never leave endpoints except with explicit user action, such as to backup a key or synchronize keys between two devices. It is fine if users' public keys are exchanged using a centralized server.]]><ept id="tjiid604-22">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-32">&lt;a name="e2e"&gt;</bpt><ept id="tjiid604-32">&lt;/a&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-34">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-35">&lt;a name="e2e"&gt;</bpt><ept id="tjiid604-35">&lt;/a&gt;</ept><bpt id="tjiid604-37">&lt;a name="verify"&gt;</bpt><ept id="tjiid604-37">&lt;/a&gt;</ept><bpt id="tjiid604-39">&lt;strong&gt;</bpt><![CDATA[3.]]><ept id="tjiid604-39">&lt;/strong&gt;</ept><![CDATA[ ]]><bpt id="tjiid604-41">&lt;strong&gt;</bpt><![CDATA[Can you independently verify your correspondent's identity?]]><ept id="tjiid604-41">&lt;/strong&gt;</ept><x id="tjiid604-43" ctype="lb"/><![CDATA[This criterion requires that a built-in method exists for users to verify the identity of correspondents they are speaking with and the integrity of the channel, even if the service provider or other third parties are compromised. Two acceptable solutions are:]]><ept id="tjiid604-34">&lt;/p&gt;</ept><![CDATA[
+
+
+
+]]><bpt id="tjiid604-45">&lt;ul&gt;</bpt><bpt id="tjiid604-46">&lt;li dir="ltr"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-47">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-48">&lt;a name="verify"&gt;</bpt><ept id="tjiid604-48">&lt;/a&gt;</ept><![CDATA[An interface for users to view the fingerprint (hash) of their correspondent's public keys as well as their own, which users can verify manually or out-of-band.]]><ept id="tjiid604-47">&lt;/p&gt;</ept><![CDATA[
+
+]]><ept id="tjiid604-46">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-52">&lt;li dir="ltr"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-53">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-54">&lt;a name="verify"&gt;</bpt><ept id="tjiid604-54">&lt;/a&gt;</ept><![CDATA[A key exchange protocol with a short-authentication-string comparison, such as the ]]><bpt id="tjiid604-56">&lt;a href="http://en.wikipedia.org/wiki/Socialist_millionaire" style="line-height: 1.538em;"&gt;</bpt><![CDATA[Socialist Millionaire's protocol]]><ept id="tjiid604-56">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid604-53">&lt;/p&gt;</ept><![CDATA[
+
+]]><ept id="tjiid604-52">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-45">&lt;/ul&gt;</ept><bpt id="tjiid604-61">&lt;p dir="ltr"&gt;</bpt><![CDATA[Other solutions are possible, but any solution must verify a binding between users and the cryptographic channel which has been set up. For the scorecard, we are simply requiring that a mechanism is implemented and not evaluating the usability and security of that mechanism.]]><ept id="tjiid604-61">&lt;/p&gt;</ept><![CDATA[
+
+
+]]><bpt id="tjiid604-63">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-64">&lt;a name="pfs"&gt;</bpt><ept id="tjiid604-64">&lt;/a&gt;</ept><bpt id="tjiid604-66">&lt;strong&gt;</bpt><![CDATA[4.]]><ept id="tjiid604-66">&lt;/strong&gt;</ept><![CDATA[ ]]><bpt id="tjiid604-68">&lt;strong&gt;</bpt><![CDATA[Are past communications secure if your keys are stolen?]]><ept id="tjiid604-68">&lt;/strong&gt;</ept><![CDATA[
+
+This criterion requires that the app provide ]]><bpt id="tjiid604-70">&lt;a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection"&gt;</bpt><![CDATA[forward secrecy]]><ept id="tjiid604-70">&lt;/a&gt;</ept><![CDATA[, that is, all communications must be encrypted with ephemeral keys which are routinely deleted (along with the random values used to derive them). It is imperative that these keys cannot be reconstructed after the fact by anybody even given access to both parties' long-term private keys, ensuring that if users choose to delete their local copies of correspondence, they are permanently deleted. Note that this criterion requires criterion 2, end-to-end encryption.]]><ept id="tjiid604-63">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-73">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-74">&lt;em style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[Note: For this phase of the campaign, we accept a hybrid forward-secrecy approach with forward secrecy on the transport layer (for example through TLS with a Diffie-Hellman cipher suite) and non-forward-secret end-to-end encryption, plus an explicit guarantee that ciphertexts are not logged by the provider. This is a compromise as it requires trusting the provider not to log ciphertexts, but we prefer this setup to having no forward secrecy at all.]]><ept id="tjiid604-74">&lt;/em&gt;</ept><ept id="tjiid604-73">&lt;/p&gt;</ept><![CDATA[
+
+
+]]><bpt id="tjiid604-77">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-78">&lt;a name="open"&gt;</bpt><ept id="tjiid604-78">&lt;/a&gt;</ept><bpt id="tjiid604-80">&lt;strong&gt;</bpt><![CDATA[5.]]><ept id="tjiid604-80">&lt;/strong&gt;</ept><![CDATA[ ]]><bpt id="tjiid604-82">&lt;strong&gt;</bpt><![CDATA[Is the code open to independent review?]]><ept id="tjiid604-82">&lt;/strong&gt;</ept><![CDATA[
+
+This criterion requires that sufficient source-code has been published that a compatible implementation can be independently compiled. Although it is preferable, we do not require the code to be released under any specific free/open source license. We only require that all code which could affect the communication and encryption performed by the client is available for review in order to detect bugs, back doors, and structural problems.]]><ept id="tjiid604-77">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-85">&lt;a name="open"&gt;</bpt><ept id="tjiid604-85">&lt;/a&gt;</ept><bpt id="tjiid604-87">&lt;em&gt;</bpt><![CDATA[Note: when tools are provided by an operating system vendor, we only require code for the tool and not the entire OS. This is a compromise, but the task of securing OSes and updates to OSes is beyond the scope of this project.]]><ept id="tjiid604-87">&lt;/em&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-89">&lt;a name="open"&gt;</bpt><ept id="tjiid604-89">&lt;/a&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-91">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-92">&lt;a name="open"&gt;</bpt><ept id="tjiid604-92">&lt;/a&gt;</ept><bpt id="tjiid604-94">&lt;a name="documented"&gt;</bpt><ept id="tjiid604-94">&lt;/a&gt;</ept><bpt id="tjiid604-96">&lt;strong&gt;</bpt><![CDATA[6. Is the crypto design well-documented?]]><ept id="tjiid604-96">&lt;/strong&gt;</ept><![CDATA[
+
+This criterion requires clear and detailed explanations of the cryptography used by the application. Preferably this should take the form of a white-paper written for review by an audience of professional cryptographers. This must provide answers to the following questions:]]><ept id="tjiid604-91">&lt;/p&gt;</ept><![CDATA[
+
+
+
+]]><bpt id="tjiid604-99">&lt;ul&gt;</bpt><bpt id="tjiid604-100">&lt;li dir="ltr"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-101">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-102">&lt;a name="documented"&gt;</bpt><ept id="tjiid604-102">&lt;/a&gt;</ept><![CDATA[Which algorithms and parameters (such as key sizes or elliptic curve groups) are used in every step of the encryption and authentication process]]><ept id="tjiid604-101">&lt;/p&gt;</ept><![CDATA[
+
+]]><ept id="tjiid604-100">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-99">&lt;/ul&gt;</ept><bpt id="tjiid604-107">&lt;ul&gt;</bpt><bpt id="tjiid604-108">&lt;li dir="ltr"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-109">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-110">&lt;a name="documented"&gt;</bpt><ept id="tjiid604-110">&lt;/a&gt;</ept><![CDATA[How keys are generated, stored, and exchanged between users]]><ept id="tjiid604-109">&lt;/p&gt;</ept><![CDATA[
+
+]]><ept id="tjiid604-108">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-107">&lt;/ul&gt;</ept><bpt id="tjiid604-115">&lt;ul&gt;</bpt><bpt id="tjiid604-116">&lt;li dir="ltr"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-117">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-118">&lt;a name="documented"&gt;</bpt><ept id="tjiid604-118">&lt;/a&gt;</ept><![CDATA[The life-cycle of keys and the process for users to change or revoke their key]]><ept id="tjiid604-117">&lt;/p&gt;</ept><![CDATA[
+
+]]><ept id="tjiid604-116">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-122">&lt;li dir="ltr"&gt;</bpt><![CDATA[
+
+]]><bpt id="tjiid604-123">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-124">&lt;a name="documented"&gt;</bpt><ept id="tjiid604-124">&lt;/a&gt;</ept><![CDATA[A clear statement of the properties and protections the software aims to provide (implicitly, this tends to also provide a threat model, though it's good to have an explicit threat model too). This should also include a clear statement of scenarios in which the protocol is not secure. ]]><ept id="tjiid604-123">&lt;/p&gt;</ept><![CDATA[
+
+]]><ept id="tjiid604-122">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-115">&lt;/ul&gt;</ept><bpt id="tjiid604-129">&lt;a name="documented"&gt;</bpt><ept id="tjiid604-129">&lt;/a&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-131">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-132">&lt;a name="documented"&gt;</bpt><ept id="tjiid604-132">&lt;/a&gt;</ept><bpt id="tjiid604-134">&lt;a name="audited"&gt;</bpt><ept id="tjiid604-134">&lt;/a&gt;</ept><bpt id="tjiid604-136">&lt;strong&gt;</bpt><![CDATA[7.]]><ept id="tjiid604-136">&lt;/strong&gt;</ept><![CDATA[ ]]><bpt id="tjiid604-138">&lt;strong&gt;</bpt><![CDATA[Has there been an independent security audit?]]><ept id="tjiid604-138">&lt;/strong&gt;</ept><ept id="tjiid604-131">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-141">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid604-142">&lt;a name="audited"&gt;</bpt><ept id="tjiid604-142">&lt;/a&gt;</ept><![CDATA[This criterion requires an independent security review has been performed within the 12 months prior to evaluation. This review must cover both the design and the implementation of the app and must be performed by a named auditing party that is independent of the tool's main development team. Audits by an independent security team within a large organization are sufficient. Recognizing that unpublished audits can be valuable, we do not require that the results of the audit have been made public, only that a named party is willing to verify that the audit took place.]]><ept id="tjiid604-141">&lt;/p&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-145">&lt;p dir="ltr"&gt;</bpt><![CDATA[We've discussed this criterion in depth in a Deeplinks post: ]]><bpt id="tjiid604-146">&lt;a href="https://www.eff.org/deeplinks/2014/11/what-makes-good-security-audit"&gt;</bpt><![CDATA[What Makes a Good Security Audit?]]><ept id="tjiid604-146">&lt;/a&gt;</ept><x id="tjiid604-148" ctype="lb"/><![CDATA[ ]]><ept id="tjiid604-145">&lt;/p&gt;</ept><![CDATA[
+
+
+]]><ept id="tjiid604-9">&lt;/div&gt;</ept><![CDATA[
+]]><bpt id="tjiid604-151">&lt;a name="about"&gt;</bpt><ept id="tjiid604-151">&lt;/a&gt;</ept><![CDATA[
+]]><bpt id="tjiid604-153">&lt;div class="section"&gt;</bpt><bpt id="tjiid604-154">&lt;a name="changelog"&gt;</bpt><ept id="tjiid604-154">&lt;/a&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-156">&lt;h2&gt;</bpt><![CDATA[Changelog]]><ept id="tjiid604-156">&lt;/h2&gt;</ept><![CDATA[
+
+Entries in the ]]><bpt id="tjiid604-158">&lt;a href="#"&gt;</bpt><![CDATA[Secure Messaging Scorecard]]><ept id="tjiid604-158">&lt;/a&gt;</ept><![CDATA[ were checked with the listed projects and companies when the Scorecard launched on 2014-11-06. Updates will be made if the listees or others inform us of changes or inaccuracies. A log of all such changes is below:
+
+]]><bpt id="tjiid604-160">&lt;ul style="font-size: 13.0080003738403px; line-height: 20.0063037872314px;"&gt;</bpt><bpt id="tjiid604-161">&lt;li&gt;</bpt><bpt id="tjiid604-162">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[2015-06-12]]><ept id="tjiid604-162">&lt;/strong&gt;</ept><bpt id="tjiid604-164">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[ :]]><ept id="tjiid604-164">&lt;/span&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-166">&lt;ul&gt;</bpt><bpt id="tjiid604-167">&lt;li&gt;</bpt><![CDATA[We removed Secret as the service was ]]><bpt id="tjiid604-168">&lt;a href="https://medium.com/secret-den/sunset-bc18450478d5" title="Secret sunset"&gt;</bpt><![CDATA[shut down]]><ept id="tjiid604-168">&lt;/a&gt;</ept><![CDATA[ in May 2015.]]><ept id="tjiid604-167">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-166">&lt;/ul&gt;</ept><ept id="tjiid604-161">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-173">&lt;li&gt;</bpt><bpt id="tjiid604-174">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[2015-03-06]]><ept id="tjiid604-174">&lt;/strong&gt;</ept><bpt id="tjiid604-176">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[ :]]><ept id="tjiid604-176">&lt;/span&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-178">&lt;ul&gt;</bpt><bpt id="tjiid604-179">&lt;li&gt;</bpt><![CDATA[We credited QQ for completing an independent internal security audit (]]><bpt id="tjiid604-180">&lt;span style="color: #008000;"&gt;</bpt><![CDATA[✓]]><ept id="tjiid604-180">&lt;/span&gt;</ept><![CDATA[)]]><bpt id="tjiid604-182">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[.]]><ept id="tjiid604-182">&lt;/span&gt;</ept><ept id="tjiid604-179">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-178">&lt;/ul&gt;</ept><ept id="tjiid604-173">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-187">&lt;li&gt;</bpt><bpt id="tjiid604-188">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[2015-02-17]]><ept id="tjiid604-188">&lt;/strong&gt;</ept><bpt id="tjiid604-190">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[ :]]><ept id="tjiid604-190">&lt;/span&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-192">&lt;ul&gt;</bpt><bpt id="tjiid604-193">&lt;li&gt;</bpt><![CDATA[We credited Telegram (both secret and regular mode) for undergoing a code audit in February 2015 ]]><bpt id="tjiid604-194">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[(]]><ept id="tjiid604-194">&lt;/span&gt;</ept><bpt id="tjiid604-196">&lt;span style="line-height: 20.0063037872314px; color: #008000;"&gt;</bpt><![CDATA[✓]]><ept id="tjiid604-196">&lt;/span&gt;</ept><bpt id="tjiid604-198">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[).]]><ept id="tjiid604-198">&lt;/span&gt;</ept><ept id="tjiid604-193">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-192">&lt;/ul&gt;</ept><ept id="tjiid604-187">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-203">&lt;li&gt;</bpt><bpt id="tjiid604-204">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[2015-01-29]]><ept id="tjiid604-204">&lt;/strong&gt;</ept><bpt id="tjiid604-206">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[ :]]><ept id="tjiid604-206">&lt;/span&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-208">&lt;ul&gt;</bpt><bpt id="tjiid604-209">&lt;li&gt;</bpt><bpt id="tjiid604-210">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[We have credited QQ for encrypting messages in transit ]]><ept id="tjiid604-210">&lt;/span&gt;</ept><bpt id="tjiid604-212">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[(]]><ept id="tjiid604-212">&lt;/span&gt;</ept><bpt id="tjiid604-214">&lt;span style="color: #008000;"&gt;</bpt><![CDATA[✓]]><ept id="tjiid604-214">&lt;/span&gt;</ept><bpt id="tjiid604-216">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[). Though QQ does not use TLS/SSL, which is considered best practice, they have implemented a custom protocol for message encryption in transit.]]><ept id="tjiid604-216">&lt;/span&gt;</ept><ept id="tjiid604-209">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-219">&lt;li&gt;</bpt><bpt id="tjiid604-220">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt><![CDATA[We have clarified our scoring for forward secrecy (criterion #4).]]><ept id="tjiid604-220">&lt;/span&gt;</ept><ept id="tjiid604-219">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-208">&lt;/ul&gt;</ept><ept id="tjiid604-203">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-225">&lt;li&gt;</bpt><bpt id="tjiid604-226">&lt;strong style="line-height: 1.538em;"&gt;</bpt><![CDATA[2015-01-05]]><ept id="tjiid604-226">&lt;/strong&gt;</ept><bpt id="tjiid604-228">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[ :]]><ept id="tjiid604-228">&lt;/span&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-230">&lt;ul&gt;</bpt><bpt id="tjiid604-231">&lt;li&gt;</bpt><bpt id="tjiid604-232">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[We have split the scoring for Telegram into two rows: baseline Telegram and Telegram secret chats. Baseline Telegram chats are not end-to-end encrypted so that the provider can't read them (]]><ept id="tjiid604-232">&lt;/span&gt;</ept><bpt id="tjiid604-234">&lt;span style="color: #ff0000;" data-mce-mark="1"&gt;</bpt><![CDATA[✘]]><ept id="tjiid604-234">&lt;/span&gt;</ept><bpt id="tjiid604-236">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[). Telegram secret chats are, and in addition Telegram now ]]><ept id="tjiid604-236">&lt;/span&gt;</ept><bpt id="tjiid604-238">&lt;a href="https://core.telegram.org/api/pfs" title="Telegram perfect forward secrecy blog post" style="line-height: 1.538em;"&gt;</bpt><![CDATA[supports perfect forward secrecy]]><ept id="tjiid604-238">&lt;/a&gt;</ept><bpt id="tjiid604-240">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[ so that messages can be securely deleted (]]><ept id="tjiid604-240">&lt;/span&gt;</ept><bpt id="tjiid604-242">&lt;span style="color: #008000;" data-mce-mark="1"&gt;</bpt><![CDATA[✓]]><ept id="tjiid604-242">&lt;/span&gt;</ept><bpt id="tjiid604-244">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[)]]><ept id="tjiid604-244">&lt;/span&gt;</ept><ept id="tjiid604-231">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-247">&lt;li&gt;</bpt><bpt id="tjiid604-248">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[Wickr now provides the ability to verify contact's identities by exposing key fingerprints, which can be verified out-of-band or through in-band video. (]]><ept id="tjiid604-248">&lt;/span&gt;</ept><bpt id="tjiid604-250">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[✓]]><ept id="tjiid604-250">&lt;/span&gt;</ept><bpt id="tjiid604-252">&lt;span style="line-height: 1.538em;"&gt;</bpt><![CDATA[)]]><ept id="tjiid604-252">&lt;/span&gt;</ept><ept id="tjiid604-247">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-230">&lt;/ul&gt;</ept><ept id="tjiid604-225">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-160">&lt;/ul&gt;</ept><bpt id="tjiid604-258">&lt;ul&gt;</bpt><bpt id="tjiid604-259">&lt;li&gt;</bpt><bpt id="tjiid604-260">&lt;strong&gt;</bpt><![CDATA[2014-11-14]]><ept id="tjiid604-260">&lt;/strong&gt;</ept><![CDATA[ :
+
+]]><bpt id="tjiid604-262">&lt;ul&gt;</bpt><bpt id="tjiid604-263">&lt;li&gt;</bpt><![CDATA[RIM has told us that BlackBerry Messenger Protected uses an ]]><bpt id="tjiid604-264">&lt;a href="http://docs.blackberry.com/en/admin/deliverables/64972/BBM_Protected-Security_Note_en.pdf"&gt;</bpt><![CDATA[out-of-band passphrase exchange]]><ept id="tjiid604-264">&lt;/a&gt;</ept><![CDATA[ and ]]><bpt id="tjiid604-266">&lt;a href="https://en.wikipedia.org/wiki/SPEKE_(cryptography)"&gt;</bpt><![CDATA[EC-SPEKE]]><ept id="tjiid604-266">&lt;/a&gt;</ept><![CDATA[ to perform identity verification. (✓) RIM has also told us that BBM Protected receives security reviews by an internal security team. (✓)]]><ept id="tjiid604-263">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-269">&lt;li&gt;</bpt><![CDATA[Viber has received a recent external security audit from EY Advanced Security Center. (✓)]]><ept id="tjiid604-269">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-271">&lt;li&gt;</bpt><![CDATA[Pidgin has documented a number of auditing processes including regular use of static analysis tools and audits by a team at Cisco Talos. The Pidgin developers were clear that they do not know how thorough and complete these audits have been, but the audits nonetheless ]]><bpt id="tjiid604-272">&lt;a href="https://www.eff.org/deeplinks/2014/11/what-makes-good-security-audit"&gt;</bpt><![CDATA[meet our criteria]]><ept id="tjiid604-272">&lt;/a&gt;</ept><![CDATA[. (✓) Although auditing of Pidgin improves the security of the related Adium project (the projects share many components including libpurple, libotr, and libxml2), the Adium developers tell us that besides occasional static analysis by the developers themselves they are not aware of any independent auditing effort that addresses the Adium-specific code. So for the time being that project will not receive an audit checkmark.]]><ept id="tjiid604-271">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-262">&lt;/ul&gt;</ept><ept id="tjiid604-259">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-277">&lt;li&gt;</bpt><bpt id="tjiid604-278">&lt;strong&gt;</bpt><![CDATA[2014-11-10]]><ept id="tjiid604-278">&lt;/strong&gt;</ept><![CDATA[ : Skype check mark for end-to-end encryption ]]><bpt id="tjiid604-280">&lt;a href="https://www.eff.org/deeplinks/2014/11/scorecard-update-we-cannot-credit-skype-end-end-encryption"&gt;</bpt><![CDATA[removed]]><ept id="tjiid604-280">&lt;/a&gt;</ept><![CDATA[. (✘)]]><ept id="tjiid604-277">&lt;/li&gt;</ept><![CDATA[
+	]]><bpt id="tjiid604-283">&lt;li&gt;</bpt><bpt id="tjiid604-284">&lt;strong&gt;</bpt><![CDATA[2014-11-04]]><ept id="tjiid604-284">&lt;/strong&gt;</ept><![CDATA[ : Snapchat app has audits from an internal security team. (✓)]]><ept id="tjiid604-283">&lt;/li&gt;</ept><![CDATA[
+]]><ept id="tjiid604-258">&lt;/ul&gt;</ept><ept id="tjiid604-153">&lt;/div&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Body</note>
+    </trans-unit>
+    <trans-unit id="604][body][0][summary" resname="604][body][0][summary">
+     <source xml:lang="en"><bpt id="tjiid604-1">&lt;h3&gt;</bpt><![CDATA[Which apps and tools actually keep your messages safe?]]><ept id="tjiid604-1">&lt;/h3&gt;</ept><![CDATA[
+
+]]><bpt id="tjiid604-3">&lt;div class="section"&gt;</bpt><![CDATA[
+
+In the face of widespread Internet surveillance, we need a secure and practical means of talking to each other from our phones and computers. Many companies offer “secure messaging” products—but are these systems actually secure? We decided to find out, in the first phase of a new EFF Campaign for Secure &amp; Usable Crypto.
+
+This scorecard represents only the first phase of the campaign. In later phases, we are planning to offer closer examinations of the usability and security of the tools that score the highest here. As such, ]]><bpt id="tjiid604-4">&lt;span style="text-decoration: underline;"&gt;</bpt><![CDATA[the results in the scorecard below should not be read as endorsements of individual tools or guarantees of their security]]><ept id="tjiid604-4">&lt;/span&gt;</ept><![CDATA[; they are merely indications that the projects are on the right track. For practical advice and tutorials on how to protect your online communication against surveillance, check out EFF's ]]><bpt id="tjiid604-6">&lt;a href="https://ssd.eff.org/"&gt;</bpt><![CDATA[Surveillance Self-Defense]]><ept id="tjiid604-6">&lt;/a&gt;</ept><![CDATA[ guide.
+
+]]><ept id="tjiid604-3">&lt;/div&gt;</ept></source>
+     <target xml:lang="th"/>
+     <note>Summary</note>
+    </trans-unit>
+    <trans-unit id="604][title_field][0][value" resname="604][title_field][0][value">
+     <source xml:lang="en"><![CDATA[Secure Messaging Scorecard]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="605">
+    <note>HTTPS Everywhere (menu:item:1953)</note>
+    <trans-unit id="605][menu:item:1953:title" resname="605][menu:item:1953:title">
+     <source xml:lang="en"><![CDATA[HTTPS Everywhere]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="606">
+    <note>Creating HTTPS Everywhere Rulesets (menu:item:1956)</note>
+    <trans-unit id="606][menu:item:1956:title" resname="606][menu:item:1956:title">
+     <source xml:lang="en"><![CDATA[Creating HTTPS Everywhere Rulesets]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="607">
+    <note>HTTPS Everywhere Atlas (menu:item:7475)</note>
+    <trans-unit id="607][menu:item:7475:title" resname="607][menu:item:7475:title">
+     <source xml:lang="en"><![CDATA[HTTPS Everywhere Atlas]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="608">
+    <note>How to Deploy HTTPS Correctly (menu:item:1955)</note>
+    <trans-unit id="608][menu:item:1955:title" resname="608][menu:item:1955:title">
+     <source xml:lang="en"><![CDATA[How to Deploy HTTPS Correctly]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="609">
+    <note>Report Bugs / Hack On The Code (menu:item:1957)</note>
+    <trans-unit id="609][menu:item:1957:title" resname="609][menu:item:1957:title">
+     <source xml:lang="en"><![CDATA[Report Bugs / Hack On The Code]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="610">
+    <note>FAQ (menu:item:1954)</note>
+    <trans-unit id="610][menu:item:1954:title" resname="610][menu:item:1954:title">
+     <source xml:lang="en"><![CDATA[FAQ]]></source>
+     <target xml:lang="th"/>
+     <note>Title</note>
+    </trans-unit>
+   </group>
+   <group id="611">
+    <note>HTTPS Everywhere is a Firef...</note>
+    <trans-unit id="611][singular" resname="611][singular">
+     <source xml:lang="en"><![CDATA[HTTPS Everywhere is a Firefox, Chrome, and Opera extension that encrypts your communications with many major websites, making your browsing more secure.]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="612">
+    <note>Encrypt the web: Install HT...</note>
+    <trans-unit id="612][singular" resname="612][singular">
+     <source xml:lang="en"><![CDATA[Encrypt the web: Install HTTPS Everywhere today.]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="613">
+    <note>Install in Firefox</note>
+    <trans-unit id="613][singular" resname="613][singular">
+     <source xml:lang="en"><![CDATA[Install in Firefox]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="614">
+    <note>Install in Firefox for Android</note>
+    <trans-unit id="614][singular" resname="614][singular">
+     <source xml:lang="en"><![CDATA[Install in Firefox for Android]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="615">
+    <note>Install in Chrome</note>
+    <trans-unit id="615][singular" resname="615][singular">
+     <source xml:lang="en"><![CDATA[Install in Chrome]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="616">
+    <note>Install in Opera</note>
+    <trans-unit id="616][singular" resname="616][singular">
+     <source xml:lang="en"><![CDATA[Install in Opera]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="617">
+    <note>Recent Releases</note>
+    <trans-unit id="617][singular" resname="617][singular">
+     <source xml:lang="en"><![CDATA[Recent Releases]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="618">
+    <note>Stable releases for Firefox:</note>
+    <trans-unit id="618][singular" resname="618][singular">
+     <source xml:lang="en"><![CDATA[Stable releases for Firefox:]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="619">
+    <note>Stable releases for Chrome,...</note>
+    <trans-unit id="619][singular" resname="619][singular">
+     <source xml:lang="en"><![CDATA[Stable releases for Chrome, Chromium, and Opera 15+:]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="620">
+    <note>Changelog.txt</note>
+    <trans-unit id="620][singular" resname="620][singular">
+     <source xml:lang="en"><![CDATA[Changelog.txt]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="621">
+    <note>Note: If you install the st...</note>
+    <trans-unit id="621][singular" resname="621][singular">
+     <source xml:lang="en"><![CDATA[Note: If you install the standalone .crx (i.e. not from the Chrome Web Store), and you are using Windows, Chrome will automatically disable the extension on each restart. You may be able to work around by using developer mode. See ]]><bpt id="tjiid621-1">&lt;a href="https://github.com/EFForg/https-everywhere/issues/819"&gt;</bpt><![CDATA[this issue]]><ept id="tjiid621-1">&lt;/a&gt;</ept><![CDATA[.]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="622">
+    <note>Featured Tools</note>
+    <trans-unit id="622][singular" resname="622][singular">
+     <source xml:lang="en"><![CDATA[Featured Tools]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="623">
+    <note>All Tools</note>
+    <trans-unit id="623][singular" resname="623][singular">
+     <source xml:lang="en"><![CDATA[All Tools]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="624">
+    <note>Yes</note>
+    <trans-unit id="624][singular" resname="624][singular">
+     <source xml:lang="en"><![CDATA[Yes]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="625">
+    <note>No</note>
+    <trans-unit id="625][singular" resname="625][singular">
+     <source xml:lang="en"><![CDATA[No]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="626">
+    <note>Encrypted in transit?</note>
+    <trans-unit id="626][singular" resname="626][singular">
+     <source xml:lang="en"><![CDATA[Encrypted in transit?]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="627">
+    <note>Encrypted so the provider c...</note>
+    <trans-unit id="627][singular" resname="627][singular">
+     <source xml:lang="en"><![CDATA[Encrypted so the provider can’t read it?]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="628">
+    <note>Can you verify contacts’ id...</note>
+    <trans-unit id="628][singular" resname="628][singular">
+     <source xml:lang="en"><![CDATA[Can you verify contacts’ identities?]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="629">
+    <note>Are past comms secure if yo...</note>
+    <trans-unit id="629][singular" resname="629][singular">
+     <source xml:lang="en"><![CDATA[Are past comms secure if your keys are stolen?]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="630">
+    <note>Is the code open to indepen...</note>
+    <trans-unit id="630][singular" resname="630][singular">
+     <source xml:lang="en"><![CDATA[Is the code open to independent review?]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="631">
+    <note>Is security design properly...</note>
+    <trans-unit id="631][singular" resname="631][singular">
+     <source xml:lang="en"><![CDATA[Is security design properly documented?]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+   <group id="632">
+    <note>Has there been any recent c...</note>
+    <trans-unit id="632][singular" resname="632][singular">
+     <source xml:lang="en"><![CDATA[Has there been any recent code audit?]]></source>
+     <target xml:lang="th"/>
+     <note>Singular</note>
+    </trans-unit>
+   </group>
+  </body>
+ </file>
+</xliff>
