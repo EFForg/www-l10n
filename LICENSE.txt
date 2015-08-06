@@ -1,0 +1,4 @@
+LICENSE
+=======
+
+https://www.eff.org/copyright
