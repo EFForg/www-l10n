@@ -14,13 +14,38 @@
                     <source xml:lang="en">
                         <bpt id="tjiid634-1">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         This page answers frequently-asked questions about EFF's <bpt id="tjiid634-2">&lt;a href="/https-everywhere"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         HTTPS Everywhere<ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          project. If your question isn't answered below, you can try the resources <bpt id="tjiid634-4">&lt;a href="/https-everywhere/development"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         listed here<ept id="tjiid634-4">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
@@ -40,12 +65,32 @@
                         <ept id="tjiid634-3">&lt;/a&gt;</ept>
                         <bpt id="tjiid634-5">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         This is occasionally possible because of inconsistent support for HTTPS on sites (e.g., when a site seems to support HTTPS access but makes a few, unpredictable, parts of the site unavailable in HTTPS). If you <bpt id="tjiid634-6">&lt;a href="https://github.com/EFForg/https-everywhere/issues"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         report the problem to us<ept id="tjiid634-6">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , we can try to fix it. In the meantime, you can disable the rule affecting that particular site in your own copy of HTTPS Everywhere by clicking on the HTTPS Everywhere toolbar button and unchecking the rule for that site.<ept id="tjiid634-5">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-9">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         You can also report the problem to the site, since they have the power to fix it!<ept id="tjiid634-9">&lt;/p&gt;</ept>
                     </source>
@@ -65,6 +110,11 @@
                         <ept id="tjiid634-3">&lt;/a&gt;</ept>
                         <bpt id="tjiid634-5">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Some wireless networks hijack your HTTP connections when you first join them, in order to demand authentication or simply to try to make you agree to terms of use. HTTPS pages are protected against this type of hijacking, which is as it should be. If you go to a website that isn't protected by HTTPS Everywhere (currently, nytimes.com is one such site) that will allow your connection to be captured and redirected to the authentication or terms of use page.<ept id="tjiid634-5">&lt;/p&gt;</ept>
                     </source>
                     <target>&lt;p&gt;&lt;/p&gt;&lt;a name="captiveportal"&gt;&lt;/a&gt;&lt;p&gt;Bazı kablosuz ağlar, doğrulama talep etmek ya da sizi kullanım koşullarını kabul etmeye zorlamak için bu ağlara bağlandığınızda HTTP bağlantılarınızı çalarlar. HTTPS sayfaları olması gerektiği gibi bu tarz çalınmalara karşı korumalıdır. HTTPS Everywhere tarafından korunmayan bir siteyi ziyaret edderseniz (şu an için nytimes.com buna bir örnektir), bu bağlantınızın yakalanmasına ve doğrulanma ya da kullanım koşulları sayfasına yönlendirmesine olanak sağlar.&lt;/p&gt;</target>
@@ -81,17 +131,52 @@
                         <bpt id="tjiid634-2">&lt;a name="platform"&gt;</bpt>
                         <ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          As of early 2012, the Safari extension API does not offer a way to perform secure rewriting of http requests to https. But if you happen to know a way to perform secure request rewriting in these browsers, feel free to let us know at <bpt id="tjiid634-4">&lt;tt&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         https-everywhere at EFF.org<ept id="tjiid634-4">&lt;/tt&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          (but note that modifying <bpt id="tjiid634-6">&lt;tt&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         document.location<ept id="tjiid634-6">&lt;/tt&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          or <bpt id="tjiid634-8">&lt;tt&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         window.location<ept id="tjiid634-8">&lt;/tt&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          in JavaScript is not secure).<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
@@ -109,21 +194,66 @@
                         <bpt id="tjiid634-2">&lt;a name="automatic-https"&gt;</bpt>
                         <ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          There are several problems with the idea of trying to automatically detect HTTPS on every site. There is no guarantee that sites are going to give the same response via HTTPS that they give via HTTP. As of 2015, Forbes is a good example of this problem: compare these <bpt id="tjiid634-4">&lt;a href="http://forbes.com"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         HTTP<ept id="tjiid634-4">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          and <bpt id="tjiid634-6">&lt;a href="https://forbes.com"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         HTTPS<ept id="tjiid634-6">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          responses. Also, it's not possible to test for HTTPS in real time without introducing security vulnerabilities (What should the extension do if the HTTPS connection attempt fails? Falling back to insecure HTTP isn't safe). And in some cases, HTTPS Everywhere has to perform quite complicated transformations on URIs — for example until recently the Wikipedia rule had to turn an address like <bpt id="tjiid634-8">&lt;tt&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         http://en.wikipedia.org/wiki/World_Wide_Web<ept id="tjiid634-8">&lt;/tt&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          into one like <bpt id="tjiid634-10">&lt;tt&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         https://secure.wikimedia.org/wikipedia/en/wiki/World_Wide_Web<ept id="tjiid634-10">&lt;/tt&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          because HTTPS was not available on Wikipedia's usual domains.<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
@@ -141,18 +271,33 @@
                         <bpt id="tjiid634-2">&lt;a name="toolbar"&gt;</bpt>
                         <ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          The HTTPS Everywhere button is useful because it allows you to see, and disable, a ruleset if it happens to be causing problems with a site. But if you'd rather disable it, go to View-&amp;gt;Toolbars-&amp;gt;Customize, and drag the button out of the toolbar into the Addons bar at the bottom of the page. Then you can hide the Addons bar. (In theory you should be able to drag it into the tray of available icons too, but that may trigger <bpt id="tjiid634-4">&lt;a href="https://trac.torproject.org/projects/tor/ticket/6276"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         this bug<ept id="tjiid634-4">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         .<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;a name="toolbar"&gt;&lt;/a&gt;HTTPS Everywhere butonu, eklentinin bir sitede problem çıkartması durumunda eklentinin kural setini görmenizi ve devre dışı bırakmanıza olanak sağladığı için yararlıdır. Ama butonu devre dışı bırakmak istiyorsanız, bunu View (Görünüm)-&amp;gt;Toolbars (Araç Çubuğu)-&amp;gt;Customize (Özelleştir)'e giderek ve butonu araçlar çubuğundan sayfanın alt kısmında bulunan Addons (Eklentiler) çubuğuna taşıyarak gerçekleştirebilirsiniz. Daha sonra Addons (Eklentiler) çubuğunu gizleyebilirsiniz. (Teorik olarak butonu diğer ikonların mevcut olduğu bölüme taşıyabilirsiniz, ancak bu işlem &lt;a href="https://trac.torproject.org/projects/tor/ticket/6276"&gt;linkteki bug&lt;/a&gt;'ın oluşmasına sebep olabilir.)&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][5][question" resname="634][field_questions][5][question">
                     <source xml:lang="en">When does HTTPS Everywhere protect me? When does it not protect me?</source>
-                    <target></target>
+                    <target>HTTPS Everywhere beni ne zaman korur, ne zaman korumaz?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][5][answer" resname="634][field_questions][5][answer">
@@ -160,36 +305,81 @@
                         <bpt id="tjiid634-1">&lt;a name="where"&gt;</bpt>
                         <ept id="tjiid634-1">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
 
 HTTPS Everywhere protects you only when you are using <bpt id="tjiid634-3">&lt;em&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         encrypted portions of supported web sites<ept id="tjiid634-3">&lt;/em&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . On a supported site, it will automatically activate HTTPS encryption for all known supported parts of the site (for some sites, this might be only a portion of the entire site). For example, if your web mail provider does not support HTTPS at all, HTTPS Everywhere can't make your access to your web mail secure. Similarly, if a site allows HTTPS for text but not images, someone might be able to see which images your browser loads and guess what you're accessing.
 
 HTTPS Everywhere depends entirely on the security features of the individual web sites that you use; it <bpt id="tjiid634-5">&lt;em&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         activates<ept id="tjiid634-5">&lt;/em&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          those security features, but it can't <bpt id="tjiid634-7">&lt;em&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         create<ept id="tjiid634-7">&lt;/em&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          them if they don't already exist. If you use a site not supported by HTTPS Everywhere or a site that provides some information in an insecure way, HTTPS Everywhere can't provide additional protection for your use of that site. Please remember to check that a particular site's security is working to the level you expect before sending or receiving confidential information, including passwords.
 
 One way to determine what level of protection you're getting when using a particular site is to use a packet-sniffing tool like <bpt id="tjiid634-9">&lt;a href="http://www.wireshark.org/"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Wireshark<ept id="tjiid634-9">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          to record your own communications with the site. The resulting view of your communications is about the same as what an eavesdropper on your wifi network or at your ISP would see. This way, you can determine whether some or all of your communications would be protected; however, it may be quite time-consuming to make sense of the Wireshark output with enough care to get a definitive answer.
 
 You can also turn on the "Block all HTTP requests" feature for added protection. Instead of loading insecure pages or images, HTTPS Everywhere will block them outright.</source>
-                    <target></target>
+                    <target>&lt;a name="where"&gt;&lt;/a&gt;HTTPS Everywhere sizi sadece &lt;em&gt;desteklenen websitelerinin şifrelenmiş kısımlarını kullanırken korur.&lt;/em&gt; Desteklenmiş site üzerinde eklenti, sitenin desteklenmiş olduğu bilinen bölümleri için HTTPS şifrelemesini otomatik olarak aktifleştirir (bazı siteler için, bu sitenin yalnızca bir kesimi olabilir). Örneğin, web eposta sağlayıcınız HTTPS'yi hiçbir şekilde desteklemiyorsa, HTTPS Everywhere eposta sağlayıcınızla olan bağlantıyı güvenli hale getiremez. Benzer olarak, eğer bir site metin için HTTPS destekliyor, ancak resimler için desteklemiyorsa, bir kişi internet tarayıcınızın hangi resimleri görüntülediğini görebilir ve hangi siteye eriştiğinizi tahmin edebilir. HTTPS Everywhere çalışması tamamıyla kullandığınız sitelerin güvenlik özelliklerine dayanır; &lt;em&gt;eklenti bu güvenlik özelliklerini aktifleştirir ancak bu güvenlik özellikleri yerinde değilse onları yaratamaz&lt;/em&gt;. Eğer HTTPS Everywhere tarafından desteklenmeyen ya da güvenli olmayan bir şekilde bilgi sağlayan bir site kullanıyorsanız, bu siteyi kullanırken HTTPS Everywhere size ekstra bir güvenlik sağlayamaz. Lütfen belli bir siteye şifreler dahil olmak üzere gizli bir bilgi göndermeden veya almadan önce, o sitenin güvenliğini kontrol edin. Bir siteyi kullanmadan önce, korunma seviyenizi tespit etmenizin yollarından biri &lt;a href="http://www.wireshark.org/"&gt;Wireshark&lt;/&gt; tarzı siteyle iletişiminizi kayıt altına alan bir veri (paket) koklayıcı kullanmanızdır. Bu işlemin sonucunda görecekleriniz, ISS'inizin ya da wifi ağınızı izleyen birinin görecekleriyle aşağı yukarı aynıdır. Bu yolla haberleşmelerinizin belli bir bölümünün mü yoksa tamamının mı korunacağını belirleyebilirsiniz; ancak, Wireshark çıktısından akla yatar bir sonuç almak size oldukça zaman harcatabilir. Aynı zamanda eklentinin "Block all HTTP requests" (Tüm HTTP isteklerini engelle) özelliğini ek güvenlik önlemi için aktifleştirebilirsiniz. Güvenli olmayan sayfaları ya da resimleri yüklemek yerine, HTTPS Everywhere bunları kesin olarak engeller.</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][6][question" resname="634][field_questions][6][question">
                     <source xml:lang="en">What does HTTPS Everywhere protect me against?</source>
-                    <target></target>
+                    <target>HTTPS Everywhere beni nelere karşı korur?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][6][answer" resname="634][field_questions][6][answer">
@@ -200,31 +390,71 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <ept id="tjiid634-3">&lt;/a&gt;</ept>
                         <bpt id="tjiid634-5">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         On supported parts of supported sites, HTTPS Everywhere enables the sites' HTTPS protection which can protect you against eavesdropping and tampering with the contents of the site or with the information you send to the site. Ideally, this provides some protection against an attacker learning the content of the information flowing in each direction — for instance, the text of e-mail messages you send or receive through a webmail site, the products you browse or purchase on an e-commerce site, or the particular articles you read on a reference site.<ept id="tjiid634-5">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-7">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         However, HTTPS Everywhere <bpt id="tjiid634-8">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         does not conceal the identities of the sites you access<ept id="tjiid634-8">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         , the amount of time you spend using them, or the amount of information you upload or download from a particular site. For example, if you access http://www.eff.org/issues/nsa-spying and HTTPS Everywhere rewrites it to https://www.eff.org/issues/nsa-spying, an eavesdropper can still trivially recognize that you are accessing www.eff.org (but might not know which issue you are reading about). In general, the entire hostname part of the URL remains exposed to the eavesdropper because this must be sent repeatedly in unencrypted form while setting up the connection. Another way of saying this is that HTTPS was never designed to conceal the identity of the sites that you visit.<ept id="tjiid634-7">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-11">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Researchers have also shown that it may be possible for someone to figure out more about what you're doing on a site merely through careful observation of the amount of data you upload and download, or the timing patterns of your use of the site. A simple example is that if the site only has one page of a certain total size, anyone downloading exactly that much data from the site is probably accessing that page.<ept id="tjiid634-11">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-13">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         If you want to protect yourself against monitoring of the sites you visit, consider using HTTPS Everywhere together with software like <bpt id="tjiid634-14">&lt;a href="https://www.torproject.org/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Tor<ept id="tjiid634-14">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         .<ept id="tjiid634-13">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;/p&gt;&lt;a name="threats"&gt;&lt;/a&gt;&lt;p&gt;  Desteklenen sitelerin desteklenen bölümlerinde, HTTPS Everywhere sitenin HTTPS korumasını kullanarak başkalarının bağlantınızı izlemesine, sitenin içeriğini değiştirmesine ya da siteye gönderdiğiniz bilgilerin değiştirilmesine karşı korur. İdeal olarak, bu her bir yöne dağılan bilgilerin içeriğinin bir saldırgan tarafından öğrenilmesine karşı bir koruma sağlar. Bir webmail sitesi aracılığıyla gönderdiğiniz ve aldığınız eposta mesajlarınız, bir online alışveriş sitesinden baktığınız ya da satın aldığınız ürünler, ya da bir site üzerinden okuduğunuz makaleler bunlara örnek olabilir.&lt;/p&gt;&lt;p&gt;   Ancak, HTTPS Everywhere &lt;strong&gt;ziyaret ettiğiniz sitelerin kimliklerini, bu sitelerde ne kadar zaman geçirdiğinizi ya da o siteye ne kadar bilgi yüklediğiniz veya indirdiğiniz bilgisini gizlemez.&lt;/strong&gt; Örneğin, http://www.eff.org/issues/nsa-spying adresine eriştiğinizde ve HTTPS Everywhere bu adresi https://www.eff.org/issues/nsa-spying olarak değiştirdiğinde, bağlantınızı izleyen kişi www.eff.org adresine girdiğinizi kolay bir şekilde öğrenebilir (ancak bu sitede hangi bölümü okuduğunuzu bilemeyebilir). Genel olarak, sistem adının (hostname) tamamı sizi izleyen kişilere karşı korumasızdır çünkü bu adres siteyle bağlantıyı kurabilmek için defalarca şifresiz bir şekilde gönderilir. Bunu söylemenin bir diğer yolu, HTTPS'nin ziyaret ettiğiniz sitelerin kimliğini gizlemek için tasarlanmamış bir protokol olmadığıdır.&lt;/p&gt;&lt;p&gt;  Araştırmacılar ayrıca bir kişinin siteye gönderdiğiniz ya da aldığınız veri boyutuna veya siteyi kullandığınız zaman dilimine bakarak bir site üzerinde neler yaptığınızın anlaşılabileceğini göstermiştir. Basit bir örnek vermek gerekise; bir sitenin bir sayfasının belli bir boyutu varsa, bu sayfayı kim görüntülerse görüntülesin aynı boyutta veri indirecektir. Bu da bu site üzerinde hangi sayfayı görüntülediğini ele verebilir.&lt;/p&gt;&lt;p&gt;  Eğer başkalarının hangi sitelere girdiğinizi görmesini istemiyorsanız, HTTPS Everywhere ile birlikte &lt;a href="https://www.torproject.org/"&gt;Tor&lt;/a&gt; kullanmayı düşünün.&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][7][question" resname="634][field_questions][7][question">
                     <source xml:lang="en">How do I get support for an additional site in HTTPS Everywhere?</source>
-                    <target></target>
+                    <target>HTTPS Everywhere'de ek bir site için nasıl destek alabilirim?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][7][answer" resname="634][field_questions][7][answer">
@@ -233,24 +463,44 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <bpt id="tjiid634-2">&lt;a name="sites"&gt;</bpt>
                         <ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          You can learn <bpt id="tjiid634-4">&lt;a href="https://www.eff.org/https-everywhere/rulesets"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         how to write rules<ept id="tjiid634-4">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          that teach HTTPS Everywhere to support new sites. You can install these rules in your own browser or send them to us for possible inclusion in the official version.<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;a name="sites"&gt;&lt;/a&gt;  HTTPS Everywhere'e yeni siteleri desteklemesi için kuralların nasıl yazılacağını &lt;a href="https://www.eff.org/https-everywhere/rulesets"&gt;linkteki sayfadan&lt;/a&gt; öğrenebilirsiniz. Bu kuralları kendi internet tarayıcınıza indirebilir ya da resmi sürüme eklenmesi ihtimali için bize gönderebilirsiniz.&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][8][question" resname="634][field_questions][8][question">
                     <source xml:lang="en">What if the site doesn't support HTTPS, or only supports it for some activities, like entering credit card information?</source>
-                    <target></target>
+                    <target>Ya bir site HTTPS'i desteklemiyor ya da sadece kredi kartı bilgisi ekranı gibi belli yerlerde destekliyorsa?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][8][answer" resname="634][field_questions][8][answer">
                     <source xml:lang="en">
                         <bpt id="tjiid634-1">&lt;p&gt;</bpt>
                         <bpt id="tjiid634-2">&lt;a href="https://letsencrypt.org/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         https://letsencrypt.org/<ept id="tjiid634-2">&lt;/a&gt;</ept>
                         <ept id="tjiid634-1">&lt;/p&gt;</ept>
@@ -260,17 +510,27 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <ept id="tjiid634-7">&lt;/a&gt;</ept>
                         <bpt id="tjiid634-9">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         You could try to contact the site and point out that using HTTPS for all site features is an increasingly common practice nowadays and protects users (and sites) against a variety of Internet attacks. For instance, it defends against the ability of other people on a wifi network to spy on your use of the site or even take over your account. You can also point out that credit card numbers aren't the only information you consider private or sensitive.<ept id="tjiid634-9">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-11">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Sites like Google, Twitter, and Facebook now support HTTPS for non-financial information — for general privacy and security reasons.<ept id="tjiid634-11">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;a href="https://letsencrypt.org/"&gt;https://letsencrypt.org/&lt;/a&gt;&lt;/p&gt;&lt;a name="partial"&gt;&lt;/a&gt;&lt;a name="amo"&gt;&lt;/a&gt;&lt;/p&gt;Siteyle iletişime geçip, HTTPS desteğinin gittikçe yaygınlaşan bir uygulama olduğunu ve kullanıcıları (ve siteleri) çeşitli internet saldırılarına karşı koruduğunu belirtebilirsiniz. Örneğin, HTTPS aynı wifi ağı üzerinde bulunan kişilerin kullandığınız siteler aracılığıyla sizi gözetlemesini ya da hesabınızı ele geçirmesini engeller. Bunun yanında, gizli ya da hassas bilgilerin kredi kartı numaralarıyla sınırlı olmadığını da siteye belirtebilirsiniz.&lt;/p&gt;&lt;p&gt;  Google, Twitter ve Facebook gibi siteler, artık genel gizlilik ve güvenlik sebeplerinden ötürü mali olmayan bilgiler için bile HTTPS desteği sunuyor.&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][9][question" resname="634][field_questions][9][question">
                     <source xml:lang="en">Isn't it more expensive or slower for a site to support HTTPS compared to regular HTTP?</source>
-                    <target></target>
+                    <target>Bir sitenin HTTPS'i desteklemesi, HTTP desteğine oranla daha pahalı ya da yavaş değil midir?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][9][answer" resname="634][field_questions][9][answer">
@@ -281,29 +541,69 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <ept id="tjiid634-3">&lt;/a&gt;</ept>
                         <bpt id="tjiid634-5">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         It can be, but some sites have been pleasantly surprised to see how practical it can be. Also, experts at Google are currently implementing several enhancements to the TLS protocol that make HTTPS dramatically faster; if these enhancements are added to the standard soon, the speed gap between the two should almost disappear. See <bpt id="tjiid634-6">&lt;a href="http://www.imperialviolet.org/2010/06/25/overclocking-ssl.html"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Adam Langley's description of the HTTPS deployment situation<ept id="tjiid634-6">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          for more details on these issues. Notably, Langley states: "In order to [enable HTTPS by default for Gmail] we had to deploy no additional machines and no special hardware. On our production frontend machines, SSL/TLS accounts for less than 1% of the CPU load, less than 10KB of memory per connection and less than 2% of network overhead."<ept id="tjiid634-5">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-9">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         It used to be expensive to purchase a certificate for HTTPS usage, but they can now be obtained for free from <bpt id="tjiid634-10">&lt;a href="http://www.startssl.com/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         StartSSL<ept id="tjiid634-10">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          or <bpt id="tjiid634-12">&lt;a href="https://buy.wosign.com/free/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         WoSign<ept id="tjiid634-12">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , and soon free certificate will be available from Let's Encrypt as well.<ept id="tjiid634-9">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;/p&gt;&lt;a name="expensive"&gt;&lt;/a&gt;&lt;p&gt;  Olabilir, ancak bazı siteler bunun ne kadar pratik olabileceğini gördüğünde oldukça şaşırdılar. Ayrıca, Google'da çalışan uzmanlar, HTTPS'i dramatik bir şekilde hızlandırmak amacıyla TLS protokolüne çeşitli iyileştirmeler uyguluyorlar. Eğer bu iyileştirmeler standartın kendisine yakın bir zamanda eklenirse, HTTP ve HTTPS arasındaki hız farkı neredeyse kapanacaktır. Bu konuda daha detaylı bilgi için Adam Langley'nin &lt;a href="http://www.imperialviolet.org/2010/06/25/overclocking-ssl.html"&gt;blogunda yazdığı makaleye&lt;/a&gt; bakabilirsiniz. Langley, "HTTPS'i Gmail için varsayılan olarak aktifleştirmek için, ek bir makine ya da özel bir donanım konuşlandırmak zorunda kalmadık. Üretim frontend sistemlerimizde, SSL/TLS CPU yoğunluğunun %1'ine, bağlantı başına 10KB hafızaya ve %2'den daha az ağ yüküne denk geliyor." diyor.&lt;/p&gt;&lt;p&gt;  Önceden HTTPS kullanımı için sertifika almak masraflıydı, ancak artık bu sertifikalar ücretsiz olarak &lt;a href="http://www.startssl.com/"&gt;StartSSL&lt;/a&gt;'den ya da &lt;a href="https://buy.wosign.com/free/"&gt;WoSign&lt;/a&gt;'dan, aynı zamanda yakın bir süre içinde Let's Encrypt'ten de elde edilebilecek.&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][10][question" resname="634][field_questions][10][question">
                     <source xml:lang="en">Why should I use HTTPS Everywhere instead of just typing https:// at the beginning of site names?</source>
-                    <target></target>
+                    <target>Sitenin isminin başına https:// yazmak varken, niçin HTTPS Everywhere kullanayım?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][10][answer" resname="634][field_questions][10][answer">
@@ -312,22 +612,47 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <bpt id="tjiid634-2">&lt;a name="why"&gt;</bpt>
                         <ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          Even if you normally type https://, HTTPS Everywhere might protect you if you occasionally forget. Also, it can rewrite other people's links that you follow. For instance, if you click on a link to <bpt id="tjiid634-4">&lt;a href="http://en.wikipedia.org/wiki/EFF_Pioneer_Award"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         http://en.wikipedia.org/wiki/EFF_Pioneer_Award<ept id="tjiid634-4">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , HTTPS Everywhere will automatically rewrite the link to <bpt id="tjiid634-6">&lt;a href="https://secure.wikimedia.org/wikipedia/en/wiki/EFF_Pioneer_Award"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         https://secure.wikimedia.org/wikipedia/en/wiki/EFF_Pioneer_Award<ept id="tjiid634-6">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         . Thus, you might get some protection even if you wouldn't have noticed that the target site is available in HTTPS.<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;a name="why"&gt;&lt;/a&gt;Normalde https:// yazsanız bile, HTTPS Everywhere sizi bunu yazmayı unuttuğunuz durumlarda da korur. Ayrıca, takip ettiğiniz insanların paylaştıkları http linklerini https olarak yeniden de yazar. Örneğin, &lt;a href="http://en.wikipedia.org/wiki/EFF_Pioneer_Award"&gt;http://en.wikipedia.org/wiki/EFF_Pioneer_Award&lt;/a&gt; linkine tıklarsanız, HTTPS bu linki otomatik olarak &lt;a href="https://secure.wikimedia.org/wikipedia/en/wiki/EFF_Pioneer_Award"&gt;https://secure.wikimedia.org/wikipedia/en/wiki/EFF_Pioneer_Award&lt;/a&gt;'a çevirir. Bu yüzden hedef sitenin HTTPS olarak mevcut olduğunun farkında olmadığınızda bile HTTPS Everywhere sizi korur.&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][11][question" resname="634][field_questions][11][question">
                     <source xml:lang="en">Why does HTTPS Everywhere include rules for sites like PayPal that already require HTTPS on all their pages?</source>
-                    <target></target>
+                    <target>HTTPS Everywhere neden PayPal gibi her sayfasında HTTPS bağlantısı talep eden siteler için kurallar içerir?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][11][answer" resname="634][field_questions][11][answer">
@@ -336,26 +661,61 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <bpt id="tjiid634-2">&lt;a name="sslstrip"&gt;</bpt>
                         <ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          HTTPS Everywhere, like the <bpt id="tjiid634-4">&lt;a href="http://www.w3.org/Security/wiki/Strict_Transport_Security"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         HSTS protocol<ept id="tjiid634-4">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , tries to address an attack called <bpt id="tjiid634-6">&lt;a href="http://www.thoughtcrime.org/software/sslstrip/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         SSL stripping<ept id="tjiid634-6">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         . Users are only protected against the SSL stripping attack if their browsers don't even <bpt id="tjiid634-8">&lt;em&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         try<ept id="tjiid634-8">&lt;/em&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          to connect to the HTTP version of the site — even if the site would have redirected them to the HTTPS version. With HTTPS Everywhere, the browser won't even attempt the insecure HTTP connection, even if that's what you ask it to do. (Note that HTTPS Everywhere currently does not include a comprehensive list of such sites, which are mainly financial institutions.)<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;a name="sslstrip"&gt;&lt;/a&gt;HTTPS Everywhere, &lt;a href="http://www.w3.org/Security/wiki/Strict_Transport_Security"&gt;HSTS protokolü&lt;/a&gt; gibi, &lt;a href="http://www.thoughtcrime.org/software/sslstrip/"&gt;SSL stripping&lt;/a&gt; isimli bir saldırıyı engellemeye çalışır. Kullanıcıların internet tarayıcılarının &lt;em&gt;bir siteye HTTP protokolüyle bağlanmayı denemesi bile&lt;/em&gt; -bağlantı daha sonra HTTPS'e aktarılsa dahi- kullanıcıyı SSL stripping saldırısına karşı korumasız bırakır. HTTPS Everywhere kullanırsanız, siz isteseniz bile internet tarayıcınız güvensiz olan HTTP bağlantısına bağlanmayı denemez (HTTPS Everywhere'in şu an için bu tarzda siteleri içine alan (ki bunlar genellikle finansal kuruluşlardır) bir liste içermediğini dikkate alın).</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][12][question" resname="634][field_questions][12][question">
                     <source xml:lang="en">What do the different colors for rulesets in the toolbar menu mean?</source>
-                    <target></target>
+                    <target>Araç çubuğundaki kural setleri (rulesets) için olan farklı renkler ne anlama geliyor?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][12][answer" resname="634][field_questions][12][answer">
@@ -366,26 +726,51 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <ept id="tjiid634-3">&lt;/a&gt;</ept>
                         <bpt id="tjiid634-5">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         The colors are:<ept id="tjiid634-5">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-7">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Dark Green: ruleset was active in loading the resources in the current page.<ept id="tjiid634-7">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-9">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Light Green: ruleset was ready to prevent HTTP loads in the current page, but everything that the ruleset would have covered was loaded over HTTPS anyway (in the code, light green is called a "moot rule").<ept id="tjiid634-9">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-11">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Dark Brown or Clockwise Red Arrow: broken rule -- the ruleset is active but the server is redirecting at least some URLs back from HTTPS to HTTP.<ept id="tjiid634-11">&lt;/p&gt;</ept>
                         <bpt id="tjiid634-13">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Gray: the ruleset is disabled.<ept id="tjiid634-13">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;/p&gt;&lt;a name="colors"&gt;&lt;/a&gt;&lt;p&gt;Renkler:&lt;/p&gt;&lt;p&gt;Koyu Yeşil: mevcut sayfadaki kaynakları yüklerken kuralseti aktifleştirildi.&lt;/p&gt;&lt;p&gt;Açık Yeşil: kuralseti mevcut sayfada HTTP üzerinden gelecek verileri engellemeye hazırdı, ancak tüm veriler HTTPS üzerinden taşındığı için buna gerek kalmadı (kodun içinde, açık yeşile "moot rule" denir).&lt;/p&gt;&lt;p&gt;Koyu Kahverengi ya da Saat Yönünde Kırmızı Ok: kırılmış kural -- kuralseti aktif ancak sunucu en azından birkaç URL'i HTTPS'ten HTTP'ye yönlendiriyor.&lt;/p&gt;&lt;p&gt;Gri: kuralseti devre dışı bırakıldı.&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][13][question" resname="634][field_questions][13][question">
                     <source xml:lang="en">I'm having a problem installing the browser extension.</source>
-                    <target></target>
+                    <target>Tarayıcı eklentisini yüklemekte problem yaşıyorum.</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][13][answer" resname="634][field_questions][13][answer">
@@ -394,18 +779,33 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
                         <bpt id="tjiid634-2">&lt;a name="problems-installing"&gt;</bpt>
                         <ept id="tjiid634-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          Some people report that installing HTTPS Everywhere gives them the error: "The addon could not be downloaded because of a connection failure on www.eff.org." This may be caused by Avast anti-virus, which blocks installation of browser extensions. You may be able to <bpt id="tjiid634-4">&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         install from addons.mozilla.org instead<ept id="tjiid634-4">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         .<ept id="tjiid634-1">&lt;/p&gt;</ept>
                     </source>
-                    <target></target>
+                    <target>&lt;p&gt;&lt;a name="problems-installing"&gt;&lt;/a&gt;Bazı kişiler HTTPS Everywhere'i yüklemenin onlara "The addon could not be downloaded because of a connection failure on www.eff.org." hatası verdiğini belirttiler. Bu soruna tarayıcı eklentilerinin kurulmasını engelleyen Avast anti-virus uygulaması sebep olabilir. Eklentiyi &lt;a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/"&gt;addons.mozilla.org&lt;/a&gt; adresinden kurmak bu sorunu çözebilir.&lt;/p&gt;</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][14][question" resname="634][field_questions][14][question">
                     <source xml:lang="en">How do I add my own site to HTTPS Everywhere?</source>
-                    <target></target>
+                    <target>Kendi sitemi HTTPS Everywhere'e nasıl eklerim?</target>
                     <note>Question</note>
                 </trans-unit>
                 <trans-unit id="634][field_questions][14][answer" resname="634][field_questions][14][answer">
@@ -414,38 +814,88 @@ You can also turn on the "Block all HTTP requests" feature for added protection.
 <bpt id="tjiid634-1">&lt;ol&gt;</bpt>
                         <bpt id="tjiid634-2">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Set up a <bpt id="tjiid634-3">&lt;a href="https://www.sslshopper.com/apache-redirect-http-to-https.html"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         redirect<ept id="tjiid634-3">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          from HTTP to HTTPS on your site.<ept id="tjiid634-2">&lt;/li&gt;</ept>
                         <bpt id="tjiid634-6">&lt;li&gt;</bpt>
                         <bpt id="tjiid634-7">&lt;a href="https://raymii.org/s/tutorials/HTTP_Strict_Transport_Security_for_Apache_NGINX_and_Lighttpd.html"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Add the Strict-Transport-Security (HSTS) header on your site<ept id="tjiid634-7">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid634-6">&lt;/li&gt;</ept>
                         <bpt id="tjiid634-10">&lt;li&gt;</bpt>
                         <bpt id="tjiid634-11">&lt;a href="https://hstspreload.appspot.com/"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Add your site to the HSTS Preload list<ept id="tjiid634-11">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid634-10">&lt;/li&gt;</ept>
                         <ept id="tjiid634-1">&lt;/ol&gt;</ept>
                         
                         
+                        
+                        
+                        
+                        
+                        
 
 These steps will give your site much better protection that adding it to HTTPS Everywhere. Generally speaking, once you are done, there is no need to add your site to HTTPS Everywhere. However, if you would still like to, please follow the <bpt id="tjiid634-15">&lt;a href="https://eff.org/https-everywhere/rulesets"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         instructions on writing rulesets<ept id="tjiid634-15">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , and indicate that you are the author of the web site when you submit your pull request.</source>
-                    <target></target>
+                    <target>Sitenizi HTTPS Everywhere'e ekleme isteğiniz bizi mutlu etti! Ancak, sitenizi ziyaret eden herkesin eklentimizi kullanmadığını unutmayın. Eğer bir web sitesi çalıştırıyorsanız, HTTPS'i sadece HTTPS Everywhere kullanıcıları için değil, herkes için varsayılan yapabilirsiniz. Ve bunu yapmak daha kolaydır! Bunu yapmak için gerçekleştirmeniz gereken adımlar sırasıyla şöyledir:&lt;ol&gt;&lt;li&gt;Sitenize HTTP'den HTTPS'e bir &lt;a href="https://www.sslshopper.com/apache-redirect-http-to-https.html"&gt;yönlendirme&lt;/a&gt; kurun.&lt;/li&gt;&lt;li&gt;&lt;a href="https://raymii.org/s/tutorials/HTTP_Strict_Transport_Security_for_Apache_NGINX_and_Lighttpd.html"&gt;Strict-Transport-Security (HSTS) üst bilgisini (header) sitenize ekleyin.&lt;/li&gt;&lt;li&gt;&lt;a href="https://hstspreload.appspot.com/"&gt;Sitenizi HSTS preload listesine ekleyin.&lt;/li&gt;&lt;/ol&gt;Bu adımları uygulayarak sitenizde HTTPS Everywhere'in sağlayacağı korumadan daha fazlasını elde edersiniz. Genel olarak, bu adımları tamamladığınızda, sitenizi HTTPS Everywhere'e eklemenin bir anlamı yoktur. Ancak, sitenizi yine de HTTPS Everywhere'e eklemek isterseniz, lütfen &lt;a href="https://eff.org/https-everywhere/rulesets"&gt;kuralsetlerini yazma talimatlarını&lt;/a&gt; takip edin ve pull request'ini yaratırken eklediğiniz sitenin sahibi olduğunuzu belirtin.</target>
                     <note>Answer</note>
                 </trans-unit>
                 <trans-unit id="634][title_field][0][value" resname="634][title_field][0][value">
                     <source xml:lang="en">HTTPS Everywhere FAQ</source>
-                    <target></target>
+                    <target>HTTPS Everywhere SSS</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -455,39 +905,124 @@ These steps will give your site much better protection that adding it to HTTPS E
                     <source xml:lang="en">
                         <bpt id="tjiid635-1">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         HTTPS Everywhere is produced as a collaboration between <bpt id="tjiid635-2">&lt;a href="https://www.torproject.org"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         The Tor Project<ept id="tjiid635-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          and the <bpt id="tjiid635-4">&lt;a href="https://eff.org/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Electronic Frontier Foundation<ept id="tjiid635-4">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         . Many sites on the web offer some limited support for encryption over <bpt id="tjiid635-6">&lt;a href="https://en.wikipedia.org/wiki/HTTP_Secure"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         HTTPS<ept id="tjiid635-6">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , but make it difficult to use. For instance, they may default to unencrypted HTTP, or fill encrypted pages with links that go back to the unencrypted site. The HTTPS Everywhere extension fixes these problems by using <bpt id="tjiid635-8">&lt;a href="https://www.xkcd.com/208"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         clever technology<ept id="tjiid635-8">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          to rewrite requests to these sites to HTTPS. Information about how to access the project's Git repository and get involved in development is <bpt id="tjiid635-10">&lt;a href="/https-everywhere/development"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         here<ept id="tjiid635-10">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid635-1">&lt;/p&gt;</ept>
                         <bpt id="tjiid635-13">&lt;p&gt;</bpt>
                         <bpt id="tjiid635-14">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Webmasters and prospective contributors:<ept id="tjiid635-14">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          Check the <bpt id="tjiid635-16">&lt;a href="https://www.eff.org/https-everywhere/atlas"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         HTTPS Everywhere Atlas<ept id="tjiid635-16">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          to quickly see how existing HTTPS Everywhere rules affect sites you care about! HTTPS Everywhere is governed by EFF's <bpt id="tjiid635-18">&lt;a href="https://www.eff.org/code/privacy"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Privacy Policy for Software<ept id="tjiid635-18">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid635-13">&lt;/p&gt;</ept>
                         <bpt id="tjiid635-21">&lt;p&gt;</bpt>
@@ -495,92 +1030,292 @@ These steps will give your site much better protection that adding it to HTTPS E
                         <ept id="tjiid635-22">&lt;/a&gt;</ept>
                         <bpt id="tjiid635-24">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Problems Installing: <ept id="tjiid635-24">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         Some people report that installing HTTPS Everywhere gives them the error: "The addon could not be downloaded because of a connection failure on <bpt id="tjiid635-26">&lt;span class="moz-txt-link-abbreviated"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         www.eff.org<ept id="tjiid635-26">&lt;/span&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         ." <bpt id="tjiid635-28">&lt;a href="https://kittens.eff.org/https-everywhere/faq#problems-installing"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         See this FAQ entry for help<ept id="tjiid635-28">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid635-21">&lt;/p&gt;</ept>
                         <bpt id="tjiid635-31">&lt;p&gt;</bpt>
                         <bpt id="tjiid635-32">&lt;a href="#" id="https-everywhere-more"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Read More About HTTPS Everywhere »<ept id="tjiid635-32">&lt;/a&gt;</ept>
                         <ept id="tjiid635-31">&lt;/p&gt;</ept>
                         <bpt id="tjiid635-35">&lt;div id="https-everywhere-hidden"&gt;</bpt>
                         <bpt id="tjiid635-36">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Questions and Caveats<ept id="tjiid635-36">&lt;/h2&gt;</ept>
                         <bpt id="tjiid635-38">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Sadly, many sites still include a lot of content from third party domains that is not available over HTTPS. As always, if the browser's lock icon <bpt id="tjiid635-39">&lt;a href="https://www.eff.org/https-everywhere/faq#mixed-content"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         is broken or carries an exclamation mark<ept id="tjiid635-39">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , you may remain vulnerable to some adversaries that use active attacks or traffic analysis. However, the effort that would be required to eavesdrop on your browsing should still be usefully increased. <bpt id="tjiid635-41">&lt;strong&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Update: in recent versions of Firefox, Mozilla has removed the broken padlock indicator. Now, the only difference between a secure and insecure HTTPS deployment is the blue or green tint on the left of the address bar for secure deployments<ept id="tjiid635-41">&lt;/strong&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          Answers to common questions may be on the <bpt id="tjiid635-43">&lt;a href="/https-everywhere/faq/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         frequently asked questions<ept id="tjiid635-43">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          page. <bpt id="tjiid635-45">&lt;strong&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         HTTPS Everywhere can protect you only when you're using sites that support HTTPS and for which HTTPS Everywhere include a <bpt id="tjiid635-46">&lt;a href="/https-everywhere/rulesets"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         ruleset<ept id="tjiid635-46">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid635-45">&lt;/strong&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          If sites you use don't support HTTPS, ask the site operators to add it; only the site operator is able to enable HTTPS. There is more information and instruction on how server operators can do that in the EFF article <bpt id="tjiid635-49">&lt;a href="/pages/how-deploy-https-correctly"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         How to Deploy HTTPS Correctly<ept id="tjiid635-49">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         .<ept id="tjiid635-38">&lt;/p&gt;</ept>
                         <bpt id="tjiid635-52">&lt;h2&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Development And Writing your own Rulesets<ept id="tjiid635-52">&lt;/h2&gt;</ept>
                         <bpt id="tjiid635-54">&lt;p&gt;</bpt>
                         <bpt id="tjiid635-55">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Webmasters and prospective contributors:<ept id="tjiid635-55">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          Check the <bpt id="tjiid635-57">&lt;a href="https://www.eff.org/https-everywhere/atlas"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         HTTPS Everywhere Atlas<ept id="tjiid635-57">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          to quickly see how existing HTTPS Everywhere rules affect sites you care about! You can help us test forthcoming site support and new features by installing the <bpt id="tjiid635-59">&lt;a href="/files/https-everywhere-devel.xpi"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         development branch<ept id="tjiid635-59">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          of the extension. HTTPS Everywhere uses small ruleset files to define which domains are redirected to https, and how. If you'd like to write your own ruleset, you can find out how to do that <bpt id="tjiid635-61">&lt;a href="/https-everywhere/rulesets"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         here<ept id="tjiid635-61">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . Information about how to access the project's Git repository and get involved in development is <bpt id="tjiid635-63">&lt;a href="/https-everywhere/development"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         here<ept id="tjiid635-63">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . Send feedback on this project to the <bpt id="tjiid635-65">&lt;tt&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         https-everywhere AT eff.org<ept id="tjiid635-65">&lt;/tt&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          mailing list. Note that this is a public and publicly-archived mailing list. You can also <bpt id="tjiid635-67">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         subscribe<ept id="tjiid635-67">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . Send new rewrite rules or fixes to existing rewrite rules to the <bpt id="tjiid635-69">&lt;tt&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         https-everywhere-rules AT eff.org<ept id="tjiid635-69">&lt;/tt&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          mailing list. Note that this is a public and publicly-archived mailing list. You can also <bpt id="tjiid635-71">&lt;a href="https://lists.eff.org/mailman/listinfo/https-everywhere-rules"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         subscribe<ept id="tjiid635-71">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid635-54">&lt;/p&gt;</ept>
                         <ept id="tjiid635-35">&lt;/div&gt;</ept>
@@ -590,7 +1325,7 @@ These steps will give your site much better protection that adding it to HTTPS E
                 </trans-unit>
                 <trans-unit id="635][title_field][0][value" resname="635][title_field][0][value">
                     <source xml:lang="en">HTTPS Everywhere</source>
-                    <target></target>
+                    <target>HTTPS Everywhere</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -600,329 +1335,964 @@ These steps will give your site much better protection that adding it to HTTPS E
                     <source xml:lang="en">
                         <bpt id="tjiid637-1">&lt;p class="eff-light-blue eff-grey"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         By <bpt id="tjiid637-2">&lt;a href="http://noncombatant.org"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Chris Palmer<ept id="tjiid637-2">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          and <bpt id="tjiid637-4">&lt;a href="/about/staff/yan-zhu"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Yan Zhu<ept id="tjiid637-4">&lt;/a&gt;</ept>
                         <ept id="tjiid637-1">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-7">&lt;p&gt;</bpt>
                         <bpt id="tjiid637-8">&lt;em&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Originally published on 15 Nov 2010. Revised on 12 Dec 2013.<ept id="tjiid637-8">&lt;/em&gt;</ept>
                         <ept id="tjiid637-7">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-11">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Internet technologists have always known that HTTP is insecure, causing many risks to users. Because HTTP traffic is unencrypted, any data sent over HTTP can be read and modified by anyone who has access to the network. As revealed by the Snowden NSA surveillance documents, HTTP traffic can also be collected and searched by government agencies without notice to users or webmasters. Given these risks, EFF believes that every website should support HTTPS on all pages as soon as possible.<ept id="tjiid637-11">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-13">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         While HTTPS has long existed as the bare minimum for web security, some websites have been slow to adopt it. In part, this is because correctly and completely serving an application over HTTPS takes some care.<ept id="tjiid637-13">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-15">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         This article is designed to encourage and assist website operators in implementing and improving HTTPS support. Although no precaution will defend against all threats, supporting HTTPS will protect users from a wide range of common attacks.<ept id="tjiid637-15">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-17">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Background<ept id="tjiid637-17">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-19">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         HTTPS provides three security guarantees:<ept id="tjiid637-19">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-21">&lt;ol&gt;</bpt>
                         <bpt id="tjiid637-22">&lt;li&gt;</bpt>
                         <bpt id="tjiid637-23">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Server authentication<ept id="tjiid637-23">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          allows users to have some confidence that they are talking to the true application server. Without this guarantee, there can be no guarantee of confidentiality or integrity.<ept id="tjiid637-22">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-26">&lt;li&gt;</bpt>
                         <bpt id="tjiid637-27">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Data confidentiality<ept id="tjiid637-27">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          means that eavesdroppers cannot understand the content of the communications between the user's browser and the web server, because the data is encrypted.<ept id="tjiid637-26">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-30">&lt;li&gt;</bpt>
                         <bpt id="tjiid637-31">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Data integrity<ept id="tjiid637-31">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          means that a network attacker cannot damage or alter the content of the communications between the user's browser and the web server, because they are validated with a cryptographic <bpt id="tjiid637-33">&lt;em&gt;</bpt>
                         <bpt id="tjiid637-34">&lt;a href="https://secure.wikimedia.org/wikipedia/en/wiki/Message_authentication_code"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         message authentication code<ept id="tjiid637-34">&lt;/a&gt;</ept>
                         <ept id="tjiid637-33">&lt;/em&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid637-30">&lt;/li&gt;</ept>
                         <ept id="tjiid637-21">&lt;/ol&gt;</ept>
                         <bpt id="tjiid637-39">&lt;p&gt;</bpt>
                         <bpt id="tjiid637-40">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         HTTP provides no security guarantees<ept id="tjiid637-40">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         , and applications that use it <bpt id="tjiid637-42">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         cannot possibly provide users any security<ept id="tjiid637-42">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . When using a web application hosted via HTTP, people have no way of knowing whether they are talking to the true application server, nor can they be sure attackers have not read or modified communications between the user's computer and the server.<ept id="tjiid637-39">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-45">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Modes of Attack and Defense<ept id="tjiid637-45">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-47">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         However users connect to the Internet, there are a variety of people who can attack them--whether spying on them, impersonating them, tampering with their communications, or all three of these. The wifi network operator can do this; any ISP in the path between client and server can do it; anyone who can reconfigure the wifi router or another router can do it; and often, anyone else using the same network can do it, too.<ept id="tjiid637-47">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-49">&lt;p&gt;</bpt>
                         <bpt id="tjiid637-50">&lt;a href="http://codebutler.com/firesheep-a-day-later/"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Firesheep<ept id="tjiid637-50">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          is an example of a <bpt id="tjiid637-52">&lt;em&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         passive network attack<ept id="tjiid637-52">&lt;/em&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         : it eavesdrops on the contents of network communications between browser and server, but does not re-route or modify them. Government surveillance programs such as <bpt id="tjiid637-54">&lt;a href="http://www.theguardian.com/world/2013/jul/31/nsa-top-secret-program-online-data"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         XKeyscore<ept id="tjiid637-54">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          also use passive attacks on HTTP traffic to collect massive amounts of online communication data.<ept id="tjiid637-49">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-57">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         By contrast, other freely-available tools perform <bpt id="tjiid637-58">&lt;em&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         active network attacks<ept id="tjiid637-58">&lt;/em&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , in which the attacker does modify the contents of and/or re-route communications. These tools range from serious, such as <bpt id="tjiid637-60">&lt;a href="http://www.thoughtcrime.org/software/sslstrip/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         sslstrip<ept id="tjiid637-60">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , to silly, like <bpt id="tjiid637-62">&lt;a href="http://www.ex-parrot.com/pete/upside-down-ternet.html"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         the Upside-Down-Ternet<ept id="tjiid637-62">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         . Although Upside-Down-Ternet is a funny prank, it is technically identical to potentially more damaging attacks such as an attack that injects malicious code or incorrect information into web pages; at the same time, it shows that such attacks are easy enough to be jokes. Free wifi hotspots have been known to inject advertisements dynamically into web pages that users read--indicating that active network attacks are a viable business model. Tools like <bpt id="tjiid637-64">&lt;a href="http://www.oxid.it/cain.html"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Cain and Abel<ept id="tjiid637-64">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          enable a range of attacks, including re-routing local network traffic through the attacker's system. (Also see <bpt id="tjiid637-66">&lt;a href="http://arpspoof.sourceforge.net/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Arpspoof<ept id="tjiid637-66">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          and <bpt id="tjiid637-68">&lt;a href="http://www.monkey.org/%7Edugsong/dsniff/"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         dsniff<ept id="tjiid637-68">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .)<ept id="tjiid637-57">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-71">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Only a mechanism that provides (at least) authentication, confidentiality, and integrity can defend against a range of attacks. HTTPS is currently our best option for web applications.<ept id="tjiid637-71">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-73">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         However, there are some potential pitfalls that site operators must avoid in order to deploy HTTPS securely.<ept id="tjiid637-73">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-75">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Mixed Content<ept id="tjiid637-75">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-77">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         When hosting an application over HTTPS, there can be no <bpt id="tjiid637-78">&lt;em&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         mixed content<ept id="tjiid637-78">&lt;/em&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         ; that is, all content in the page must be fetched via HTTPS. It is common to see partial HTTPS support on sites, in which the main pages are fetched via HTTPS but some or all of the media elements, stylesheets, and JavaScript in the page are fetched via HTTP.<ept id="tjiid637-77">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-81">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         This is unsafe because although the main page load is protected against active and passive network attack, none of the other resources are. If a page loads some JavaScript or CSS code via HTTP, an attacker can provide a false, malicious code file and take over the page's DOM once it loads. Then, the user would be back to a situation of having no security. This is why all mainstream browsers warn users about pages that load mixed content. Nor is it safe to reference images via HTTP: What if the attacker swapped the Save Message and Delete Message icons in a webmail app?<ept id="tjiid637-81">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-83">&lt;p&gt;</bpt>
                         <bpt id="tjiid637-84">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         You must serve the entire application domain over HTTPS.<ept id="tjiid637-84">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          Redirect HTTP requests with HTTP 301 or 302 responses to the equivalent HTTPS resource.<ept id="tjiid637-83">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-87">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Some site operators provide only the login page over HTTPS, on the theory that only the user's password is sensitive. These sites' users are <bpt id="tjiid637-88">&lt;a&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         vulnerable to passive and active attacks<ept id="tjiid637-88">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid637-87">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-91">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Unfortunately, many sites today load content from external sites and CDN's that do not support HTTPS. If it's not possible to serve these resources from your own host or another one that supports HTTPS, you should urge these other sites to start supporting HTTPS immediately.<ept id="tjiid637-91">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-93">&lt;h2&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Security and Cookies<ept id="tjiid637-93">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-95">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         As Chris Palmer described in a <bpt id="tjiid637-96">&lt;a href="https://www.isecpartners.com/media/12009/web-session-management.pdf"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         paper on secure session management for web applications<ept id="tjiid637-96">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         , site operators must scope sensitive cookies (such as cookies used for user authentication) to the secure origin. If a cookie is broadly scoped (with the Domain attribute in the Set-Cookie: header), it may "leak" to other hosts or applications in the same domain--potentially less-secure hosts or applications.<ept id="tjiid637-95">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-99">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Similarly, the application must set the Secure attribute on the cookie when setting it. This attribute instructs the browser to send the cookie only over secure (HTTPS) transport, never insecure (HTTP).<ept id="tjiid637-99">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-101">&lt;h2&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Use HTTP Strict Transport Security<ept id="tjiid637-101">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-103">&lt;p&gt;</bpt>
                         <bpt id="tjiid637-104">&lt;a href="https://en.wikipedia.org/wiki/Strict_Transport_Security"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         HTTP Strict Transport Security<ept id="tjiid637-104">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          (HSTS) is an HTTP protocol extension that enables site operators to instruct browsers to expect the site to use HTTPS.<ept id="tjiid637-103">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-107">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Although not all browsers yet support HSTS, EFF urges those that don't--we're looking especially at you, Apple and Microsoft--to follow the lead Google, Opera, and Mozilla have set by adopting this useful security mechanism. Indeed, ultimately we expect HTTPS (and possibly newer protocols such as <bpt id="tjiid637-108">&lt;a href="https://en.wikipedia.org/wiki/SPDY"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         SPDY<ept id="tjiid637-108">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          and <bpt id="tjiid637-110">&lt;a href="https://en.wikipedia.org/wiki/QUIC"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         QUIC<ept id="tjiid637-110">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         ) to replace HTTP entirely, the way SSH replaced Telnet and rsh.<ept id="tjiid637-107">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-113">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         As an extra precaution, your site should support HSTS preloading, which prevents interception of an HTTP request if the browser hasn't yet received a valid HSTS header from the server. HSTS preloading is implemented via an opt-in list of domains that is included in Chromium, Google Chrome, and Firefox. See <bpt id="tjiid637-114">&lt;a href="http://www.chromium.org/sts"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Chromium's page<ept id="tjiid637-114">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          for instructions on getting your site added to this list. Note that you must also send an HSTS header with a max-age greater value than 18 weeks for Firefox to include your site in their HSTS preload list.<ept id="tjiid637-113">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-117">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We recently enabled HSTS and HSTS preloading for eff.org. It took less than an hour to set up, and we found a way to do it without forcibly redirecting users to HTTPS, so we can state an unequivocal preference for HTTPS access while still making the site available in HTTP. It worked like a charm and a significant fraction of our users are now automatically accessing our site in HTTPS, perhaps without even knowing it.<ept id="tjiid637-117">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-119">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Choose Strong Protocols and Cipher Suites<ept id="tjiid637-119">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-121">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Here is a brief list of recommendations for choosing secure protocols and cipher suites in an SSL deployment:<ept id="tjiid637-121">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-123">&lt;ul&gt;</bpt>
                         <bpt id="tjiid637-124">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Disable support for SSLv2, SSLv3, and TLS 1.0.<ept id="tjiid637-124">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-126">&lt;li&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Support TLS 1.1 and 1.2.<ept id="tjiid637-126">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-128">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Disable NULL, aNULL, and eNULL ciphersuites, which do not offer both encryption and authentication.<ept id="tjiid637-128">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-130">&lt;li&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Use private keys that are at least as secure as a 2048-bit RSA key.<ept id="tjiid637-130">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-132">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Prefer ciphersuites that include <bpt id="tjiid637-133">&lt;b&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         ephemeral Diffie-Hellman key exchange<ept id="tjiid637-133">&lt;/b&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         . These offer the important property of <bpt id="tjiid637-135">&lt;a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Perfect Forward Secrecy<ept id="tjiid637-135">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         , which prevents decryption of past web traffic if your SSL private key is compromised in the future.<ept id="tjiid637-132">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-138">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Disable ciphersuites with keys sizes smaller than 128 bits for encryption.<ept id="tjiid637-138">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-140">&lt;li&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Disable ciphersuites that use MD5 for hashing. SHA-1 is also discouraged but may be required for compatibility with TLS 1.0 and SSLv3.<ept id="tjiid637-140">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-142">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Disable ciphersuites that use RC4 for encryption. AES-CBC is preferable to RC4 but vulnerable to the <bpt id="tjiid637-143">&lt;a href="https://www.imperialviolet.org/2011/09/23/chromeandbeast.html"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         BEAST<ept id="tjiid637-143">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          attack. Thus, AES-GCM is often recommended.<ept id="tjiid637-142">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-146">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Disable TLS compression in order to prevent the <bpt id="tjiid637-147">&lt;a href="https://en.wikipedia.org/wiki/CRIME_%28security_exploit%29"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         CRIME attack<ept id="tjiid637-147">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid637-146">&lt;/li&gt;</ept>
                         <bpt id="tjiid637-150">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Only support secure TLS renegotiations compliant with <bpt id="tjiid637-151">&lt;a href="http://www.ietf.org/rfc/rfc5746.txt"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         RFC 5746<ept id="tjiid637-151">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         , or disable TLS renegotiations entirely.<ept id="tjiid637-150">&lt;/li&gt;</ept>
                         <ept id="tjiid637-123">&lt;/ul&gt;</ept>
                         <bpt id="tjiid637-155">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         A useful tool for testing for well-known weaknesses in an existing HTTPS deployment is Qualys's <bpt id="tjiid637-156">&lt;a href="https://www.ssllabs.com/ssltest/"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         SSL Server Test<ept id="tjiid637-156">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid637-155">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-159">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Performance Concerns<ept id="tjiid637-159">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-161">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Many site operators report that they can't move to HTTPS for performance reasons. However, most people who say this have not actually measured any performance loss, may not have measured performance at all, and have not profiled and optimized their site's behavior. Usually, sites have latency far higher and/or throughput far lower than necessary even when hosting over HTTP--indicating HTTPS is not the problem.<ept id="tjiid637-161">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-163">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         The crux of the performance problem is usually at the content layer, and also often at the database layer. Web applications are fundamentally I/O-bound, after all. Consider <bpt id="tjiid637-164">&lt;a href="http://gmailblog.blogspot.com/2008/05/need-for-speed-path-to-faster-loading.html"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         this wisdom from the Gmail developers<ept id="tjiid637-164">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         :<ept id="tjiid637-163">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-167">&lt;blockquote&gt;</bpt>
                         <bpt id="tjiid637-168">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         First, we listed every transaction between the web browser and Google's servers, starting with the moment the "Sign in" button is pressed. To do this, we used a lot of different web development tools, like <bpt id="tjiid637-169">&lt;a href="http://httpwatch.com/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Httpwatch<ept id="tjiid637-169">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , <bpt id="tjiid637-171">&lt;a href="http://www.wireshark.org/"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         WireShark<ept id="tjiid637-171">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         , and <bpt id="tjiid637-173">&lt;a href="http://www.fiddlertool.com/fiddler/"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Fiddler<ept id="tjiid637-173">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         , plus our own performance measuring systems. [...]<ept id="tjiid637-168">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-176">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We spent hours poring over these traces to see exactly what was happening between the browser and Gmail during the sign-in sequence, and we found that there were between fourteen and twenty-four HTTP requests required to load an inbox and display it. To put these numbers in perspective, a popular network news site's home page required about a 180 requests to fully load when I checked it yesterday. But when we examined our requests, we realized that we could do better. We decided to attack the problem from several directions at once: reduce the number of overall requests, make more of the requests cacheable by the browser, and reduce the overhead of each request.<ept id="tjiid637-176">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-178">&lt;p&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         We made good progress on every front. We reduced the weight of each request itself by eliminating or narrowing the scope of some of our cookies. We made sure that all our images were cacheable by the browser, and we consolidated small icon images into single meta-images, a technique known as spriting. We combined several requests into a single combined request and response. The result is that it now takes as few as four requests from the click of the "Sign in" button to the display of your inbox.<ept id="tjiid637-178">&lt;/p&gt;</ept>
                         <ept id="tjiid637-167">&lt;/blockquote&gt;</ept>
                         <bpt id="tjiid637-181">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Google's <bpt id="tjiid637-182">&lt;a href="http://www.imperialviolet.org/2010/06/25/overclocking-ssl.html"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Adam Langley provides additional detail<ept id="tjiid637-182">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         :<ept id="tjiid637-181">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-185">&lt;blockquote&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         In order to do this we had to deploy <bpt id="tjiid637-186">&lt;em&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         no additional machines<ept id="tjiid637-186">&lt;/em&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          and <bpt id="tjiid637-188">&lt;em&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         no special hardware<ept id="tjiid637-188">&lt;/em&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . On our production frontend machines, SSL/TLS accounts for less than 1% of the CPU load, less than 10KB of memory per connection and less than 2% of network overhead. Many people believe that SSL takes a lot of CPU time and we hope the above numbers (public for the first time) will help to dispel that. [emphasis in original]<ept id="tjiid637-185">&lt;/blockquote&gt;</ept>
                         <bpt id="tjiid637-191">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Is it any wonder Gmail performs well, even when using HTTPS exclusively? Site operators can realize incremental improvement by gradually tuning their web applications. Chris gave a presentation to this effect at <bpt id="tjiid637-192">&lt;a href="http://assets.en.oreilly.com/1/event/22/High%20Performance,%20Low%20Cost,%20and%20Strong%20Security_%20Pick%20Any%20Three%20Presentation.pdf"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Web 2.0 Expo 2009<ept id="tjiid637-192">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid637-191">&lt;/p&gt;</ept>
                         <bpt id="tjiid637-195">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Conclusion<ept id="tjiid637-195">&lt;/h2&gt;</ept>
                         <bpt id="tjiid637-197">&lt;p&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         HTTPS provides the baseline of safety for web application users, and there is no performance- or cost-based reason to stick with HTTP. Web application providers <bpt id="tjiid637-198">&lt;a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1421553"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         undermine their business models<ept id="tjiid637-198">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          when, by continuing to use HTTP, they enable a wide range of attackers anywhere on the internet to compromise users' information.<ept id="tjiid637-197">&lt;/p&gt;</ept>
                     </source>
@@ -944,7 +2314,17 @@ These steps will give your site much better protection that adding it to HTTPS E
                         <bpt id="tjiid638-3">&lt;div class="section"&gt;</bpt>
                         <bpt id="tjiid638-4">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         About<ept id="tjiid638-4">&lt;/h2&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         
 
@@ -966,8 +2346,18 @@ We chose technologies that have a large user base--and thus a great deal of sens
                         <bpt id="tjiid638-9">&lt;div class="section"&gt;</bpt>
                         <bpt id="tjiid638-10">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Methodology<ept id="tjiid638-10">&lt;/h2&gt;</ept>
                         <bpt id="tjiid638-12">&lt;p dir="ltr"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Here are the criteria we looked at in assessing the security of various communication tools.<ept id="tjiid638-12">&lt;/p&gt;</ept>
                         <bpt id="tjiid638-14">&lt;p dir="ltr"&gt;</bpt>
@@ -975,7 +2365,17 @@ We chose technologies that have a large user base--and thus a great deal of sens
                         <ept id="tjiid638-15">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-17">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         1. Is your communication encrypted in transit?<ept id="tjiid638-17">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         
 This criterion requires that all user communications are encrypted along all the links in the communication path. Note that we are not requiring encryption of data that is transmitted on a company network, though that is ideal. We do not require that metadata (such as user names or addresses) is encrypted.<ept id="tjiid638-14">&lt;/p&gt;</ept>
@@ -988,10 +2388,25 @@ This criterion requires that all user communications are encrypted along all the
                         <ept id="tjiid638-25">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-27">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2.<ept id="tjiid638-27">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-29">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Is your communication encrypted with a key the provider doesn't have access to?<ept id="tjiid638-29">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         
 This criterion requires that all user communications are end-to-end encrypted. This means the keys necessary to decrypt messages must be generated and stored at the endpoints (i.e. by users, not by servers). The keys should never leave endpoints except with explicit user action, such as to backup a key or synchronize keys between two devices. It is fine if users' public keys are exchanged using a centralized server.<ept id="tjiid638-22">&lt;/p&gt;</ept>
@@ -1004,11 +2419,26 @@ This criterion requires that all user communications are end-to-end encrypted. T
                         <ept id="tjiid638-37">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-39">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         3.<ept id="tjiid638-39">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-41">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Can you independently verify your correspondent's identity?<ept id="tjiid638-41">&lt;/strong&gt;</ept>
                         <x id="tjiid638-43" ctype="lb"></x>
+                        
+                        
+                        
+                        
+                        
                         
                         This criterion requires that a built-in method exists for users to verify the identity of correspondents they are speaking with and the integrity of the channel, even if the service provider or other third parties are compromised. Two acceptable solutions are:<ept id="tjiid638-34">&lt;/p&gt;</ept>
                         <bpt id="tjiid638-45">&lt;ul&gt;</bpt>
@@ -1017,6 +2447,11 @@ This criterion requires that all user communications are end-to-end encrypted. T
                         <bpt id="tjiid638-48">&lt;a name="verify"&gt;</bpt>
                         <ept id="tjiid638-48">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         An interface for users to view the fingerprint (hash) of their correspondent's public keys as well as their own, which users can verify manually or out-of-band.<ept id="tjiid638-47">&lt;/p&gt;</ept>
                         <ept id="tjiid638-46">&lt;/li&gt;</ept>
                         <bpt id="tjiid638-52">&lt;li dir="ltr"&gt;</bpt>
@@ -1024,14 +2459,34 @@ This criterion requires that all user communications are end-to-end encrypted. T
                         <bpt id="tjiid638-54">&lt;a name="verify"&gt;</bpt>
                         <ept id="tjiid638-54">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         A key exchange protocol with a short-authentication-string comparison, such as the <bpt id="tjiid638-56">&lt;a href="http://en.wikipedia.org/wiki/Socialist_millionaire" style="line-height: 1.538em;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Socialist Millionaire's protocol<ept id="tjiid638-56">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid638-53">&lt;/p&gt;</ept>
                         <ept id="tjiid638-52">&lt;/li&gt;</ept>
                         <ept id="tjiid638-45">&lt;/ul&gt;</ept>
                         <bpt id="tjiid638-61">&lt;p dir="ltr"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Other solutions are possible, but any solution must verify a binding between users and the cryptographic channel which has been set up. For the scorecard, we are simply requiring that a mechanism is implemented and not evaluating the usability and security of that mechanism.<ept id="tjiid638-61">&lt;/p&gt;</ept>
                         <bpt id="tjiid638-63">&lt;p dir="ltr"&gt;</bpt>
@@ -1039,20 +2494,50 @@ This criterion requires that all user communications are end-to-end encrypted. T
                         <ept id="tjiid638-64">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-66">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         4.<ept id="tjiid638-66">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-68">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Are past communications secure if your keys are stolen?<ept id="tjiid638-68">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         
 
 This criterion requires that the app provide <bpt id="tjiid638-70">&lt;a href="https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         forward secrecy<ept id="tjiid638-70">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         , that is, all communications must be encrypted with ephemeral keys which are routinely deleted (along with the random values used to derive them). It is imperative that these keys cannot be reconstructed after the fact by anybody even given access to both parties' long-term private keys, ensuring that if users choose to delete their local copies of correspondence, they are permanently deleted. Note that this criterion requires criterion 2, end-to-end encryption.<ept id="tjiid638-63">&lt;/p&gt;</ept>
                         <bpt id="tjiid638-73">&lt;p dir="ltr"&gt;</bpt>
                         <bpt id="tjiid638-74">&lt;em style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Note: For this phase of the campaign, we accept a hybrid forward-secrecy approach with forward secrecy on the transport layer (for example through TLS with a Diffie-Hellman cipher suite) and non-forward-secret end-to-end encryption, plus an explicit guarantee that ciphertexts are not logged by the provider. This is a compromise as it requires trusting the provider not to log ciphertexts, but we prefer this setup to having no forward secrecy at all.<ept id="tjiid638-74">&lt;/em&gt;</ept>
                         <ept id="tjiid638-73">&lt;/p&gt;</ept>
@@ -1061,10 +2546,25 @@ This criterion requires that the app provide <bpt id="tjiid638-70">&lt;a href="h
                         <ept id="tjiid638-78">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-80">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         5.<ept id="tjiid638-80">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-82">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Is the code open to independent review?<ept id="tjiid638-82">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         
 
@@ -1072,6 +2572,11 @@ This criterion requires that sufficient source-code has been published that a co
                         <bpt id="tjiid638-85">&lt;a name="open"&gt;</bpt>
                         <ept id="tjiid638-85">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-87">&lt;em&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Note: when tools are provided by an operating system vendor, we only require code for the tool and not the entire OS. This is a compromise, but the task of securing OSes and updates to OSes is beyond the scope of this project.<ept id="tjiid638-87">&lt;/em&gt;</ept>
                         <bpt id="tjiid638-89">&lt;a name="open"&gt;</bpt>
@@ -1083,7 +2588,17 @@ This criterion requires that sufficient source-code has been published that a co
                         <ept id="tjiid638-94">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-96">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         6. Is the crypto design well-documented?<ept id="tjiid638-96">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         
 
@@ -1094,6 +2609,11 @@ This criterion requires clear and detailed explanations of the cryptography used
                         <bpt id="tjiid638-102">&lt;a name="documented"&gt;</bpt>
                         <ept id="tjiid638-102">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         Which algorithms and parameters (such as key sizes or elliptic curve groups) are used in every step of the encryption and authentication process<ept id="tjiid638-101">&lt;/p&gt;</ept>
                         <ept id="tjiid638-100">&lt;/li&gt;</ept>
                         <ept id="tjiid638-99">&lt;/ul&gt;</ept>
@@ -1102,6 +2622,11 @@ This criterion requires clear and detailed explanations of the cryptography used
                         <bpt id="tjiid638-109">&lt;p dir="ltr"&gt;</bpt>
                         <bpt id="tjiid638-110">&lt;a name="documented"&gt;</bpt>
                         <ept id="tjiid638-110">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         How keys are generated, stored, and exchanged between users<ept id="tjiid638-109">&lt;/p&gt;</ept>
                         <ept id="tjiid638-108">&lt;/li&gt;</ept>
@@ -1112,12 +2637,22 @@ This criterion requires clear and detailed explanations of the cryptography used
                         <bpt id="tjiid638-118">&lt;a name="documented"&gt;</bpt>
                         <ept id="tjiid638-118">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         The life-cycle of keys and the process for users to change or revoke their key<ept id="tjiid638-117">&lt;/p&gt;</ept>
                         <ept id="tjiid638-116">&lt;/li&gt;</ept>
                         <bpt id="tjiid638-122">&lt;li dir="ltr"&gt;</bpt>
                         <bpt id="tjiid638-123">&lt;p dir="ltr"&gt;</bpt>
                         <bpt id="tjiid638-124">&lt;a name="documented"&gt;</bpt>
                         <ept id="tjiid638-124">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         A clear statement of the properties and protections the software aims to provide (implicitly, this tends to also provide a threat model, though it's good to have an explicit threat model too). This should also include a clear statement of scenarios in which the protocol is not secure. <ept id="tjiid638-123">&lt;/p&gt;</ept>
                         <ept id="tjiid638-122">&lt;/li&gt;</ept>
@@ -1131,8 +2666,18 @@ This criterion requires clear and detailed explanations of the cryptography used
                         <ept id="tjiid638-134">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-136">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         7.<ept id="tjiid638-136">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-138">&lt;strong&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         Has there been an independent security audit?<ept id="tjiid638-138">&lt;/strong&gt;</ept>
                         <ept id="tjiid638-131">&lt;/p&gt;</ept>
@@ -1140,13 +2685,33 @@ This criterion requires clear and detailed explanations of the cryptography used
                         <bpt id="tjiid638-142">&lt;a name="audited"&gt;</bpt>
                         <ept id="tjiid638-142">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         This criterion requires an independent security review has been performed within the 12 months prior to evaluation. This review must cover both the design and the implementation of the app and must be performed by a named auditing party that is independent of the tool's main development team. Audits by an independent security team within a large organization are sufficient. Recognizing that unpublished audits can be valuable, we do not require that the results of the audit have been made public, only that a named party is willing to verify that the audit took place.<ept id="tjiid638-141">&lt;/p&gt;</ept>
                         <bpt id="tjiid638-145">&lt;p dir="ltr"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We've discussed this criterion in depth in a Deeplinks post: <bpt id="tjiid638-146">&lt;a href="https://www.eff.org/deeplinks/2014/11/what-makes-good-security-audit"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         What Makes a Good Security Audit?<ept id="tjiid638-146">&lt;/a&gt;</ept>
                         <x id="tjiid638-148" ctype="lb"></x>
+                        
+                        
+                        
+                        
+                        
                         
                          <ept id="tjiid638-145">&lt;/p&gt;</ept>
                         <ept id="tjiid638-9">&lt;/div&gt;</ept>
@@ -1157,13 +2722,33 @@ This criterion requires clear and detailed explanations of the cryptography used
                         <ept id="tjiid638-154">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-156">&lt;h2&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Changelog<ept id="tjiid638-156">&lt;/h2&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         
 
 Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Secure Messaging Scorecard<ept id="tjiid638-158">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          were checked with the listed projects and companies when the Scorecard launched on 2014-11-06. Updates will be made if the listees or others inform us of changes or inaccuracies. A log of all such changes is below:
 
@@ -1171,16 +2756,41 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         <bpt id="tjiid638-161">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-162">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2015-06-12<ept id="tjiid638-162">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-164">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                          :<ept id="tjiid638-164">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-166">&lt;ul&gt;</bpt>
                         <bpt id="tjiid638-167">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We removed Secret as the service was <bpt id="tjiid638-168">&lt;a href="https://medium.com/secret-den/sunset-bc18450478d5" title="Secret sunset"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         shut down<ept id="tjiid638-168">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          in May 2015.<ept id="tjiid638-167">&lt;/li&gt;</ept>
                         <ept id="tjiid638-166">&lt;/ul&gt;</ept>
@@ -1188,18 +2798,48 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         <bpt id="tjiid638-173">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-174">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2015-03-06<ept id="tjiid638-174">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-176">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                          :<ept id="tjiid638-176">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-178">&lt;ul&gt;</bpt>
                         <bpt id="tjiid638-179">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We credited QQ for completing an independent internal security audit (<bpt id="tjiid638-180">&lt;span style="color: #008000;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         ✓<ept id="tjiid638-180">&lt;/span&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                         )<bpt id="tjiid638-182">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         .<ept id="tjiid638-182">&lt;/span&gt;</ept>
                         <ept id="tjiid638-179">&lt;/li&gt;</ept>
@@ -1208,20 +2848,50 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         <bpt id="tjiid638-187">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-188">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2015-02-17<ept id="tjiid638-188">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-190">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                          :<ept id="tjiid638-190">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-192">&lt;ul&gt;</bpt>
                         <bpt id="tjiid638-193">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We credited Telegram (both secret and regular mode) for undergoing a code audit in February 2015 <bpt id="tjiid638-194">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         (<ept id="tjiid638-194">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-196">&lt;span style="line-height: 20.0063037872314px; color: #008000;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         ✓<ept id="tjiid638-196">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-198">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         ).<ept id="tjiid638-198">&lt;/span&gt;</ept>
                         <ept id="tjiid638-193">&lt;/li&gt;</ept>
@@ -1230,27 +2900,62 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         <bpt id="tjiid638-203">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-204">&lt;strong style="line-height: 20.0063037872314px;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2015-01-29<ept id="tjiid638-204">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-206">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                          :<ept id="tjiid638-206">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-208">&lt;ul&gt;</bpt>
                         <bpt id="tjiid638-209">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-210">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We have credited QQ for encrypting messages in transit <ept id="tjiid638-210">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-212">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         (<ept id="tjiid638-212">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-214">&lt;span style="color: #008000;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         ✓<ept id="tjiid638-214">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-216">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         ). Though QQ does not use TLS/SSL, which is considered best practice, they have implemented a custom protocol for message encryption in transit.<ept id="tjiid638-216">&lt;/span&gt;</ept>
                         <ept id="tjiid638-209">&lt;/li&gt;</ept>
                         <bpt id="tjiid638-219">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-220">&lt;span style="line-height: 20.0063037872314px;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         We have clarified our scoring for forward secrecy (criterion #4).<ept id="tjiid638-220">&lt;/span&gt;</ept>
                         <ept id="tjiid638-219">&lt;/li&gt;</ept>
@@ -1259,42 +2964,102 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         <bpt id="tjiid638-225">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-226">&lt;strong style="line-height: 1.538em;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2015-01-05<ept id="tjiid638-226">&lt;/strong&gt;</ept>
                         <bpt id="tjiid638-228">&lt;span style="line-height: 1.538em;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                          :<ept id="tjiid638-228">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-230">&lt;ul&gt;</bpt>
                         <bpt id="tjiid638-231">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-232">&lt;span style="line-height: 1.538em;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         We have split the scoring for Telegram into two rows: baseline Telegram and Telegram secret chats. Baseline Telegram chats are not end-to-end encrypted so that the provider can't read them (<ept id="tjiid638-232">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-234">&lt;span style="color: #ff0000;" data-mce-mark="1"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         ✘<ept id="tjiid638-234">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-236">&lt;span style="line-height: 1.538em;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         ). Telegram secret chats are, and in addition Telegram now <ept id="tjiid638-236">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-238">&lt;a href="https://core.telegram.org/api/pfs" title="Telegram perfect forward secrecy blog post" style="line-height: 1.538em;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         supports perfect forward secrecy<ept id="tjiid638-238">&lt;/a&gt;</ept>
                         <bpt id="tjiid638-240">&lt;span style="line-height: 1.538em;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                          so that messages can be securely deleted (<ept id="tjiid638-240">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-242">&lt;span style="color: #008000;" data-mce-mark="1"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         ✓<ept id="tjiid638-242">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-244">&lt;span style="line-height: 1.538em;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         )<ept id="tjiid638-244">&lt;/span&gt;</ept>
                         <ept id="tjiid638-231">&lt;/li&gt;</ept>
                         <bpt id="tjiid638-247">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-248">&lt;span style="line-height: 1.538em;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Wickr now provides the ability to verify contact's identities by exposing key fingerprints, which can be verified out-of-band or through in-band video. (<ept id="tjiid638-248">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-250">&lt;span style="line-height: 1.538em;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         ✓<ept id="tjiid638-250">&lt;/span&gt;</ept>
                         <bpt id="tjiid638-252">&lt;span style="line-height: 1.538em;"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         )<ept id="tjiid638-252">&lt;/span&gt;</ept>
                         <ept id="tjiid638-247">&lt;/li&gt;</ept>
@@ -1305,30 +3070,85 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         <bpt id="tjiid638-259">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-260">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2014-11-14<ept id="tjiid638-260">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          :
 
 <bpt id="tjiid638-262">&lt;ul&gt;</bpt>
                         <bpt id="tjiid638-263">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         RIM has told us that BlackBerry Messenger Protected uses an <bpt id="tjiid638-264">&lt;a href="http://docs.blackberry.com/en/admin/deliverables/64972/BBM_Protected-Security_Note_en.pdf"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         out-of-band passphrase exchange<ept id="tjiid638-264">&lt;/a&gt;</ept>
                         
+                        
+                        
+                        
+                        
+                        
                          and <bpt id="tjiid638-266">&lt;a href="https://en.wikipedia.org/wiki/SPEKE_(cryptography)"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         EC-SPEKE<ept id="tjiid638-266">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          to perform identity verification. (✓) RIM has also told us that BBM Protected receives security reviews by an internal security team. (✓)<ept id="tjiid638-263">&lt;/li&gt;</ept>
                         <bpt id="tjiid638-269">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Viber has received a recent external security audit from EY Advanced Security Center. (✓)<ept id="tjiid638-269">&lt;/li&gt;</ept>
                         <bpt id="tjiid638-271">&lt;li&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Pidgin has documented a number of auditing processes including regular use of static analysis tools and audits by a team at Cisco Talos. The Pidgin developers were clear that they do not know how thorough and complete these audits have been, but the audits nonetheless <bpt id="tjiid638-272">&lt;a href="https://www.eff.org/deeplinks/2014/11/what-makes-good-security-audit"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         meet our criteria<ept id="tjiid638-272">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . (✓) Although auditing of Pidgin improves the security of the related Adium project (the projects share many components including libpurple, libotr, and libxml2), the Adium developers tell us that besides occasional static analysis by the developers themselves they are not aware of any independent auditing effort that addresses the Adium-specific code. So for the time being that project will not receive an audit checkmark.<ept id="tjiid638-271">&lt;/li&gt;</ept>
                         <ept id="tjiid638-262">&lt;/ul&gt;</ept>
@@ -1336,17 +3156,47 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                         <bpt id="tjiid638-277">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-278">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2014-11-10<ept id="tjiid638-278">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          : Skype check mark for end-to-end encryption <bpt id="tjiid638-280">&lt;a href="https://www.eff.org/deeplinks/2014/11/scorecard-update-we-cannot-credit-skype-end-end-encryption"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         removed<ept id="tjiid638-280">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         . (✘)<ept id="tjiid638-277">&lt;/li&gt;</ept>
                         <bpt id="tjiid638-283">&lt;li&gt;</bpt>
                         <bpt id="tjiid638-284">&lt;strong&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         2014-11-04<ept id="tjiid638-284">&lt;/strong&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          : Snapchat app has audits from an internal security team. (✓)<ept id="tjiid638-283">&lt;/li&gt;</ept>
                         <ept id="tjiid638-258">&lt;/ul&gt;</ept>
@@ -1359,8 +3209,18 @@ Entries in the <bpt id="tjiid638-158">&lt;a href="#"&gt;</bpt>
                     <source xml:lang="en">
                         <bpt id="tjiid638-1">&lt;h3&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Which apps and tools actually keep your messages safe?<ept id="tjiid638-1">&lt;/h3&gt;</ept>
                         <bpt id="tjiid638-3">&lt;div class="section"&gt;</bpt>
+                        
+                        
+                        
+                        
+                        
                         
                         
 
@@ -1368,11 +3228,31 @@ In the face of widespread Internet surveillance, we need a secure and practical 
 
 This scorecard represents only the first phase of the campaign. In later phases, we are planning to offer closer examinations of the usability and security of the tools that score the highest here. As such, <bpt id="tjiid638-4">&lt;span style="text-decoration: underline;"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         the results in the scorecard below should not be read as endorsements of individual tools or guarantees of their security<ept id="tjiid638-4">&lt;/span&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         ; they are merely indications that the projects are on the right track. For practical advice and tutorials on how to protect your online communication against surveillance, check out EFF's <bpt id="tjiid638-6">&lt;a href="https://ssd.eff.org/"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         Surveillance Self-Defense<ept id="tjiid638-6">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                          guide.
 
@@ -1383,7 +3263,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 </trans-unit>
                 <trans-unit id="638][title_field][0][value" resname="638][title_field][0][value">
                     <source xml:lang="en">Secure Messaging Scorecard</source>
-                    <target></target>
+                    <target>Güvenli Mesajlaşma Skorkardı</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -1391,7 +3271,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>HTTPS Everywhere (menu:item:1953)</note>
                 <trans-unit id="639][menu:item:1953:title" resname="639][menu:item:1953:title">
                     <source xml:lang="en">HTTPS Everywhere</source>
-                    <target></target>
+                    <target>HTTPS Everywhere</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -1399,7 +3279,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Creating HTTPS Everywhere Rulesets (menu:item:1956)</note>
                 <trans-unit id="640][menu:item:1956:title" resname="640][menu:item:1956:title">
                     <source xml:lang="en">Creating HTTPS Everywhere Rulesets</source>
-                    <target></target>
+                    <target>HTTPS Everywhere Kuralsetlerini Yaratmak</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -1407,7 +3287,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>HTTPS Everywhere Atlas (menu:item:7475)</note>
                 <trans-unit id="641][menu:item:7475:title" resname="641][menu:item:7475:title">
                     <source xml:lang="en">HTTPS Everywhere Atlas</source>
-                    <target></target>
+                    <target>HTTPS Everywhere Atlası</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -1415,7 +3295,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>How to Deploy HTTPS Correctly (menu:item:1955)</note>
                 <trans-unit id="642][menu:item:1955:title" resname="642][menu:item:1955:title">
                     <source xml:lang="en">How to Deploy HTTPS Correctly</source>
-                    <target></target>
+                    <target>HTTPS Doğru Bir Şekilde Nasıl Deploy Edilir?</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -1423,7 +3303,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Report Bugs / Hack On The Code (menu:item:1957)</note>
                 <trans-unit id="643][menu:item:1957:title" resname="643][menu:item:1957:title">
                     <source xml:lang="en">Report Bugs / Hack On The Code</source>
-                    <target></target>
+                    <target>Bug Bildirimi / Kodu Hackleyin</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -1431,7 +3311,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>FAQ (menu:item:1954)</note>
                 <trans-unit id="644][menu:item:1954:title" resname="644][menu:item:1954:title">
                     <source xml:lang="en">FAQ</source>
-                    <target></target>
+                    <target>SSS</target>
                     <note>Title</note>
                 </trans-unit>
             </group>
@@ -1447,7 +3327,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Encrypt the web: Install HT...</note>
                 <trans-unit id="646][singular" resname="646][singular">
                     <source xml:lang="en">Encrypt the web: Install HTTPS Everywhere today.</source>
-                    <target></target>
+                    <target>Web'i şifreleyin: HTTPS Everywhere'i şimdi kurun.</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1455,7 +3335,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Install in Firefox</note>
                 <trans-unit id="647][singular" resname="647][singular">
                     <source xml:lang="en">Install in Firefox</source>
-                    <target></target>
+                    <target>Firefox'a Kur</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1463,7 +3343,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Install in Firefox for Android</note>
                 <trans-unit id="648][singular" resname="648][singular">
                     <source xml:lang="en">Install in Firefox for Android</source>
-                    <target></target>
+                    <target>Android için Firefox'a Kur</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1471,7 +3351,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Install in Chrome</note>
                 <trans-unit id="649][singular" resname="649][singular">
                     <source xml:lang="en">Install in Chrome</source>
-                    <target></target>
+                    <target>Chrome'a Kur</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1479,7 +3359,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Install in Opera</note>
                 <trans-unit id="650][singular" resname="650][singular">
                     <source xml:lang="en">Install in Opera</source>
-                    <target></target>
+                    <target>Opera'ya Kur</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1487,7 +3367,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Recent Releases</note>
                 <trans-unit id="651][singular" resname="651][singular">
                     <source xml:lang="en">Recent Releases</source>
-                    <target></target>
+                    <target>Son Sürümler</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1495,7 +3375,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Stable releases for Firefox:</note>
                 <trans-unit id="652][singular" resname="652][singular">
                     <source xml:lang="en">Stable releases for Firefox:</source>
-                    <target></target>
+                    <target>Firefox için kararlı sürümler:</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1503,7 +3383,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Stable releases for Chrome,...</note>
                 <trans-unit id="653][singular" resname="653][singular">
                     <source xml:lang="en">Stable releases for Chrome, Chromium, and Opera 15+:</source>
-                    <target></target>
+                    <target>Chrome, Chromium ve Opera 15+ için kararlı sürümler:</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1511,7 +3391,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Changelog.txt</note>
                 <trans-unit id="654][singular" resname="654][singular">
                     <source xml:lang="en">Changelog.txt</source>
-                    <target></target>
+                    <target>Changelog.txt</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1520,7 +3400,17 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <trans-unit id="655][singular" resname="655][singular">
                     <source xml:lang="en">Note: If you install the standalone .crx (i.e. not from the Chrome Web Store), and you are using Windows, Chrome will automatically disable the extension on each restart. You may be able to work around by using developer mode. See <bpt id="tjiid655-1">&lt;a href="https://github.com/EFForg/https-everywhere/issues/819"&gt;</bpt>
                         
+                        
+                        
+                        
+                        
+                        
                         this issue<ept id="tjiid655-1">&lt;/a&gt;</ept>
+                        
+                        
+                        
+                        
+                        
                         
                         .</source>
                     <target></target>
@@ -1531,7 +3421,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Featured Tools</note>
                 <trans-unit id="656][singular" resname="656][singular">
                     <source xml:lang="en">Featured Tools</source>
-                    <target></target>
+                    <target>Öne Çıkan Araçlar</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1539,7 +3429,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>All Tools</note>
                 <trans-unit id="657][singular" resname="657][singular">
                     <source xml:lang="en">All Tools</source>
-                    <target></target>
+                    <target>Tüm Araçlar</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1547,7 +3437,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Yes</note>
                 <trans-unit id="658][singular" resname="658][singular">
                     <source xml:lang="en">Yes</source>
-                    <target></target>
+                    <target>Evet</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1555,7 +3445,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>No</note>
                 <trans-unit id="659][singular" resname="659][singular">
                     <source xml:lang="en">No</source>
-                    <target></target>
+                    <target>Hayır</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1563,7 +3453,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Encrypted in transit?</note>
                 <trans-unit id="660][singular" resname="660][singular">
                     <source xml:lang="en">Encrypted in transit?</source>
-                    <target></target>
+                    <target>Taşıma sırasında şifrelenmiş?</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1571,7 +3461,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Encrypted so the provider c...</note>
                 <trans-unit id="661][singular" resname="661][singular">
                     <source xml:lang="en">Encrypted so the provider can’t read it?</source>
-                    <target></target>
+                    <target>Sağlayıcının okuyamayacağı şekilde şifrelenmiş?</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1579,7 +3469,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Can you verify contacts’ id...</note>
                 <trans-unit id="662][singular" resname="662][singular">
                     <source xml:lang="en">Can you verify contacts’ identities?</source>
-                    <target></target>
+                    <target>Kişilerin kimliği doğrulanabiliyor mu?</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1587,7 +3477,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Are past comms secure if yo...</note>
                 <trans-unit id="663][singular" resname="663][singular">
                     <source xml:lang="en">Are past comms secure if your keys are stolen?</source>
-                    <target></target>
+                    <target>Anahtarlar çalınmışsa geçmiş konuşmalar güvende mi?</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1595,7 +3485,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Is the code open to indepen...</note>
                 <trans-unit id="664][singular" resname="664][singular">
                     <source xml:lang="en">Is the code open to independent review?</source>
-                    <target></target>
+                    <target>Kod bağımsız incelemeye açık mı?</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1603,7 +3493,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Is security design properly...</note>
                 <trans-unit id="665][singular" resname="665][singular">
                     <source xml:lang="en">Is security design properly documented?</source>
-                    <target></target>
+                    <target>Güvenlik tasarımı düzgünce belgelenmiş mi?</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
@@ -1611,7 +3501,7 @@ This scorecard represents only the first phase of the campaign. In later phases,
                 <note>Has there been any recent c...</note>
                 <trans-unit id="666][singular" resname="666][singular">
                     <source xml:lang="en">Has there been any recent code audit?</source>
-                    <target></target>
+                    <target>Kod yakın bir zamanda denetlenmiş mi?</target>
                     <note>Singular</note>
                 </trans-unit>
             </group>
