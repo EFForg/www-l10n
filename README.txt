@@ -71,6 +71,12 @@ Other XLIFF Editors
 
 See https://en.wikipedia.org/wiki/XLIFF for a list of XLIFF editors.
 
+The language I'd like to help with is not listed
+================================================
+
+If you'd like to request or help with translation to an additional
+language, please see the next section.
+
 Questions? Suggestions?
 =======================
 
