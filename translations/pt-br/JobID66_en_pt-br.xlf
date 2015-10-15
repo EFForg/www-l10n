@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd">
+ <file original="xliff-core-1.2-strict.xsd" source-language="en" target-language="pt-br" datatype="plaintext" date="2015-10-15T03:10:34Z">
+  <header>
+   <phase-group>
+    <phase tool-id="tmgmt" phase-name="extraction" process-name="extraction" job-id="66"/>
+   </phase-group>
+   <tool tool-id="tmgmt" tool-name="Drupal Translation Management Tools"/>
+  </header>
+  <body>
+   <group id="1041">
+    <note>Secure Messaging Scorecard navigation</note>
+    <trans-unit id="1041][field_text_field][0][value" resname="1041][field_text_field][0][value">
+     <source xml:lang="en"><bpt id="tjiid1041-1">&lt;a href="#about"&gt;</bpt><![CDATA[About]]><ept id="tjiid1041-1">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid1041-3">&lt;a href="#methodology"&gt;</bpt><![CDATA[Methodology]]><ept id="tjiid1041-3">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid1041-5">&lt;a href="#changelog"&gt;</bpt><![CDATA[Changelog]]><ept id="tjiid1041-5">&lt;/a&gt;</ept></source>
+     <target xml:lang="pt-br"/>
+     <note>Description</note>
+    </trans-unit>
+   </group>
+  </body>
+ </file>
+</xliff>
