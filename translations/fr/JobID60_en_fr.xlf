@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd"><file original="xliff-core-1.2-strict.xsd" source-language="en" target-language="fr" datatype="plaintext" date="2015-10-15T03:10:34Z"><header><phase-group><phase phase-name="extraction" process-name="extraction"></phase></phase-group><tool tool-id="tmgmt" tool-name="Drupal Translation Management Tools"></tool></header><body><group id="1035"><note>Secure Messaging Scorecard navigation</note><trans-unit id="1035][field_text_field][0][value" resname="1035][field_text_field][0][value"><source xml:lang="en"><bpt id="tjiid1035-1">&lt;a href="#about"></bpt>About<ept id="tjiid1035-1">&lt;/a></ept> <bpt id="tjiid1035-3">&lt;a href="#methodology"></bpt>Methodology<ept id="tjiid1035-3">&lt;/a></ept> <bpt id="tjiid1035-5">&lt;a href="#changelog"></bpt>Changelog<ept id="tjiid1035-5">&lt;/a></ept></source><target xml:lang="fr"><bpt id="tjiid1035-1">&lt;a href="#about"></bpt>À propos<ept id="tjiid1035-1">&lt;/a></ept> <bpt id="tjiid1035-3">&lt;a href="#methodology"></bpt>Méthodologie<ept id="tjiid1035-3">&lt;/a></ept> <bpt id="tjiid1035-5">&lt;a href="#changelog"></bpt>Journal des modifications<ept id="tjiid1035-5">&lt;/a></ept></target><note>Description</note></trans-unit></group></body></file></xliff>
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd">
+  <file original="xliff-core-1.2-strict.xsd" source-language="en" target-language="fr" datatype="plaintext" date="2015-10-15T03:10:34Z">
+    <header>
+      <phase-group>
+    <phase tool-id="tmgmt" phase-name="extraction" process-name="extraction" job-id="60"/>
+   </phase-group>
+      <tool tool-id="tmgmt" tool-name="Drupal Translation Management Tools"/>
+    </header>
+    <body>
+      <group id="1035">
+        <note>Secure Messaging Scorecard navigation</note>
+        <trans-unit id="1035][field_text_field][0][value" resname="1035][field_text_field][0][value" approved="yes">
+          <source xml:lang="en"><bpt id="tjiid1035-1">&lt;a href="#about"&gt;</bpt>About<ept id="tjiid1035-1">&lt;/a&gt;</ept> <bpt id="tjiid1035-3">&lt;a href="#methodology"&gt;</bpt>Methodology<ept id="tjiid1035-3">&lt;/a&gt;</ept> <bpt id="tjiid1035-5">&lt;a href="#changelog"&gt;</bpt>Changelog<ept id="tjiid1035-5">&lt;/a&gt;</ept></source>
+          <target xml:lang="fr" state="translated"><bpt id="tjiid1035-1">&lt;a href="#about"&gt;</bpt>À propos<ept id="tjiid1035-1">&lt;/a&gt;</ept> <bpt id="tjiid1035-3">&lt;a href="#methodology"&gt;</bpt>Methodologie<ept id="tjiid1035-3">&lt;/a&gt;</ept> <bpt id="tjiid1035-5">&lt;a href="#changelog"&gt;</bpt>Journal des modifications<ept id="tjiid1035-5">&lt;/a&gt;</ept></target>
+          <note>Description</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
