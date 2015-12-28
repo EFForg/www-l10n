@@ -12,7 +12,7 @@
     <note>Secure Messaging Scorecard navigation</note>
     <trans-unit id="1036][field_text_field][0][value" resname="1036][field_text_field][0][value">
      <source xml:lang="en"><bpt id="tjiid1036-1">&lt;a href="#about"&gt;</bpt><![CDATA[About]]><ept id="tjiid1036-1">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid1036-3">&lt;a href="#methodology"&gt;</bpt><![CDATA[Methodology]]><ept id="tjiid1036-3">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid1036-5">&lt;a href="#changelog"&gt;</bpt><![CDATA[Changelog]]><ept id="tjiid1036-5">&lt;/a&gt;</ept></source>
-     <target xml:lang="de"/>
+     <target xml:lang="de"><bpt id="tjiid1036-1">&lt;a href="#about"&gt;</bpt><![CDATA[Über]]><ept id="tjiid1036-1">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid1036-3">&lt;a href="#methodology"&gt;</bpt><![CDATA[Methodik]]><ept id="tjiid1036-3">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid1036-5">&lt;a href="#changelog"&gt;</bpt><![CDATA[Changelog]]><ept id="tjiid1036-5">&lt;/a&gt;</ept></target>
      <note>Description</note>
     </trans-unit>
    </group>
