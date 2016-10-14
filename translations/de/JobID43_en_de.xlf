@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd">
  <file original="xliff-core-1.2-strict.xsd" source-language="en" target-language="de" datatype="plaintext" date="2015-08-05T12:08:23Z">
   <header>
    <phase-group>
@@ -10,41 +10,23 @@
   <body>
    <group id="863">
     <note>Privacy Badger</note>
-    <trans-unit id="863][field_questions][0][question" resname="863][field_questions][0][question">
-     <source xml:lang="en"><![CDATA[What is Privacy Badger?]]></source>
-     <target xml:lang="de"/>
-     <note>Question</note>
+    <trans-unit id="863][field_questions][0][question" resname="863][field_questions][0][question" approved="yes">
+     <source xml:lang="en">What is Privacy Badger?</source> <target xml:lang="de" state="translated">Was ist Privacy Badger?</target> <note>Question</note>
     </trans-unit>
-    <trans-unit id="863][field_questions][0][answer" resname="863][field_questions][0][answer">
-     <source xml:lang="en"><bpt id="tjiid863-1">&lt;a id="what_is_privacy_badger"&gt;</bpt><ept id="tjiid863-1">&lt;/a&gt;</ept><![CDATA[Privacy Badger is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web.  If an advertiser seems to be tracking you across multiple websites without your permission, Privacy Badger automatically blocks that advertiser from loading any more content in your browser.  To the advertiser, it's like you suddenly disappeared.]]></source>
-     <target xml:lang="de"/>
-     <note>Answer</note>
+    <trans-unit id="863][field_questions][0][answer" resname="863][field_questions][0][answer" approved="yes">
+     <source xml:lang="en"><bpt id="tjiid863-1">&lt;a id="what_is_privacy_badger"&gt;</bpt><ept id="tjiid863-1">&lt;/a&gt;</ept>Privacy Badger is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web.  If an advertiser seems to be tracking you across multiple websites without your permission, Privacy Badger automatically blocks that advertiser from loading any more content in your browser.  To the advertiser, it's like you suddenly disappeared.</source> <target xml:lang="de" state="translated">&lt;a id="what_is_privacy_badger"&gt;&lt;/a&gt;Privacy Badger ist ein Browser Add-on. Es stoppt Werbeanbieter und andere Anbieter von Trackern, die ohne dein Wissen, ein Bewegungsprofil von Dir im Internet erstellen. Wenn ein Werbeanbieter dich ohne deine Zustimmung über mehrere Seiten hinweg tracked, verhindert Privacy Badger das der Werbeanbieter mehr Daten an deinen Browser schicken kann. Für den Werbeanbieter sieht es so als als wärst Du nicht mehr online.</target> <note>Answer</note>
     </trans-unit>
-    <trans-unit id="863][field_questions][1][question" resname="863][field_questions][1][question">
-     <source xml:lang="en"><![CDATA[How is Privacy Badger different to Disconnect, Adblock Plus, Ghostery, and other blocking extensions?]]></source>
-     <target xml:lang="de"/>
-     <note>Question</note>
+    <trans-unit id="863][field_questions][1][question" resname="863][field_questions][1][question" approved="yes">
+     <source xml:lang="en">How is Privacy Badger different to Disconnect, Adblock Plus, Ghostery, and other blocking extensions?</source> <target xml:lang="de" state="translated">Wie unterscheidet sich Privaxy Badger zu Disconnect, Adblock Plus, Ghostery und anderen blocker Extension?</target> <note>Question</note>
     </trans-unit>
-    <trans-unit id="863][field_questions][1][answer" resname="863][field_questions][1][answer">
-     <source xml:lang="en"><bpt id="tjiid863-1">&lt;a id="how_is_it_different"&gt;</bpt><ept id="tjiid863-1">&lt;/a&gt;</ept><![CDATA[Privacy Badger was born out of our desire to be able to recommend a single extension that would automatically analyze and block any tracker or ad that violated the principle of user consent; which could function well without any settings, knowledge, or configuration by the user; which is produced by an organization that is unambiguously working for its users rather than for advertisers; and which uses algorithmic methods to decide what is and isn't tracking.
-
-Although we like Disconnect, Adblock Plus, Ghostery and similar products (in fact Privacy Badger is based on the ABP code!), none of them are exactly what we were looking for. In our testing, all of them required some custom configuration to block non-consensual trackers. Several of these extensions have business models that we weren't entirely comfortable with. And EFF hopes that by developing rigorous algorithmic and policy methods for detecting and preventing non-consensual tracking, we'll produce a codebase that could in fact be adopted by those other extensions, or by mainstream browsers, to give users maximal control over who does and doesn't get to know what they do online.]]></source>
-     <target xml:lang="de"/>
-     <note>Answer</note>
+    <trans-unit id="863][field_questions][1][answer" resname="863][field_questions][1][answer" approved="yes">
+     <source xml:lang="en"><bpt id="tjiid863-1">&lt;a id="how_is_it_different"&gt;</bpt><ept id="tjiid863-1">&lt;/a&gt;</ept>Privacy Badger was born out of our desire to be able to recommend a single extension that would automatically analyze and block any tracker or ad that violated the principle of user consent; which could function well without any settings, knowledge, or configuration by the user; which is produced by an organization that is unambiguously working for its users rather than for advertisers; and which uses algorithmic methods to decide what is and isn't tracking. Although we like Disconnect, Adblock Plus, Ghostery and similar products (in fact Privacy Badger is based on the ABP code!), none of them are exactly what we were looking for. In our testing, all of them required some custom configuration to block non-consensual trackers. Several of these extensions have business models that we weren't entirely comfortable with. And EFF hopes that by developing rigorous algorithmic and policy methods for detecting and preventing non-consensual tracking, we'll produce a codebase that could in fact be adopted by those other extensions, or by mainstream browsers, to give users maximal control over who does and doesn't get to know what they do online.</source> <target xml:lang="de" state="translated">&lt;a id="how_is_it_different"&gt;&lt;/a&gt;Privacy Badger wurde aus der Idee heraus geboren eine einzige Extension anzubieten die: Traker oder Werbung automatisch analysiert und blockiert wenn sie dem Benutzer keine Entscheidungsfreiheit lassen; die keine Einrichtung, Vorwissen oder Einstellungen erfordert; durch eine Organisation bereit gestellt werden die sich nur für die Rechte der Verbraucher einsetzt; durch Algorithmen entscheidet ob es sich um Tracker handelt oder nicht. Auch wenn wir Projekte wie Disconnect, Adblock Plus, Ghostery und ähnliche Anwendungen mögen, (Privacy Badger basiert auf dem ADB Code!), hat keines unsere Vorstellung erfüllt. In unseren Test benötigten alle Alternativen nachträgliche Einstellungen um Tracker denen du nicht zugestimmt hast zu blocken. Einige haben Geschäftsmodelle die nicht vertrauenswürdig sind. Wir die EFF glauben das wir mit der Entwicklung von rigorosen Algorithmus und Methoden um unfreiwilliges Tracking zu erkennen und zu verhindern, eine Grundlage schaffen die von den anderen Anwendungen oder Browsern verwendet werden kann. Damit der Benutzer die volle Kontrolle darüber hat wer und wer nicht sehen darf was er online macht.</target> <note>Answer</note>
     </trans-unit>
-    <trans-unit id="863][field_questions][2][question" resname="863][field_questions][2][question">
-     <source xml:lang="en"><![CDATA[How does Privacy Badger work?]]></source>
-     <target xml:lang="de"/>
-     <note>Question</note>
+    <trans-unit id="863][field_questions][2][question" resname="863][field_questions][2][question" approved="yes">
+     <source xml:lang="en">How does Privacy Badger work?</source> <target xml:lang="de" state="translated">Wie funktioniert Privacy Badger?</target> <note>Question</note>
     </trans-unit>
-    <trans-unit id="863][field_questions][2][answer" resname="863][field_questions][2][answer">
-     <source xml:lang="en"><bpt id="tjiid863-1">&lt;a id="how_does_it_work"&gt;</bpt><ept id="tjiid863-1">&lt;/a&gt;</ept><![CDATA[When you view a webpage, that page will often be made up of content from many different sources.  (For example, a news webpage might load the actual article from the news company, ads from an ad company, and the comments section from a different company that's been contracted out to provide that service.)  Privacy Badger keeps track of all of this.  If as you browse the web, the same source seems to be tracking your browser across different websites, then Privacy Badger springs into action, telling your browser not to load any more content from that source.  And when your browser stops loading content from a source, that source can no longer track you.  Voila!
-
-At a more technical level, Privacy Badger keeps note of the "third party" domains that embed images, scripts and advertising in the pages you visit. If a third party server appears to be tracking you without permission, by using uniquely identifying cookies (and, as of version 1.0, local storage super cookies and canvas fingerprinting as well) to collect a record of the pages you visit across multiple sites, Privacy Badger will automatically disallow content from that third party tracker. In some cases a third-party domain provides some important aspect of a page's functionality, such as embedded maps, images, or stylesheets. In those cases Privacy Badger will allow connections to the third party but will screen out its tracking cookies and referrers.
-
-]]><bpt id="tjiid863-3">&lt;p align="right"&gt;</bpt><![CDATA[[]]><bpt id="tjiid863-4">&lt;a href="#top"&gt;</bpt><![CDATA[top]]><ept id="tjiid863-4">&lt;/a&gt;</ept><![CDATA[]]]><ept id="tjiid863-3">&lt;/p&gt;</ept></source>
-     <target xml:lang="de"/>
-     <note>Answer</note>
+    <trans-unit id="863][field_questions][2][answer" resname="863][field_questions][2][answer" approved="yes">
+     <source xml:lang="en"><bpt id="tjiid863-1">&lt;a id="how_does_it_work"&gt;</bpt><ept id="tjiid863-1">&lt;/a&gt;</ept>When you view a webpage, that page will often be made up of content from many different sources.  (For example, a news webpage might load the actual article from the news company, ads from an ad company, and the comments section from a different company that's been contracted out to provide that service.)  Privacy Badger keeps track of all of this.  If as you browse the web, the same source seems to be tracking your browser across different websites, then Privacy Badger springs into action, telling your browser not to load any more content from that source.  And when your browser stops loading content from a source, that source can no longer track you.  Voila! At a more technical level, Privacy Badger keeps note of the "third party" domains that embed images, scripts and advertising in the pages you visit. If a third party server appears to be tracking you without permission, by using uniquely identifying cookies (and, as of version 1.0, local storage super cookies and canvas fingerprinting as well) to collect a record of the pages you visit across multiple sites, Privacy Badger will automatically disallow content from that third party tracker. In some cases a third-party domain provides some important aspect of a page's functionality, such as embedded maps, images, or stylesheets. In those cases Privacy Badger will allow connections to the third party but will screen out its tracking cookies and referrers. <bpt id="tjiid863-3">&lt;p align="right"&gt;</bpt>[<bpt id="tjiid863-4">&lt;a href="#top"&gt;</bpt>top<ept id="tjiid863-4">&lt;/a&gt;</ept>]<ept id="tjiid863-3">&lt;/p&gt;</ept></source> <target xml:lang="de" state="translated">&lt;a id="how_does_it_work"&gt;&lt;/a&gt;Wenn Du eine Webseite besuchst wird diese oft von Inhalten aus verschiedenen Quellen zusammengesetzt sein. (z.B. Eine Nachrichtenseite lädt die Artikel von der Nachrichtenagentur, Werbung von einer anderen Firma und die Kommentare unter den Artikeln von einer anderen Firma die diesen Service für die Nachrichtenagentur bereit stellt.) Privacy Badger merkt sich all diese Verbindungen. Wen Du durch das Web surfst und Dich eine der Quellen dich über verschiedene Webseiten tracked wird Privacy Badger aktiv, er sagt deinem Browser das er das er keine Daten mehr von dieser Quelle laden soll. Wenn keine Daten mehr von dieser Quelle geladen werden kann sie dich nicht mehr durch das Netz verfolgen.</target> <note>Answer</note>
     </trans-unit>
     <trans-unit id="863][field_questions][3][question" resname="863][field_questions][3][question">
      <source xml:lang="en"><![CDATA[What is a third party tracker?]]></source>
@@ -274,10 +256,8 @@ Last updated July 22nd, 2015]]></source>
    </group>
    <group id="865">
     <note>Privacy Badger blocks spyin...</note>
-    <trans-unit id="865][singular" resname="865][singular">
-     <source xml:lang="en"><![CDATA[Privacy Badger blocks spying ads and invisible trackers.]]></source>
-     <target xml:lang="de"/>
-     <note>Singular</note>
+    <trans-unit id="865][singular" resname="865][singular" approved="yes">
+     <source xml:lang="en">Privacy Badger blocks spying ads and invisible trackers.</source> <target xml:lang="de" state="translated">Privacy Badger blokiert </target> <note>Singular</note>
     </trans-unit>
    </group>
    <group id="866">
@@ -299,9 +279,7 @@ Last updated July 22nd, 2015]]></source>
    <group id="868">
     <note>Privacy Badger FAQ</note>
     <trans-unit id="868][singular" resname="868][singular">
-     <source xml:lang="en"><![CDATA[Privacy Badger FAQ]]></source>
-     <target xml:lang="de"/>
-     <note>Singular</note>
+     <source xml:lang="en">Privacy Badger FAQ</source> <target xml:lang="de"/> <note>Singular</note>
     </trans-unit>
    </group>
    <group id="869">
