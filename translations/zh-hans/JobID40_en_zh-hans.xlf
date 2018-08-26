@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd">
  <file original="xliff-core-1.2-strict.xsd" source-language="en" target-language="zh-hans" datatype="plaintext" date="2015-08-05T12:08:23Z">
   <header>
    <phase-group>
@@ -12,29 +12,30 @@
     <note>Privacy Badger</note>
     <trans-unit id="827][field_questions][0][question" resname="827][field_questions][0][question">
      <source xml:lang="en"><![CDATA[What is Privacy Badger?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger是什么?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][0][answer" resname="827][field_questions][0][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="what_is_privacy_badger"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Privacy Badger is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web.  If an advertiser seems to be tracking you across multiple websites without your permission, Privacy Badger automatically blocks that advertiser from loading any more content in your browser.  To the advertiser, it's like you suddenly disappeared.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger是一个浏览器插件, 其首要目的是阻止广告商或者别的第三方监视器对你网络活动进行的监视. 如果某个广告商在未经你同意的情况下对你在多个页面进行监视, 那么Privacy Badger就会自动禁止这个广告商从你的浏览器中获得更多信息. 在广告商看来, 这就跟你突然消失了一样. </target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][1][question" resname="827][field_questions][1][question">
      <source xml:lang="en"><![CDATA[How is Privacy Badger different to Disconnect, Adblock Plus, Ghostery, and other blocking extensions?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger和Disconnect, Adblock Plus, Ghostery以及其他拦截软件有什么不同?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][1][answer" resname="827][field_questions][1][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="how_is_it_different"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Privacy Badger was born out of our desire to be able to recommend a single extension that would automatically analyze and block any tracker or ad that violated the principle of user consent; which could function well without any settings, knowledge, or configuration by the user; which is produced by an organization that is unambiguously working for its users rather than for advertisers; and which uses algorithmic methods to decide what is and isn't tracking.
 
 Although we like Disconnect, Adblock Plus, Ghostery and similar products (in fact Privacy Badger is based on the ABP code!), none of them are exactly what we were looking for. In our testing, all of them required some custom configuration to block non-consensual trackers. Several of these extensions have business models that we weren't entirely comfortable with. And EFF hopes that by developing rigorous algorithmic and policy methods for detecting and preventing non-consensual tracking, we'll produce a codebase that could in fact be adopted by those other extensions, or by mainstream browsers, to give users maximal control over who does and doesn't get to know what they do online.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger的初衷是为了能有一款满足以下要求的软件: 能自动分析和拦截任何违反了用户同意原则的监视器或者广告商; 不需要用户有专业知识以及繁琐的设定也能良好运行; 研发组织明确地为用户服务, 而不是为广告商服务; 通过算法来判断哪些站点在对用户进行监视.
+虽然我们很喜欢Disconnect, Adblock Plus, Ghostery和其他类似产品(事实上, Privacy Badger是在Adblock Plus的代码基础上改良的), 这些产品没有一个能满足我们上述的要求. 在产品测试时, 这些产品要么是需要繁杂的设定, 要么是有着我们不敢苟同的商业模式. EFF希望能通过严密的算法与政策来探测与拦截未经同意的监测. 我们同时希望Privacy Badger的代码能在将来被别的插件所借鉴, 或者被主流浏览器所采用, 以此来给用户提供对自己隐私的最大控制权.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][2][question" resname="827][field_questions][2][question">
      <source xml:lang="en"><![CDATA[How does Privacy Badger work?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger的工作原理是什么?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][2][answer" resname="827][field_questions][2][answer">
@@ -43,22 +44,23 @@ Although we like Disconnect, Adblock Plus, Ghostery and similar products (in fac
 At a more technical level, Privacy Badger keeps note of the "third party" domains that embed images, scripts and advertising in the pages you visit. If a third party server appears to be tracking you without permission, by using uniquely identifying cookies (and, as of version 1.0, local storage super cookies and canvas fingerprinting as well) to collect a record of the pages you visit across multiple sites, Privacy Badger will automatically disallow content from that third party tracker. In some cases a third-party domain provides some important aspect of a page's functionality, such as embedded maps, images, or stylesheets. In those cases Privacy Badger will allow connections to the third party but will screen out its tracking cookies and referrers.
 
 ]]><bpt id="tjiid827-3">&lt;p align="right"&gt;</bpt><![CDATA[[]]><bpt id="tjiid827-4">&lt;a href="#top"&gt;</bpt><![CDATA[top]]><ept id="tjiid827-4">&lt;/a&gt;</ept><![CDATA[]]]><ept id="tjiid827-3">&lt;/p&gt;</ept></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">每当你浏览一个网页时, 这个网页往往会有各种不同来源的内容. (举个例子, 一个新闻网页可能会有来自于新闻公司的新闻网页, 来自于广告公司的广告内容, 和被第三方外包了的用户评论内容.) Privacy Badger会记录这些内容. 如果在你浏览网页时同一个来源的站点在不同网站上都有监视你的浏览器的话, 那么Privacy Badger就会采取行动, 让你的浏览器不再从这个来源获得更多内容. 当你的浏览器不再从某个来源获取内容, 这个来源就无法监视你了.
+从技术层面来说, Privacy Badger会记录哪些第三方域名在你所浏览的网页中潜入了图片, 脚本, 以及广告. 如果某个第三方服务器在未经你允许的情况下监视你, Privacy Badger会通过cookie(1.0版本还会用本地存储的super cookie和帆布式指纹识别)来记录你所浏览过的页面, 并且自动阻拦这个第三方服务器. 一些第三方服务器是用来提供王爷本身的功能的(比如嵌入地图, 图片, 样式表等). Privacy Badger会允许这些服务器获取连接, 但会拦截它们的追踪cookie和引用页</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][3][question" resname="827][field_questions][3][question">
      <source xml:lang="en"><![CDATA[What is a third party tracker?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">第三方监视器是什么?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][3][answer" resname="827][field_questions][3][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="trackers"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[When you visit a webpage parts of the page may come from domains and servers other than the one you asked to visit. This is an essential feature of ]]><bpt id="tjiid827-3">&lt;a href="https://en.wikipedia.org/wiki/Hypertext"&gt;</bpt><![CDATA[hypertext]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[, but it has also come to be a serious privacy problem. On the modern Web, embedded images and code often use cookies and other methods to track your browsing habits — often to display advertisements. The domains that do this are called "third party trackers", and you can read more about how they work ]]><bpt id="tjiid827-5">&lt;a href="https://www.eff.org/deeplinks/2009/09/online-trackers-and-social-networks"&gt;</bpt><![CDATA[here]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">当你浏览一个网页时, 它的某些部分的来源可能是别的域名或者服务器. 这个是超文本的一个必不可少的特性, 但是同时这也造成了很严重的隐私侵犯问题. 在现代网络里, 嵌入式的图片和代码往往会用cookie或者别的方法来监测你的浏览习惯, 目的是有针对性地打广告. 有这种行为的域名被称作"第三方监视器". 你可以在这里了解更多信息. </target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][4][question" resname="827][field_questions][4][question">
      <source xml:lang="en"><![CDATA[What do the red, yellow and green sliders in the Privacy Badger menu mean?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger菜单栏上面的红, 黄, 绿滑动栏是什么意思?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][4][answer" resname="827][field_questions][4][answer">
@@ -70,116 +72,123 @@ At a more technical level, Privacy Badger keeps note of the "third party" domain
 ]]><ept id="tjiid827-3">&lt;/ul&gt;</ept><![CDATA[
 
 Privacy Badger analyzes each third party's behavior over time, and picks what it thinks is the right setting for each domain, but you can adjust the sliders if you wish.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">这些颜色的意思如下: 
+绿色意味着网页中有一个第三方域名, 但是我们还没有发现这个域名有在不同网站上监视你的行为. 当你第一次安装Privacy Badger时, 所有域名都会是绿色的. 但随着你浏览的网页越来越多, 可疑域名将会很快地被归类为监视器.
+黄色的意思是这个第三方域名正在尝试监视你, 但是Privacy Badger把这个域名放在了一个只阻拦cookie的"黄名单"里, 这个黄名单包含了网页功能所需要的第三方域名. Privacy Badger会允许浏览器从这些服务器中载入内容, 但是会拦截它们的cookie.
+红色则意味着这个第三方监视器的内容被完全阻拦了.
+Privacy Badger会持续分析每个第三方服务器的行为, 并且自动设定它认为对每个域名最合适的设定, 但用户可以自己调整这些设定.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][5][question" resname="827][field_questions][5][question">
      <source xml:lang="en"><![CDATA[Why does Privacy Badger block ads?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">为什么Privacy Badger可以拦截广告?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][5][answer" resname="827][field_questions][5][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="why_does_privacy_badger_block_ads"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Actually, nothing in the Privacy Badger code is specifically written to block ads. Rather, it focuses on disallowing any visible or invisible "third party" scripts or images that appear to be tracking you even though you specifically denied consent by sending a Do Not Track header. It just so happens that most (but not all) of these third party trackers are advertisements. When you see an ad, the ad sees you, and can track you. Privacy Badger is here to stop that.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">实际上, Privacy Badger的代码并不是特地为广告拦截而设计的. Privacy Badger所注重的是禁止任何可见的或不可见的第三方脚本或图片在未经你允许(特别是在发送了"请勿监测"的请求)的情况下监视你. 能够拦截广告只是刚好绝大多数(并非全部)这样做的第三方都是广告商. 当你看见一个广告时, 广告也能看见你并且监视你. Privacy Badger的使命就是来制止这种行为.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][6][question" resname="827][field_questions][6][question">
      <source xml:lang="en"><![CDATA[Why doesn't Privacy Badger block all ads?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">为什么Privacy Badger不把所有广告都禁止?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][6][answer" resname="827][field_questions][6][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="why_doesnt_privacy_badger_block_all_ads"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Because Privacy Badger is primarily a privacy tool, not an ad blocker. Our aim is not to block ads, but to prevent non-consensual invasions of people's privacy because we believe they are inherently objectionable. We also want to create incentives for advertising companies to do the right thing. Of course, if you really dislike ads, you can also install a traditional ad blocker.]]><bpt id="tjiid827-3">&lt;a name="dnt-policy"&gt;</bpt><ept id="tjiid827-3">&lt;/a&gt;</ept></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">因为Privacy Badger主要是一个隐私保护工具, 而不是广告拦截器. 我们的目标并不是拦截广告, 而是防止未经允许的隐私侵犯 (我们认为这种行为是十分不道德的). 我们同时也希望可以给广告公司提供做出正确选择的动机. 当然了, 如果你真的很不喜欢广告, 你也可以安装一个传统的广告拦截软件.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][7][question" resname="827][field_questions][7][question">
      <source xml:lang="en"><![CDATA[What about tracking by the sites I actively visit, like NYTimes.com or Facebook.com?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">那么对于那些我经常主动浏览的网站(比如NYTimes.com或Facebook.com)呢? 它们对我的监视要怎么处理?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][7][answer" resname="827][field_questions][7][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="what_about_first_party_tracking"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[For the time being, Privacy Badger only protects you against tracking by third party sites. In the future we plan to add some privacy protections for "first party" sites that you actually visit.
 
 We are doing things in this order because the most scandalous, intrusive and objectionable form of online tracking is that conducted by companies you've ]]><bpt id="tjiid827-3">&lt;a href="http://mediamemo.allthingsd.com/files/2010/09/LUMA-display-ad-map.jpg"&gt;</bpt><![CDATA[often never heard of]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[ and have no relationship with. First and foremost, Privacy Badger is there to enforce Do Not Track against these domains by providing the technical means to restrict access to their tracking scripts and images. The right policy for whether nytimes.com, facebook.com or google.com can track you ]]><bpt id="tjiid827-5">&lt;i&gt;</bpt><![CDATA[when you visit that site]]><ept id="tjiid827-5">&lt;/i&gt;</ept><![CDATA[ – and the technical task of preventing it – is more complicated because often (though not always) tracking is interwoven with the features the site offers, and sometimes (though not always) users may understand that the price of an excellent free tool like Google's search engine is measured in privacy, not money.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">就目前来说, Privacy Badger只会阻拦第三方站点的监视. 在未来我们计划加入针对用户会访问的"第一方"站点监视的方案.
+
+先处理第三方再处理第一方的原因是绝大多数恶劣的网络隐私侵犯都是由你没听过和没交集的公司做的. Privacy Badger的首要任务就是通过科学手段来缩减这些公司能获取到的监视脚本和图片, 以此来落实对这些公司的"请勿监测"命令的实施.  至于像nytimes.com, google.com和facebook.com这样的公司在你访问它们时能否监视你, 或者我们如何防止它们监视你, 都要比处理第三方站点复杂上不少, 因为监视经常(但绝不是所有时候)会和站点提供的服务是密不可分的, 而且有时候(也不是所有时候)用户愿意牺牲自己的隐私来换取Google等公司的优秀免费服务.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][8][question" resname="827][field_questions][8][question">
      <source xml:lang="en"><![CDATA[Does Privacy Badger contain a "black list" of blocked sites?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger有一个拦截站点的黑名单吗?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][8][answer" resname="827][field_questions][8][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="is_there_a_black_list"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[No, unlike other blocking tools like AdBlock Plus, we have not made decisions about which sites to block, but rather about which behavior is objectionable. Domains will only be blocked or screened if the Privacy Badger code inside your browser actually observes the domain collecting unique identifiers after it was sent a Do Not Track message. Privacy Badger ]]><bpt id="tjiid827-3">&lt;i&gt;</bpt><![CDATA[does]]><ept id="tjiid827-3">&lt;/i&gt;</ept><![CDATA[ contain a "]]><bpt id="tjiid827-5">&lt;a href="https://github.com/EFForg/privacybadgerchrome/blob/master/doc/sample_cookieblocklist.txt"&gt;</bpt><![CDATA[yellowlist]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[" of some sites that are known to provide essential third party resources; those sites show up as yellow and have their cookies blocked rather than being blocked entirely. This is a compromise with practicality, and in the long term we hope to phase out the yellowlist as these third parties begin to ]]><bpt id="tjiid827-7">&lt;a href="/dnt-policy"&gt;</bpt><![CDATA[explicitly commit to respecting Do Not Track]]><ept id="tjiid827-7">&lt;/a&gt;</ept><![CDATA[. 
 
 The criteria for including a domain on the yellowlist can be ]]><bpt id="tjiid827-9">&lt;a href="https://github.com/EFForg/privacybadgerchrome/blob/master/yellowlist-criteria.txt" target="_blank"&gt;</bpt><![CDATA[found here]]><ept id="tjiid827-9">&lt;/a&gt;</ept><![CDATA[.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">没有. Privacy Badger不像别的广告拦截工具(比如说Adblock Plus), 我们并不决定哪些网站需要拦截, 我们决定的是哪些行为是不可取的. 如果某个域名被阻挡了, 那么说明Privacy Badger的代码观察到了这个域名在收到了"请勿监测"命令的情况下仍然继续收集用户信息. Privacy Badger有一个黄名单, 其中包含了一些用来提供网页不可或缺的功能的站点, 黄名单中的站点只有cookie会被拦截. 这个是为了实用性做出的折衷. 长远来讲, 我们希望能逐渐不需要黄名单, 希望这些站点能主动遵守"请勿监测"命令.
+黄名单的判断标准可以在这里找到.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][9][question" resname="827][field_questions][9][question">
      <source xml:lang="en"><![CDATA[How was the cookie blocking yellowlist created?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">只拦截cookie的黄名单是怎么样创造出来的?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][9][answer" resname="827][field_questions][9][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="how_was_the_white_list_created"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[The initial list of domains that should be cookie blocked rather than blocked entirely was derived from a ]]><bpt id="tjiid827-3">&lt;a href="https://jonathanmayer.org/papers_data/bau13.pdf"&gt;</bpt><![CDATA[research project]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[ on classifying third party domains as trackers and non-trackers. We will make occasional adjustments to it as necessary. If you find domains that are under- or over-blocked, please ]]><bpt id="tjiid827-5">&lt;a href="https://github.com/EFForg/privacybadgerchrome/issues"&gt;</bpt><![CDATA[file a bug]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[ on Github.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">黄名单中的初始名单是通过一个分类第三方域名的研究项目中得出的. 我们会根据需要偶尔作出改动. 如果你认为某个域名被过度拦截了或者拦截力度不够, 请上Github举报bug.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][10][question" resname="827][field_questions][10][question">
      <source xml:lang="en"><![CDATA[Does Privacy Badger prevent fingerprinting?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger能防止指纹采集吗?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][10][answer" resname="827][field_questions][10][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="does_it_prevent_fingerprinting"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Browser fingerprinting is an extremely subtle and problematic method of tracking, which we ]]><bpt id="tjiid827-3">&lt;a href="https://panopticlick.eff.org"&gt;</bpt><![CDATA[documented with the Panopticlick project]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[. Privacy Badger 1.0 can detect ]]><bpt id="tjiid827-5">&lt;a href="http://janhkrueger.de/gitpup/RSSArtikel/raw/bd53c81bd5d1ee434d76a64ece26de1aac3a218d/w2sp12-final4.pdf" target="_blank"&gt;</bpt><![CDATA[canvas]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid827-7">&lt;a href="http://filelifter.de/assets/plugindata/poola/thewebneverforgets.pdf" target="_blank"&gt;</bpt><![CDATA[based]]><ept id="tjiid827-7">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid827-9">&lt;a href="https://www.propublica.org/article/meet-the-online-tracking-device-that-is-virtually-impossible-to-block" target="_blank"&gt;</bpt><![CDATA[fingerprinting]]><ept id="tjiid827-9">&lt;/a&gt;</ept><![CDATA[, and will block third party domains that use it. Detection of other forms of fingerprinting and protections against first-party fingerprinting are ongoing projects. Of course, once a domain is blocked by Privacy Badger, it will no longer be able to fingerprint you as a third-party.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">浏览器指纹采集是一种非常微妙且问题多多的监视方法. 我们曾经在Panopticlick项目中研究过. Privacy Badger 1.0可以探测到基于帆布的指纹采集, 并且可以拦截用这种指纹采集方法的第三反域名. 我们目前正在研究如何阻止其它形式的指纹采集和第一方的指纹采集. 当然了, 一旦Privacy Badger拦截了某个域名, 这个域名就没办法以第三方形式对你采集指纹.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][11][question" resname="827][field_questions][11][question">
      <source xml:lang="en"><![CDATA[Does Privacy Badger consider every cookie to be a tracking cookie?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger会认为每个cookie都是监视cookie吗?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][11][answer" resname="827][field_questions][11][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="is_every_cookie_a_tracking_cookie"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[No. Privacy Badger analyzes the cookies from each site; unique cookies that contain tracking IDs are disallowed, while "low entropy" cookies that perform other functions are allowed. For instance a cookie like LANG=fr that encodes the user's language preference, or a cookie that preserves a very small amount of information about ads the user has been shown, would be allowed provided that individual or small groups of users' reading habits could not be collected with them. We have a ]]><bpt id="tjiid827-3">&lt;a href="https://github.com/EFForg/privacybadgerchrome/blob/master/src/heuristicblocking.js#l482"&gt;</bpt><![CDATA[very rough]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[ implementation of this; pull requests are welcome.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">不会的. Privacy Badger会对每个站点的cookie进行分析, 只有那些含有监视ID的cookie才会被禁止, 其他用于给网站提供功能的"低熵"cookie还是被允许的. 比如说像LANG=fr这个cookie是用于记录用户的语言偏好的, 或者是某些用来记录用户都看过哪些广告的cookie, 这些cookie都是被允许的, 前提条件是用户的浏览习惯不会被它们收集. 我们对这项政策的实施十分严格, 我们欢迎pull requests.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][12][question" resname="827][field_questions][12][question">
      <source xml:lang="en"><![CDATA[Does Privacy Badger account for a cookie that was used to track me even if I deleted it?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger会处理那些曾经监视过我但是被我删掉了的cookie吗?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][12][answer" resname="827][field_questions][12][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="what_about_deleted_cookies"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Yes.  Privacy Badger keeps track of cookies that could be used to track you and where they came from, even if you frequently clear your browser's cookies.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">会. Privacy Badger会记录各种有可能会被用来监视你的cookie和它们的来源, 即使你经常清空你浏览器的cookie.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][13][question" resname="827][field_questions][13][question">
      <source xml:lang="en"><![CDATA[Will you be supporting any other browsers besides Chrome / Firefox?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">你们接下来会支持除了Chrome和Firefox之外的浏览器吗?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][13][answer" resname="827][field_questions][13][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="safari_and_ie"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[In the near future we hope to release Privacy Badger for Opera, Safari, and Firefox Mobile.  Unfortunately at the moment we cannot support Internet Explorer, since current version IE appears to be incompatible with how Privacy Badger works at a technical level.  (With that said, if you would like to work on porting Privacy Badger to other platforms, please let us know!)]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">短期内我们希望能放出Opera, Safari, 还有Firefox Mobile的Privacy Badger. 很遗憾目前我们暂时无法支持Internet Explorer, 原因是IE浏览器目前的版本和我们的代码有些技术性上的不兼容(但是如果你想要帮忙把Privacy Badger嫁接到别的平台上, 请告知我们!)</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][14][question" resname="827][field_questions][14][question">
      <source xml:lang="en"><![CDATA[Can I download Privacy Badger outside of the Chrome Web Store?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">我可以在Chrome Web Store以外的地方下载到Privacy Badger吗?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][14][answer" resname="827][field_questions][14][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="no_chrome_store"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[You can! If you are using an alternative Chromium based browser such as Chromium ports Iron, Comodo Dragon, or Maxthon you can get the latest version of the addon directly from this link: ]]><bpt id="tjiid827-3">&lt;a href="https://www.eff.org/files/privacy_badger-chrome.crx"&gt;</bpt><![CDATA[https://www.eff.org/files/privacy_badger-chrome.crx]]><ept id="tjiid827-3">&lt;/a&gt;</ept></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">可以的. 如果你用的是别的基于Chromium的浏览器, 比如说Chromium ports Iron, Comodo Dragon, 或者Maxthon, 那么你可以在这里下载最新的版本: https://www.eff.org/files/privacy_badger-chrome.crx</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][15][question" resname="827][field_questions][15][question">
      <source xml:lang="en"><![CDATA[ I am an online advertising / tracking company.  How do I stop Privacy Badger from blocking me?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">我是一个在线广告/监视公司. 我要怎么做才能让Privacy Badger不阻拦我?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][15][answer" resname="827][field_questions][15][answer">
@@ -188,65 +197,67 @@ The criteria for including a domain on the yellowlist can be ]]><bpt id="tjiid82
 If copies of Privacy Badger have already blocked your domain, you can unblock yourself by promising to respect the Do Not Track header in a way that conforms with the user's privacy policy. You can do that by posting a specific compliant ]]><bpt id="tjiid827-3">&lt;a href="https://www.eff.org/dnt-policy" target="_blank"&gt;</bpt><![CDATA[DNT policy]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[ to the URL ]]><bpt id="tjiid827-5">&lt;tt&gt;</bpt><![CDATA[http]]><bpt id="tjiid827-6">&lt;b&gt;</bpt><![CDATA[s]]><ept id="tjiid827-6">&lt;/b&gt;</ept><![CDATA[://example.com/.well-known/dnt-policy.txt]]><ept id="tjiid827-5">&lt;/tt&gt;</ept><![CDATA[, where "example.com" is all of your DNT-compliant domains. Note that the domain ]]><bpt id="tjiid827-9">&lt;i&gt;</bpt><![CDATA[must]]><ept id="tjiid827-9">&lt;/i&gt;</ept><![CDATA[ support HTTPS, to protect against tampering by network attackers. The path contains ".well-known" per ]]><bpt id="tjiid827-11">&lt;a href="https://tools.ietf.org/html/rfc5785"&gt;</bpt><![CDATA[RFC 5785]]><ept id="tjiid827-11">&lt;/a&gt;</ept><![CDATA[.
 
 Privacy Badger currently checks for this specific ]]><bpt id="tjiid827-13">&lt;i&gt;</bpt><![CDATA[verbatim]]><ept id="tjiid827-13">&lt;/i&gt;</ept><![CDATA[ policy document, though in the future Privacy Badger may allow content from sites that post different versions of a ]]><bpt id="tjiid827-15">&lt;a href="/dnt-policy"&gt;</bpt><![CDATA[compliant DNT Policy]]><ept id="tjiid827-15">&lt;/a&gt;</ept><![CDATA[, and that there may be ways for users to specify their own acceptable DNT policies if they wish to.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">方法之一是停止监视已经启用了"请勿监测"命令的第三方用户, 即停止收集他们的cookie, supercookie和指纹. 对于最新的Privacy Badger, 这个方法可以让Privacy Badger不阻拦你.
+如果Privacy Badger已经拦截了你的域名, 那么你可以声明保证以符合用户隐私政策的方法来遵守"请勿监视"命令, 从而对自己解封. 具体做法之一就是在https://example.com/.well-known/dnt-policy.txt上发表一个遵守"请勿监视"的政策声明("example.com"改换成你希望解封的域名). 请注意, 这个做法要求域名必须要支持HTTPS, 以防黑客干扰.根据RFC 5785,  路径名中需含有".well-known".
+Privacy Badger目前逐字逐句检查这份政策声明, 不过在将来Privacy Badger可能会允许不同版本的声明, 也有可能可以让用户自己设定他们接受什么样的政策. </target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][16][question" resname="827][field_questions][16][question">
      <source xml:lang="en"><![CDATA[What is the Privacy Badger license?  Where is the Privacy Badger source code?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger的许可证书是什么? 源代码在哪里?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][16][answer" resname="827][field_questions][16][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="license"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Privacy Badger is GPLv3 code, the Chrome version is based on a modified version of the AdBlock Plus engine. You can find the Privacy Badger source trees ]]><bpt id="tjiid827-3">&lt;a href="https://github.com/EFForg/"&gt;</bpt><![CDATA[on Github]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[. There is also a ]]><bpt id="tjiid827-5">&lt;a href="https://lists.eff.org/mailman/listinfo/privacybadger"&gt;</bpt><![CDATA[development mailing list]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[. Privacy Badger is governed by EFF's ]]><bpt id="tjiid827-7">&lt;a href="/code/privacy"&gt;</bpt><![CDATA[Privacy Policy for Software]]><ept id="tjiid827-7">&lt;/a&gt;</ept><![CDATA[.
 ]]><bpt id="tjiid827-9">&lt;a name="comparison"&gt;</bpt><ept id="tjiid827-9">&lt;/a&gt;</ept></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger是GPLv代码. Chrome上面的版本是基于AdBlock Plus引擎的一个修改版本. Privacy Badger的源代码树能在Github上找到. 我们也有一个研发邮件列表. Privacy Badger受EFF的软件隐私政策所监管. </target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][17][question" resname="827][field_questions][17][question">
      <source xml:lang="en"><![CDATA[I found a bug! What do I do now?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">我找到了一个bug! 我需要做什么?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][17][answer" resname="827][field_questions][17][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="i_found_a_bug"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[First, please make sure the bug hasn't already been reported by checking the current bug list ]]><bpt id="tjiid827-3">&lt;a href="https://github.com/EFForg/privacybadgerfirefox/issues"&gt;</bpt><![CDATA[for Firefox]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[ or ]]><bpt id="tjiid827-5">&lt;a href="https://github.com/EFForg/privacybadgerchrome/issues"&gt;</bpt><![CDATA[for Chrome]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[.  If the bug hasn't yet been reported you can report the bug ]]><bpt id="tjiid827-7">&lt;a href="https://github.com/EFForg/privacybadgerfirefox/issues/new"&gt;</bpt><![CDATA[here for Privacy Badger for Firefox]]><ept id="tjiid827-7">&lt;/a&gt;</ept><![CDATA[ or ]]><bpt id="tjiid827-9">&lt;a href="https://github.com/EFForg/privacybadgerchrome/issues/new"&gt;</bpt><![CDATA[here for Privacy Badger for Chrome]]><ept id="tjiid827-9">&lt;/a&gt;</ept><![CDATA[. If you don't have a GitHub account, then you can login using the anonymous one: "cypherpunk"/"cypherpunk", but please understand that doing so will limit our ability to communicate with you about the bug and make it harder for us to fix it quickly.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">首先, 请检查一下目前对Chrome和Firefox的已知bug的列表, 确定这个bug没有被报告过. 如果这个bug没有被报告过, 那么你可以在这里给Chrome的Privacy Badger报告, 或者在这里给Firefox的Privacy Badger报告. 如果你没有GitHub账号, 那么你可以通过"cypherpunk"/"cypherpunk"用户密码来进行匿名登陆, 不过匿名登陆会减慢我们之间沟通的效率, 所以也会给bug的快速修复带来一些麻烦.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][18][question" resname="827][field_questions][18][question">
      <source xml:lang="en"><![CDATA[How can I support Privacy Badger?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">我要怎么支持Privacy Badger?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][18][answer" resname="827][field_questions][18][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="support"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Thanks for asking! Individual donations make up about half of EFF's support, which gives us the freedom to work on user-focused projects. If you want to support the development of Privacy Badger and other projects like it, helping build a more secure Internet ecosystem, you can ]]><bpt id="tjiid827-3">&lt;a href="https://supporters.eff.org/donate/support-privacy-badger"&gt;</bpt><![CDATA[throw us a few dollars here]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[. Thank you. If you want to help with the code we appreciate that as well. Here are the lists of good volunteer tasks ]]><bpt id="tjiid827-5">&lt;a href="https://github.com/EFForg/privacybadgerfirefox/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+Volunteer+Task%22" target="_blank"&gt;</bpt><![CDATA[[firefox]]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[ ]]><bpt id="tjiid827-7">&lt;a href="https://github.com/EFForg/privacybadgerchrome/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+Volunteer+Task%22" target="_blank"&gt;</bpt><![CDATA[[chrome]]]><ept id="tjiid827-7">&lt;/a&gt;</ept><![CDATA[.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">谢谢你的题问! EFF的资助中有一半是来源自个人的捐款, 这些捐款能让我们不受约束地开发着重于用户的姜木. 如果你希望能支持Privacy Badger或者别的类似项目, 以此来帮助建立一个更安全的互联网生态系统, 你可以在这里给我们撒点钱. 谢谢你. 如果你希望在编程上帮助我们的话, 我们写很感激. 这里有一系列的志愿者任务[firefox] [chrome].</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][19][question" resname="827][field_questions][19][question">
      <source xml:lang="en"><![CDATA[How does Privacy Badger handle social media widgets?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger是如何处理社交媒体小挂件的?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][19][answer" resname="827][field_questions][19][answer">
      <source xml:lang="en"><bpt id="tjiid827-1">&lt;a id="social"&gt;</bpt><ept id="tjiid827-1">&lt;/a&gt;</ept><![CDATA[Social media widgets (such as the Facebook Like button, Twitter Tweet button, or Google +1 button) often track your reading habits. Even if you don't click them, the social media companies often see exactly which pages you're seeing the widget on. Privacy Badger includes a feature imported from the ]]><bpt id="tjiid827-3">&lt;a href="http://sharemenot.cs.washington.edu/"&gt;</bpt><![CDATA[ShareMeNot]]><ept id="tjiid827-3">&lt;/a&gt;</ept><![CDATA[ project which is able to replace the widgets with a stand-in version, so that you can still see and click them. You will not be tracked by these replacements unless you explicitly choose to click them. Privacy Badger currently knows how to replace the following widgets if they are observed tracking you: AddThis, Facebook, Google, LinkedIn, Pinterest, Stumbleupon, and Twitter. (The source code for these replacements is ]]><bpt id="tjiid827-5">&lt;a href="https://github.com/EFForg/privacybadgerchrome/blob/master/src/socialwidgets.json"&gt;</bpt><![CDATA[here]]><ept id="tjiid827-5">&lt;/a&gt;</ept><![CDATA[; pull requests are welcome) Note that Privacy Badger will not replace social media widgets unless it has blocked the associated tracker. If you're seeing real social media widgets, it generally means that Privacy Badger hasn't detected tracking from that variant of the widget, or that the site you're looking at has implemented its own version of the widget. To avoid confusion, the replacement widgets are marked with the Privacy Badger badge next to the button. To interact with a replacement widget, simply click on it. Depending on the widget, Privacy Badger will either send you directly to the appropriate sharing page (for example, to post a tweet) or it will enable and load the real social widget (for example, the Facebook Like button, with personalized information about how many of your friends have "liked" the page). In the second case, you will still need to interact with the real widget to "like" or share the page.
 
  ]]><bpt id="tjiid827-7">&lt;a id="connection-failure"&gt;</bpt><ept id="tjiid827-7">&lt;/a&gt;</ept></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">社交媒体挂件(比如Facebook的like按钮, Twitter的tweet按钮, 或者Google的+1按钮)经常会监视你的阅读习惯. 即使你不点击它们, 社交媒体公司也可以看到你在哪里看到过这些挂件. Privacy Badger引入了之前ShareMeNot项目的一项功能, 可以使用自己的替代版本来代替原版的挂件. 你仍然可以看见和点击这些替代版本挂件, 但除非你去点击他们, 不然的话你是不会被这些挂件所监视的. Privacy Badger目前可以替换如下网站的挂件: AddThis, Facebook, Google, LinkedIn, Pinterest, Stumbleupon, 和Twitter (这些替换版本的源代码在这里. 欢迎pull requests). 注意, Privacy Badger在没有禁止相应的监视器的情况下是不会替换挂件的. 所以如果你看到了原版的挂件, 那么说明这个挂件没被发现有监视行为或者当前浏览站点用了自己的挂件. 为了避免混淆, Privacy Badger会在替换挂件的按钮旁边加上一个自己的徽章. 如果要跟挂件互动, 点击即可. 取决于挂件功能, Privacy Badger要么会把你转到合适的页面(比如发tweet的页面), 要么会启用原版挂件(比如Facebook的like按钮, 按下后可以看到有多少好友也按了这个键). 在第二种情况下, 你仍然需要使用到原版的挂件.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][20][question" resname="827][field_questions][20][question">
      <source xml:lang="en"><![CDATA[I'm having a problem installing the browser extension.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">我在安装这个浏览器插件时遇到了问题. </target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][20][answer" resname="827][field_questions][20][answer">
      <source xml:lang="en"><![CDATA[Some people report that installing Privacy Badger gives them the error: "The addon could not be downloaded because of a connection failure on www.eff.org." This may be caused by Avast antivirus, which blocks installation of browser extensions. You may be able to work around by right-clicking to download the .xpi file, then dragging it into Firefox to install. If that fails, you may temporarily disable Avast antivirus before installing the extension.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">有些用户报告说安装Privacy Badger时会看到错误信息: "这个插件无法下载, 因为与www.eff.org的链接失败". 这个有可能是Avast防毒软件导致的. Avast会禁止浏览器安装插件. 解决方法之一可以通过右键下载.xpi文件并且将其拖进Firefox来进行安装. 如果这个方法解决不了问题, 那么你可以尝试在安装时暂时关闭Avast.</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][field_questions][21][question" resname="827][field_questions][21][question">
      <source xml:lang="en"><![CDATA[Is Privacy Badger compatible with other extensions, including other adblockers?]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger和其他插件兼容吗, 比如说别的广告拦截插件?</target>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="827][field_questions][21][answer" resname="827][field_questions][21][answer">
@@ -255,12 +266,14 @@ Privacy Badger currently checks for this specific ]]><bpt id="tjiid827-13">&lt;i
 The only extensions known to be incompatible with Privacy Badger is the Avast anitvirus extension, which blocks the installation of Privacy Badger and other extensions.
 
 Last updated July 22nd, 2015]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger和绝大多数插件都兼容. 至于应不应该将Privacy Badger和其他插件一起运行就是因人而异了. 如果你的广告拦截软件设定了拦截监视器, 那么Privacy Badger可能就有些多余(不过Privcay Badger可能在某些功能上略胜一筹, 比如说拦截cookie). 不过如果你用默认设定来运行AdBlock Plus或者Ghostery这类的插件的话, Privacy Badger会大大地提升对你的隐私的保护. (AdBlock默认设定不会拦截不可见的监视器, Ghostery默认设定不拦截任何东西).
+目前为止唯一所知的与Privacy Badger不兼容的插件就是Avast防毒插件, 这个插件会禁止浏览器安装插件.
+最近一次更新: 2015年7月22日</target>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="827][title_field][0][value" resname="827][title_field][0][value">
      <source xml:lang="en"><![CDATA[Privacy Badger]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger</target>
      <note>Title</note>
     </trans-unit>
    </group>
@@ -268,7 +281,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Project of EFF branding bar</note>
     <trans-unit id="828][field_text_field][0][value" resname="828][field_text_field][0][value">
      <source xml:lang="en"><![CDATA[A Project of the ]]><bpt id="tjiid828-1">&lt;a href="/"&gt;</bpt><![CDATA[Electronic Frontier Foundation]]><ept id="tjiid828-1">&lt;/a&gt;</ept></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Electronic Frontier Foundation研发项目</target>
      <note>Description</note>
     </trans-unit>
    </group>
@@ -276,7 +289,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Privacy Badger blocks spyin...</note>
     <trans-unit id="829][singular" resname="829][singular">
      <source xml:lang="en"><![CDATA[Privacy Badger blocks spying ads and invisible trackers.]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger可以阻挡监视你的广告, 拦截不可见的监视器</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -284,7 +297,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Privacy Badger</note>
     <trans-unit id="830][singular" resname="830][singular">
      <source xml:lang="en"><![CDATA[Privacy Badger]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -292,7 +305,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Install Privacy Badger</note>
     <trans-unit id="831][singular" resname="831][singular">
      <source xml:lang="en"><![CDATA[Install Privacy Badger]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">安装Privacy Badger</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -300,7 +313,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Privacy Badger FAQ</note>
     <trans-unit id="832][singular" resname="832][singular">
      <source xml:lang="en"><![CDATA[Privacy Badger FAQ]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Privacy Badger常见问题解答</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -308,7 +321,7 @@ Last updated July 22nd, 2015]]></source>
     <note>and Enable Do Not Track</note>
     <trans-unit id="833][singular" resname="833][singular">
      <source xml:lang="en"><![CDATA[and Enable Do Not Track]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">启用"请勿监测"</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -316,7 +329,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Click here for !browser ver...</note>
     <trans-unit id="834][singular" resname="834][singular">
      <source xml:lang="en"><![CDATA[Click here for !browser version]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">点击这里下载!浏览器版本</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -324,7 +337,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Firefox</note>
     <trans-unit id="835][singular" resname="835][singular">
      <source xml:lang="en"><![CDATA[Firefox]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Firefox</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -332,7 +345,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Chrome</note>
     <trans-unit id="836][singular" resname="836][singular">
      <source xml:lang="en"><![CDATA[Chrome]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">Chrome</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -340,7 +353,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Download for Firefox</note>
     <trans-unit id="837][singular" resname="837][singular">
      <source xml:lang="en"><![CDATA[Download for Firefox]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">下载Firefox版本</target>
      <note>Singular</note>
     </trans-unit>
    </group>
@@ -348,7 +361,7 @@ Last updated July 22nd, 2015]]></source>
     <note>Download for Chrome</note>
     <trans-unit id="838][singular" resname="838][singular">
      <source xml:lang="en"><![CDATA[Download for Chrome]]></source>
-     <target xml:lang="zh-hans"/>
+     <target xml:lang="zh-hans">下载Chrome版本</target>
      <note>Singular</note>
     </trans-unit>
    </group>
