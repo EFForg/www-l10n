@@ -34,7 +34,7 @@ and importing your translation will be a more manual process.
 XLIFF Editor: Virtaal
 =====================
 
-Virtaal is a free/libre open source software (FLOSS) computer-assisted
+Virtaal is a free/libre open source software (FLOSS) computer-assisted~ç~ç~ç
 translation tool written in Python: http://virtaal.translatehouse.org/
 On Debian-based Linux distributions you can install it easily via:
 apt-get install virtaal
